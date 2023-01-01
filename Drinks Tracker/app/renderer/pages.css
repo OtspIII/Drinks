@@ -1,0 +1,130 @@
+
+/*----------Options----------*/
+
+.Options{
+  display:table;
+  width: 107.5%;
+  background-color: var(--options-color);
+  margin-right: -20px;
+  margin-top: -24px;
+  margin-left: -20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.OptionsButton{
+  position: relative;
+  margin-top: 0.5%;
+  margin-left: 100%;
+  font-size: 80%;
+  cursor: pointer;
+}
+
+/*----------Fields----------*/
+.Field {
+  width: calc(100% - 17px);
+  min-height: 56px;
+  background-color: rgba(0, 0, 0 , 0.1);
+  transition: 0.3s all;
+  border: black 2px solid;
+  border-radius: 10px;
+  padding: 0px 0px 3px 8px;
+  float: left; 
+  margin: 5px;
+}
+
+.Field:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.FieldTitle{
+  font-size: calc(var(--font-size) * 1.2);
+}
+
+.FieldTitle.SimpleField{
+  border-bottom: 1px solid black;
+}
+
+.FieldButton{
+  position: relative;
+  top: -5px;
+  right: 1px;
+}
+
+.FieldLink{
+  position: relative;
+  right: 10px;
+}
+
+.Field.SimpleField{
+  border: 0px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: inherit;
+}
+
+.Field.HalfSize {
+  width: calc(50% - 17px);
+  margin-right: 0px;
+}
+
+.Field.ThirdSize {
+  width: calc(33% - 15.5px);
+  margin-right: 0px;
+}
+
+.Field.FourthSize {
+  width: calc(25% - 15.5px);
+  margin-right: 0px;
+}
+
+.FieldText{
+  
+  min-width: 56px;
+}
+
+.FieldTop{
+  float: left;
+  width: calc(100% + 10px);
+  margin-left: -10px;
+  padding-left: 10px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: rgba(0, 0, 0 , 0.2);
+}
+
+.ListDesc{
+}
+
+.PageHolder{
+  /* color: red; */
+  
+  /* display: flex; */
+  /* flexDirection: 'column'; */
+}
+
+.MonLocations{
+  margin-top:1vh;
+}
+
+.MonLocationsTitle{
+  text-decoration: underline;
+
+}
+
+.MonLocationsEntry{
+  margin-left: 1vw;
+}
+
+ui{
+  /* float: none; */
+  
+  /* display: inline; */
+  /* display:flex; */
+}
+li{
+  float: left;
+  /* float:none; */
+  /* display: flex; */
+}

@@ -1,0 +1,365 @@
+/*----------The Big Stuff----------*/
+
+* {
+  box-sizing: border-box;
+}
+
+html,body { 
+  white-space: pre-line;
+  text-decoration-color: #11111155;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9vw;
+  /* overflow-x:hidden; */
+  background-color: var(--bg-color);  
+  color: var(--text-color);
+}
+
+/*----------Top Bar----------*/
+
+.TopBar {
+  position:fixed;
+  top:0px;
+  color:#EEEEEE;
+  background-color:var(--topbar-color);
+  height:var(--topbar-height);
+  width:100vw;
+  padding-top: 5px;
+  font-size: 175%;
+  overflow: hidden;
+  z-index: 2;
+} 
+
+.BackButton{
+  float: left;
+  border-radius: 25px;
+  padding: 0px 7px;
+  margin-left: 15px;
+  margin-top: 5px;
+  border: 1px black solid;
+  background-color: rgba(255,255,255,0.25);
+  color: var(--text-color);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.BackButton:hover{
+  background-color: rgba(255,255,255,0.5);
+}
+
+.BackButton.Inactive{
+  background-color: rgba(0,0,0,0);
+  color: rgba(0,0,0,0.5);
+  cursor: default;
+}
+
+.TitleTop {
+  font-size: 125%;
+  float: left;
+  padding-right:5%;
+  padding-left: 2%;
+} 
+
+.OptionTop {
+  float: left;
+  margin-top:-5px;
+  padding: 22px;
+  padding-top: 12px;
+  width: auto;
+  height: var(--topbar-height);
+  display: block;
+  cursor: pointer;
+  color: #EEEEEE;
+} 
+
+.OptionTop:hover {
+  background-color: var(--topbar-hover-color);
+}
+
+.Searchbar{
+  color:black;
+  float: right;
+  margin-right: 3vw;
+  margin-top: 5px;
+}
+
+/*----------Right Bar----------*/
+
+.RightBar {
+  background-color:var(--rb-color);
+  position: fixed;
+  top:var(--topbar-height);
+  left: calc(100vw - var(--rb-width));
+  height: 100%;
+  width:var(--rb-width);
+  font-size: 150%;
+  padding-top: 6px;
+  overflow: auto;
+}
+
+.RBHeader{
+  color:#333333;
+  background-color:var(--rbheader-color);
+  width:100%;
+  padding: 5%;
+  margin-bottom: -6px;
+  padding-right: 17px;
+  line-height: 75%;
+  float: left;
+}
+
+.RBHeader.dropActive{
+  background-color: red;
+}
+
+.RBEntry {
+  color:#333333;
+  background-color:var(--rbentry-color);
+  width:100%;
+  padding: 1px;
+  padding-left: 0.3vh;
+  
+  margin-bottom: 0.25vh;
+  /* padding-right: 17px; */
+  line-height: 75%;
+  float: left;
+}
+
+.RBEntry.Holder{
+  width: 100%;
+  padding: 3px;
+  padding-right: 0px;
+}
+
+.RBEntry:hover {
+  color:#999999;
+  background-color:#333333;
+  text-decoration-color: #FFFFFFFF;
+}
+
+.RBEntry:hover a {
+  color:#999999;;
+  background-color:#333333;
+  display: inline;
+}
+
+.RBEntry.Session{
+  padding-bottom: 1vmin;
+}
+
+.RBVariables{
+  color:#333333;
+  background-color:var(--rbentry-color);
+  width:100%;
+  padding: 1px;
+  padding-left: 0.3vh;
+  font-size: 80%;
+  float:left;
+}
+.RBVariables.Top{
+  padding-top:0.5vmin;
+  margin-top:-0.2vmin;
+}
+.RBVariables:hover{
+  color:#999999;;
+  background-color:#333333;
+}
+.RBVTitle{
+  width: 12vmin;
+  /* background-color: red; */
+  display: inline-block;
+}
+.RBVButton{
+  cursor: pointer;
+}
+.RBVButton.PlusMinus{
+  padding:0.4vmin;
+}
+.RBVButton.PlusMinus:hover{
+  color:#333333;
+  background-color:var(--rbentry-color);
+}
+
+.RBSub{
+  font-size: 66.7%;
+}
+
+.RBSubButt{
+  float: right;
+  position: fixed;
+  right: 10px;
+}
+
+.RBSubEntry{
+ width: calc(100% - 6px);
+ padding-left: 6px;
+ margin-left: -3px;
+ float: left;
+}
+
+.RBSubEntry:nth-child(odd){
+  background-color: rgba(0,0,0,0.1); 
+ }
+
+ .RBSubEntry:hover{
+  color: black;
+  background-color: rgba(255,255,255,0.3);
+ }
+
+.RBSubEntry.Ender{
+  margin-bottom: 0px;
+  height: 3px;
+}
+
+.RBTitle{
+  font-size: 80%;
+}
+
+.RightButton{
+  float: right;
+}
+
+/*----------Panels----------*/
+
+.PanelHolder{
+  width: calc(100vw - 233px);
+  float: left;
+  margin: -10px 0px 0px 0px;
+  padding: 0px;
+  min-height: calc(100vh - var(--topbar-height));
+  position: absolute;
+  left: -5px;
+  /* background-color: red;
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+}
+
+.Panel::-webkit-scrollbar {
+  display: none;
+}
+
+.Panel {
+  color:#333333;
+  border-radius: 10px;
+  /* border: solid #CCCCCC 1px; */
+  /* margin-right: calc(265px - 1vw); */
+  margin: 10px;
+  margin-bottom: 0px;
+  padding: 3vw;
+  font-size: var(--panel-text-size);
+  min-height: calc(100vh - 146px);
+  float: left;
+  /* left: calc((100vw - 275px) * 0.49); */
+  left: 50%;
+  width: calc(50% - 15px);
+  margin-top: 16px;
+  /* overflow: scroll; */
+  overflow-x: scroll;
+  /* background-color: rgba(1,0,0,0.5); */
+  position: absolute;
+}
+
+.SidePanel {
+  margin-right: 0px;
+  position: fixed;
+  left: -5px;
+  width: calc((100vw - var(--rb-width)) / 2 );
+  /* margin-left: 0px; */
+  /* background-color: blue; */
+  /* z-index: 1; */
+}
+
+.SPHide{
+  visibility: hidden;
+  position: absolute;
+  right:-9999px;
+  z-index: -10;
+}
+
+.SidePanel img {
+  height: 100%;
+  width: 110%;
+  object-fit: contain;
+  /* transform: rotate(90deg) scale(0.6); */
+}
+
+.PanelDivider{
+  position: fixed;
+  width: 0px;
+  height: 40%;
+  border: 0.5px solid rgba(0,0,0,0.3);
+  left: calc((100vw - var(--rb-width)) / 2 + 13px);
+  top: 20%;
+}
+
+.PickerID{
+  color:darkgray;
+  
+  /* text-align: right; */
+  font-size: 80%;
+  font-style: italic;
+  /* width:20%; */
+  /* display: inline; */
+  /* background-color: red; */
+  float:right;
+}
+
+.PickerID.Highlight{
+  color:white;
+}
+
+.ImageHolder{
+  float:left;
+}
+
+.ImageLabel{
+  float:right;
+  color:darkgray;
+  font-size:80%;
+}
+
+.Indent{
+  width:0.5vw;
+  height:1vh;
+  /* background-color: blue; */
+  float:left;
+}
+
+.TableName{
+  /* min-width:13vw; */
+}
+
+.PopUp{
+  position: fixed;
+  width: 80vw;
+  height: 80vh;
+  background-color: lightgray;
+  border: 1px black solid;
+  border-radius: 1vw;
+  left: 10vw;
+  top:18vh;
+  padding: 1vw;
+  font-size: 150%;
+  z-index: 10;
+}
+
+.PUExit{
+  position: absolute;
+  width:2vw;
+  height:2vw;
+  text-align: center;
+  right:1vw;
+  top:1vw;
+  background-color: gray;
+  border: 1px black solid;
+  border-radius: 2vw;
+  padding:0.1vw;
+  cursor: pointer;
+}
+
+.Button.Procedure{
+  background-color: pink;
+  border: 1px black solid;
+  border-radius: 0.2vw;
+  padding:0.1vw;
+  cursor: pointer;
+}

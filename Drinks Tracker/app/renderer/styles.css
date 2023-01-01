@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body { 
+  white-space: pre-line;
+  text-decoration-color: #11111155;
+  margin: 0;
+  padding: 0;
+  /* overflow-x:hidden; */
+  background-color: var(--bg-color);  
+  color: var(--text-color);
+  font: caption;
+  font-family: "Times New Roman", Times, serif;
+  animation-duration: 0.2s;
+  font-size: var(--font-size);
+}
+
+:root {
+  /*-----------Colors-----------*/
+    /*-----Layout-----*/
+  --bg-color: rgba(250, 253, 253);
+  --topbar-color: #555555;
+  --topbar-hover-color: #4CAF50;
+  --rb-color: #888888;
+  --rbentry-color: #999999;
+  --rbheader-color: #777777;
+    /*-----Texts-----*/
+  --options-color: #EEEEEE;
+  --flash-color: #a32424;
+  --roombox-header-color: #88DD88;
+  --roombox-color: #88DDDD;
+  --active-color: #DDDDDD;
+  --button-roll-color: #D77;
+  --text-color: #333333;
+  --text-mini-color: #AAAAAA;
+    /*-----Tables-----*/
+  --table-color: #f1f1f1;
+  --table-odd-color: rgba(0,0,0,0.1);
+  --table-hover-color: rgba(0,0,0,0.3);
+  /*-----------Spacing-----------*/
+  --topbar-height: 50px;
+  --rb-width: 250px;
+  --font-size: 16px;
+  --panel-text-size: 140%;
+}
+
+.TableDisplay {
+  left: 1vw;
+  /* background-color: red; */
+}
+.ResultDisplay {
+  right: 1vw;
+  /* background-color: blue; */
+}
+
+.Panel{
+  position: fixed;
+  top: 1vw;
+  width: 48.5vw;
+  height: calc(100vh - 2vw);
+  padding: 2vw;
+  /* border: 1px gray solid; */
+  border-radius: 3vw;
+}
+
+.PanelDivider{
+  position: fixed;
+  width: 0px;
+  height: 40%;
+  border: 0.5px solid rgba(0,0,0,0.3);
+  left: calc(50vw);
+  top: 20%;
+}
+
+.RollButton{
+  background:#e36464;
+  border-radius: 1vw;
+  font-size: 150%;
+  width: 8vw;
+  text-align: center;
+  padding: 0.5vw;
+  margin: 1vw;
+  cursor: pointer;
+}
+
+.Result{
+  /* font-size: 110%; */
+  margin-bottom: 0.5vw;
+  background-color: #F3F3F3;
+  border-radius: 1vw;
+  padding: 0.5vw;
+}
+
+.Result.First{
+  font-size: 150%;
+  margin-bottom: 1vw;
+  background-color: #DDDDDD;
+}
+
+.Depth1{
+  margin-left: 1vw;
+}
+.Depth2{
+  margin-left: 2vw;
+}
+.Depth3{
+  margin-left: 3vw;
+}
+.Depth4{
+  margin-left: 4vw;
+}
+
+.TableListEntry{
+  cursor: pointer;
+}
+
+.BackButton{
+  cursor: pointer;
+  background-color: #AAAAAA;
+  width: 5vw;
+  padding: 0.1vw;
+  text-align: center;
+  border-radius: 0.75vw;
+}
+
+.Link{
+  text-decoration: underline;
+  cursor: pointer;
+}

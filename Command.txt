@@ -1,0 +1,5 @@
+yarn run pack
+
+"pack:mac": "gulp pack-mac",
+    "pack:win": "gulp pack-win",
+    "pack:linux": "gulp pack-linux",

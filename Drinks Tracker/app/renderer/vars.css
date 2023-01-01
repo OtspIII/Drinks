@@ -1,0 +1,36 @@
+html,body {
+  font: caption;
+  font-family: "Times New Roman", Times, serif;
+  animation-duration: 0.2s;
+  font-size: var(--font-size);
+}
+
+:root {
+  /*-----------Colors-----------*/
+    /*-----Layout-----*/
+  --bg-color: rgba(250, 253, 253);
+  --topbar-color: #555555;
+  --topbar-hover-color: #4CAF50;
+  --rb-color: #888888;
+  --rbentry-color: #999999;
+  --rbheader-color: #777777;
+    /*-----Texts-----*/
+  --options-color: #EEEEEE;
+  --flash-color: #a32424;
+  --roombox-header-color: #88DD88;
+  --roombox-color: #88DDDD;
+  --active-color: #DDDDDD;
+  --button-roll-color: #D77;
+  --text-color: #333333;
+  --text-mini-color: #AAAAAA;
+    /*-----Tables-----*/
+  --table-color: #f1f1f1;
+  --table-odd-color: rgba(0,0,0,0.1);
+  --table-hover-color: rgba(0,0,0,0.3);
+  /*-----------Spacing-----------*/
+  --topbar-height: 50px;
+  --rb-width: 250px;
+  --font-size: 16px;
+  --panel-text-size: 140%;
+}
+

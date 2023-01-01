@@ -1,0 +1,163 @@
+/*----------Links----------*/
+.GLink {
+  cursor: pointer;
+  text-decoration: underline rgba(0,0,0,0.2);
+  display: inline;
+}
+
+b.GLink{
+  color:red;
+  font-size: 200%;
+}
+
+.GLink:hover {
+  text-decoration: underline rgba(0,0,0,0.6);
+}
+
+.GLink.FullSize {
+  width:100%;
+}
+
+.GLink.NoUnderline {
+  text-decoration: none;
+}
+
+/*----------Input Types----------*/
+
+
+.Text.Locked:hover{
+  text-decoration: none;
+  cursor: default;
+}
+
+.TextEntry{ /*For obvious text slots--like in Options*/
+  min-width: 400px;
+  border-style: groove;
+  border-color: #AAAAAA;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 0px 5px;
+}
+
+input{
+  background: none;
+  border: solid #CCCCCC 1px;
+  font: inherit;
+}
+
+.LogInput{
+  background: none;
+  border: solid #444444 1px;
+  min-width: 160px;
+  margin: 5px 0px -10px 2px;;
+  resize: none;
+  overflow: hidden;
+  color: var(--text-color);
+  /* border-color: #444444; */
+  font: inherit;
+  
+}
+.LogInput.InverseInput {
+  color: inherit;
+  width: 160px;
+}
+
+/*----------Tables----------*/
+
+.ListTable{
+  /* border: 1px groove rgb(15, 15, 15); */
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px;
+  /* padding-right: 10px; */
+  margin-bottom: var(--font-size); 
+  text-align: left;
+  background-color: var(--table-color);
+}
+
+th {
+  
+  border-bottom: 1px solid black;
+  cursor: default;
+}
+
+tr:nth-child(odd) {
+  background-color: var(--table-odd-color);
+}
+th {
+  background-color: var(--table-color);
+}
+
+tr:hover {
+  background-color: var(--table-hover-color);
+  cursor: pointer;
+}
+
+/*----------Styles----------*/
+
+.Title {
+  font-size: 36px;
+}
+
+.Body.Text {
+  padding-left: 5px;
+}
+
+#Active{
+  background-color: var(--active-color);
+  border-style: groove;
+  border-color: #AAAAAA;
+  border-width: 1px;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.Bold{ font-weight: bold; }
+.NotBold b{ font-weight: normal; }
+
+.Italic{ font-style: italic; }
+
+.SmallText{
+  font-size: calc( var(--font-size) * 0.6);
+  color: var(--text-mini-color);
+}
+.SmallText.DetailText{
+  position: relative;
+  bottom: 10px;
+}
+
+.ReadingList{
+  text-align: right;
+  font-style: italic;
+  display:inline;
+  width:50%;
+  float:right;
+  /* background-color: red; */
+}
+
+.ReadingList.Previous{
+  text-align: left;
+  /* background-color: green; */
+  float:left;
+}
+
+.RLHolder{
+  width:100%;
+  /* background-color: blue; */
+}
+
+.SubText{
+  font-style: italic;
+  float:left;
+  font-size: 80%;
+  
+}
+
+.TabPush{
+  /* display:inline; */
+  float:left;
+  width: 0.75vw;
+  height:1vw;
+  /* background-color: red; */
+}
