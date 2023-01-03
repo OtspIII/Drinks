@@ -63,5 +63,11 @@
       "Ingredients":[{"Type":"Creme de Menthe","Amount":"1 oz"},{"Type":"Heavy Cream","Amount":"1 oz"},
         {"Type":"Absinthe","Amount":"1 oz"}]
     }
+  }},
+  "Champagne Cocktail":{"Recipes":{
+    "NYT Cooking":{ "Rating":4,"Notes":"","Glass":"Coupe","Garnish":"","Ice":"","Page":"xxx",
+      "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1"},{"Type":"Bitters","Amount":"3-5 Dashes"},
+        {"Type":"Champagne","Amount":"top off"}]
+    }
   }}
 }

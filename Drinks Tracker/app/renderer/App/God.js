@@ -75,6 +75,14 @@ var God = {
   NaCheck(txt){
     if(txt && txt != "") return txt;
     return "N/a";
+  },
+  FindSubValue(ing){
+    let ingObj = Model.SubDict[ing];
+    let allSubs = [];
+    for(let s in ingObj)
+      allSubs.push(s);
+    allSubs.sort((a,b)=>{return ingObj[a] >= ingObj[b] ? 1 : -1});
+    console.log(allSubs);
   }
 }
 

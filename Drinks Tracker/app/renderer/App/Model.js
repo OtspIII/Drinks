@@ -8,6 +8,7 @@ var Model = {
   DrinkNames:[],
   DrinkInfo:{},
   INames:[],
+  IDict:{},
   Init: ()=>{
     //Import drink data
     Model.DrinkDict = require(Model.Path+"\\Recipes.json");
@@ -24,12 +25,57 @@ var Model = {
         }
       }
     }
+    //Find the full sub charts for each ingredient
+    let allSubs = [];
+    for(let sub in Model.SubDict){
+      allSubs.push(sub);
+    }
+    let safety = 99999;
+    while(allSubs.length > 0 && safety > 0){
+      safety--;
+      let current = allSubs[0];
+      let done = false;
+      while(!done && safety > 0){
+        safety--;
+        let better = null;
+        for(let s in Model.SubDict[current]){
+          if(allSubs.indexOf(s) >= 0){
+            better = s;
+            break;
+          }
+        }
+        if(better){
+          current = better;
+        }
+        else{
+          done = true;
+        }
+      }
+      // console.log(current);
+      // allSubs.splice(allSubs.indexOf(current),1);
+      let curr = Model.SubDict[current];
+      for(let s in curr){
+        if(Model.SubDict[s]){
+          for(let subS in Model.SubDict[s]){
+            // console.log("X");
+            curr[subS] = curr[s] * Model.SubDict[s][subS];
+          }
+        }
+      }
+    }
     for(let dr of Model.IList){
-      if(!Model.SubDict[dr]) msg += "\""+dr + "\":{},\n";
+      Model.IDict[dr] = 1.1;
+      if(!Model.SubDict[dr]) {
+        msg += "\""+dr + "\":{},\n";
+      }
+      else{
+        for(let sub in Model.SubDict[dr])
+          Model.IDict[sub] = Math.max(Model.IDict[sub] ? Model.IDict[sub] : 0,Model.SubDict[dr][sub]);
+      }
     }
-    for(let dr in Model.SubDict){
-      // Model.INames.push(dr);
-    }
+    //   console.log(safety)
+    // console.log(Model.SubDict);
+    console.log(Model.IDict);
     if(msg != "") console.log(msg);
     God.Searchbar.Setup();
     // console.log(tables);

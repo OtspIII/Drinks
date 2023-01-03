@@ -1,67 +1,94 @@
 {
-  "Corpse Reviver no2":{"Notes":"A classic", "Recipes":{
-    "A Taste for Absinthe":{ "Rating":5,"Notes":"","Glass":"Coupe","Garnish":"","Ice":"Chilled Glass","Page":30,
-      "Ingredients":[{"Type":"Martin Millers Gin","Amount":"3/4 oz"},{"Type":"Cointreau","Amount":"3/4 oz"},
-        {"Type":"Lillet Blanc","Amount":"3/4 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},
-        {"Type":"Absinthe","Amount":"4 drops"}]
-    }
-  }},
-  "Cocktail a la Lousiane":{"Recipes":{
-    "A Taste for Absinthe":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"3 Brandied Cherries on Pick","Ice":"Chilled Glass, Large Ball","Page":33,
-      "Ingredients":[{"Type":"Wild Turkey Rye Whiskey","Amount":"2 oz"},{"Type":"Dolin Sweet Vermouth","Amount":"3/4 oz"},
-        {"Type":"Benedictine","Amount":"3/4 oz"},{"Type":"Edouard Absinthe","Amount":"3 dashes"},
-        {"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
-    }
-  }},
-  "Sazerac":{"Notes":"Misha's favorite", "Recipes":{
-    "A Taste for Absinthe":{ "Rating":4,"Notes":"","Glass":"Old Fashioned","Garnish":"Twisted Lemon Peel","Ice":"Chilled Glass","Page":34,
-      "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1"},{"Type":"Rittenhouse Rye Whiskey","Amount":"2 oz"},
-        {"Type":"Vieuz Pontarlier","Amount":"rinse"},{"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
-    }
-  }},
-  "Death in the Afternoon":{"Notes":"I honestly don't sweat the ratios", "Recipes":{
-    "A Taste for Absinthe":{ "Rating":4,"Notes":"","Glass":"Champagne Flute","Garnish":"","Ice":"","Page":49,
-      "Ingredients":[{"Type":"Absinthe Verte","Amount":"1/2 oz"},{"Type":"Champagne","Amount":"fill glass"}]
-    }
-  }},
-  "North of the Border":{"Recipes":{
-    "A Taste for Absinthe":{ "Rating":0,"Notes":"","Glass":"Collins","Garnish":"","Ice":"Crushed","Page":62,
-      "Ingredients":[{"Type":"Simple Syrup","Amount":"1/2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},
-        {"Type":"Absinthe","Amount":"1/2 oz"},{"Type":"Orange Juice","Amount":"1/2 oz"},
-        {"Type":"Crown Royal Whiskey","Amount":"2 oz"},{"Type":"Angostura Bitters","Amount":"2 dashes, on top"}]
-    }
-  }},
-  "Dr. Funk":{"Recipes":{
-    "A Taste for Absinthe":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"","Ice":"Crushed","Page":69,
-      "Ingredients":[{"Type":"Rhum Agricole Blanc","Amount":"1 1/2 oz"},{"Type":"Lime","Amount":"half, squeezed & added"},
-        {"Type":"Absinthe Blanche","Amount":"1/4 oz"},{"Type":"Grenadine","Amount":"1/2 oz"},
-        {"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Soda Water","Amount":"top off"}]
-    }
-  }},
-  "Iceberg":{"Notes":"Surprisingly light for its ingredients", "Recipes":{
-    "A Taste for Absinthe":{ "Rating":4,"Notes":"","Glass":"Hurricane","Garnish":"Lime Zest","Ice":"Crushed","Page":70,
-      "Ingredients":[{"Type":"Simple Syrup","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"3/4 oz"},
-        {"Type":"Kubler Absinthe","Amount":"1 oz"},{"Type":"Yellow Chartreuse","Amount":"1 oz"}]
-    }
-  }},
-  "Rattlesnake":{"Recipes":{
-    "A Taste for Absinthe":{ "Rating":4,"Notes":"","Glass":"Sour","Garnish":"","Ice":"Chilled Glass","Page":109,
-      "Ingredients":[{"Type":"Simple Syrup","Amount":"3/4 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},
-        {"Type":"Absinthe","Amount":"wash"},{"Type":"American Rye Whiskey","Amount":"2 oz"},
-        {"Type":"Egg White","Amount":"1"}]
-    }
-  }},
-  "Absinthe Fizz":{"Recipes":{
-    "A Taste for Absinthe":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"","Ice":"","Page":141,
-      "Ingredients":[{"Type":"Simple Syrup","Amount":"3/4 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},
-        {"Type":"Absinthe Blanche","Amount":"1 1/2 oz"},{"Type":"Soda Water","Amount":"top off"},
-        {"Type":"Egg White","Amount":"1"}]
-    }
-  }},
-  "Green Monster":{"Recipes":{
-    "A Taste for Absinthe":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Mint Leaves","Ice":"Cubes","Page":155,
-      "Ingredients":[{"Type":"Creme de Menthe","Amount":"1 oz"},{"Type":"Heavy Cream","Amount":"1 oz"},
-        {"Type":"Absinthe","Amount":"1 oz"}]
-    }
-  }}
+  "Martin Millers Gin":{"London Dry Gin":1},
+  "Sipsmith Gin":{"London Dry Gin":1},
+  "London Dry Gin":{"Gin":0.9},
+
+  "Wild Turkey Rye Whiskey":{"Rye Whiskey":1},
+  "Rittenhouse Rye Whiskey":{"Rye Whiskey":1},
+  "Crown Royal Whiskey":{"Rye Whiskey":1},
+  "American Rye Whiskey":{"Rye Whiskey":1},
+  "Rye Whiskey":{"Whiskey":0.9},
+  "Buffalo Trace Bourbon":{"Bourbon":1},
+  "Bourbon":{"Whiskey":0.9},
+  
+  "Rhum Agricole Blanc":{"Rum Agricole":1},
+  "Rhum Agricole":{"Rum":0.9},
+  "Mount Gay Rum":{"Golden Rum":1},
+  "Bumbu Rum":{"Spiced Rum":1},
+  "Golden Rum":{"Rum":0.9},
+  "Spiced Rum":{"Rum":0.9},
+  
+  "Olmeca Altos Reposado Tequila":{"Reposado Tequila":1},
+
+  "Ketel One Vodka":{"Vodka":1},
+
+  "Cointreau":{"Orange Liqueur":0.9},
+  "Triple-Sec":{"Orange Liqueur":0.9},
+  "Blue Curacao":{"Curacao":0.99},
+  "Orange Curacao":{"Curacao":0.99},
+  "Curacao":{"Orange Liqueur":0.9},
+  
+  "Absinthe":{"Anise Liqueur":0.9},
+  "Edouard Absinthe":{"Absinthe":1},
+  "Absinthe Verte":{"Absinthe":1},
+  "Vieuz Pontarlier":{"Absinthe":1},
+  "Kubler Absinthe":{"Absinthe":1},
+  "Absinthe Blanche":{"Absinthe":1},
+  "Doc Hersons Green Absinthe":{"Absinthe":1},
+
+  "Benedictine":{"Herbal Liqeur":0.8},
+  "Yellow Chartreuse":{"Chartreuse":0.9,"Herbal Liqeur":0.8},
+  "Green Chartreuse":{"Chartreuse":0.9,"Herbal Liqeur":0.8},
+
+  "Peychaud's Bitters":{"Bitters":0.8},
+  "Angostura Bitters":{"Bitters":0.8},
+  "Cherry Bitters":{"Bitters":0.8},
+  "Orange Bitters":{"Bitters":0.8},
+  "Bitters":{},
+
+  "Demerara Sugar Cube":{"Sugar":0.9},
+  "Simple Syrup":{"Sugar":1},
+  "Grenadine":{"Syrup":0.7,"Grocery":0.1},
+  "Taylor's Falurnum":{"Falurnum":1},
+  "Orgeat":{"Syrup":0.7},
+  "Falurnum":{"Syrup":0.7},
+  "Sugar":{"Grocery":0.1,"Staple":0.1,"Syrup":0.7},
+
+  "Orange Juice":{"Orange":1,"Fruit":0.2},
+  "Lemon Juice":{"Lemon":1},"Lemon":{"Fruit":0.2,"Staple":0.1},
+  "Lime Juice":{"Lime":1},"Lime":{"Fruit":0.2,"Staple":0.1},
+  "Fruit":{"Juice":0.1,"Grocery":0.1},
+
+  "Soda Water":{"Sparkling Water":0.9},
+  "Sparkling Water":{"Grocery":0.1},
+  "Egg White":{"Grocery":0.1},
+  "Heavy Cream":{"Milk":0.9},
+  "Milk":{"Grocery":0.1},
+  
+  "Dolin Sweet Vermouth":{"Sweet Vermouth":1},
+  "Sweet Vermouth":{"Vermouth":0.7},
+  
+  "Lillet Blanc":{"Aromatic Wine":0.8},
+  "St Germain":{"Aromatic Wine":0.8},
+  "Cocchi Americano":{"Aromatic Wine":0.8},
+  "Kina L'Avion d'Or":{"Aromatic Wine":0.8},
+  "Sweet White Vermouth":{"White Vermouth":1},
+  "White Vermouth":{"Aromatic Wine":0.8},
+  "Aromatic Wine":{"Wine":0.8},
+
+  "Champagne":{"Sparkling Wine":0.9},
+  "Sparkling Wine":{"Wine":0.8},
+  
+  "Creme de Menthe":{"Mint":0.7},
+
+  
+  
+  "Drysack Sherry":{},
+  "Kahlua":{},
+  "Amaro Montenegro":{},
+  "Letherbee Fernet":{},
+  "Bonollo":{},
+  "Remy Martin XO Special":{},
+  "Campari":{}
+  
 }
