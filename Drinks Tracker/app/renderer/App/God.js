@@ -5,6 +5,7 @@ const {Menu, MenuItem } = require('electron').remote
 const remote = require ("electron").remote;
 
 var God = {
+  Thresholds:[0.9,0.8,0.6],
   Alphabet:"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
   // CleanHTML(txt){
   //   if (!txt)
@@ -79,10 +80,31 @@ var God = {
   FindSubValue(ing){
     let ingObj = Model.SubDict[ing];
     let allSubs = [];
+    // console.log(ing);
+    // console.log(ingObj);
+    allSubs.push(ing);
     for(let s in ingObj)
       allSubs.push(s);
-    allSubs.sort((a,b)=>{return ingObj[a] >= ingObj[b] ? 1 : -1});
-    console.log(allSubs);
+    allSubs.sort((a,b)=>{return ingObj[a] >= ingObj[b] ? -1 : 1});
+    let shopStatus = 0;
+    
+    // console.log(allSubs);
+    for(let s of allSubs){
+      if (Model.IDict[s]){
+        if(Model.IDict[s] < 0.9){
+          if(Model.SubDict[ing].Staple) shopStatus = 1;
+          else if(Model.SubDict[ing].Grocery) shopStatus = 2;
+          else shopStatus = 3;
+        }
+        return {Type:s,Match:Model.IDict[s],ShopStatus:shopStatus};
+      }
+    }
+    if(Model.IDict[ing] < 0.9){
+      if(Model.SubDict[ing].Staple) shopStatus = 1;
+      else if(Model.SubDict[ing].Grocery) shopStatus = 2;
+      else shopStatus = 3;
+    }
+    return {Type:"Missing",Match:0,ShopStatus:shopStatus};
   }
 }
 

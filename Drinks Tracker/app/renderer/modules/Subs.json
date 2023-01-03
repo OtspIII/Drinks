@@ -66,7 +66,10 @@
   "Milk":{"Grocery":0.1},
   
   "Dolin Sweet Vermouth":{"Sweet Vermouth":1},
-  "Sweet Vermouth":{"Vermouth":0.7},
+  "Sweet Vermouth":{"Vermouth":0.7,"Fortified Wine":0.6},
+  "Vermouth":{"Fortified Wine":0.8},
+  "Dry Sack Sherry":{"Sherry":1},
+  "Sherry":{"Fortified Wine":0.8},
   
   "Lillet Blanc":{"Aromatic Wine":0.8},
   "St Germain":{"Aromatic Wine":0.8},
@@ -77,18 +80,21 @@
   "Aromatic Wine":{"Wine":0.8},
 
   "Champagne":{"Sparkling Wine":0.9},
-  "Sparkling Wine":{"Wine":0.8},
+  "Sparkling Wine":{"Wine":0.5},
   
   "Creme de Menthe":{"Mint":0.7},
+  
+  "Kahlua":{"Coffee Liqueur":0.9},
 
-  
-  
-  "Drysack Sherry":{},
-  "Kahlua":{},
-  "Amaro Montenegro":{},
-  "Letherbee Fernet":{},
-  "Bonollo":{},
-  "Remy Martin XO Special":{},
-  "Campari":{}
+  "Amaro Montenegro":{"Amaro":0.9},
+  "Letherbee Fernet":{"Fernet":1},
+  "Fernet":{"Amaro":0.9},
+  "Amaro":{"Herbal Liqeur":0.5},
+
+  "Remy Martin XO Special":{"Cognac":1},
+
+  "Campari":{"Bitter Aperitif":0.9},
+  "Aperol":{"Bitter Aperitif":0.9},
+  "Bonollo":{"Aperitif":0.9}
   
 }

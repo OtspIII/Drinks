@@ -15,7 +15,7 @@
   }},
   "Sazerac":{"Notes":"Misha's favorite", "Recipes":{
     "A Taste for Absinthe":{ "Rating":4,"Notes":"","Glass":"Old Fashioned","Garnish":"Twisted Lemon Peel","Ice":"Chilled Glass","Page":34,
-      "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1"},{"Type":"Rittenhouse Rye Whiskey","Amount":"2 oz"},
+      "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1 cube"},{"Type":"Rittenhouse Rye Whiskey","Amount":"2 oz"},
         {"Type":"Vieuz Pontarlier","Amount":"rinse"},{"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
     }
   }},
@@ -66,8 +66,67 @@
   }},
   "Champagne Cocktail":{"Recipes":{
     "NYT Cooking":{ "Rating":4,"Notes":"","Glass":"Coupe","Garnish":"","Ice":"","Page":"xxx",
-      "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1"},{"Type":"Bitters","Amount":"3-5 Dashes"},
+      "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1 cube"},{"Type":"Bitters","Amount":"3-5 Dashes"},
         {"Type":"Champagne","Amount":"top off"}]
+    }
+  }},
+  "Chartreuse Swizzle":{"Recipes":{
+    "Imbibe":{ "Rating":0,"Notes":"Swizzle Until Frothy","Glass":"Collins","Garnish":"Mint Sprig, Nutmeg","Ice":"Crushed",
+      "Page":"https://imbibemagazine.com/recipe/chartreuse-swizzle-recipe/",
+      "Ingredients":[{"Type":"Green Chartreuse","Amount":"1 1/2 oz"},{"Type":"Pineapple Juice","Amount":"1 oz"},
+        {"Type":"Lime Juice","Amount":"3/4 oz"}, {"Type":"Falernum","Amount":"1/2 oz"}]
+    }
+  }},
+  "Lost in Laos":{"Recipes":{
+    "Imbibe":{ "Rating":0,"Notes":"Muddle all but gin, milk, & basil","Glass":"Collins","Garnish":"Thai Basil, 6 Lime Leaves","Ice":"Filled",
+      "Page":"https://imbibemagazine.com/recipe/lost-in-laos/",
+      "Ingredients":[{"Type":"Green Chartreuse","Amount":"1/2 oz"},{"Type":"Agave Syrup","Amount":"1/2 oz"},
+        {"Type":"Lime Juice","Amount":"3/4 oz"}, {"Type":"Turmeric","Amount":"1/4 oz"},
+        {"Type":"Gin","Amount":"2 oz"},{"Type":"Coconut Milk","Amount":"2 oz"}]
+    }
+  }},
+  "Green Eyes Gin":{"Recipes":{
+    "Imbibe":{ "Rating":0,"Notes":"Shake egg white without ice first","Glass":"Rocks","Garnish":"Cherry, Slice of Lime","Ice":"Some",
+      "Page":"https://imbibemagazine.com/recipe/green-eyes-gin-cocktail/",
+      "Ingredients":[{"Type":"Green Chartreuse","Amount":"3/4 oz"},{"Type":"Gin","Amount":"1 1/2 oz"},
+        {"Type":"Lime Juice","Amount":"3/4 oz"}, {"Type":"Rich Simple Syrup","Amount":"1/2 oz"},
+        {"Type":"Egg White","Amount":"1"}]
+    }
+  }},
+  "Dead Rabbit Tipperary":{"Recipes":{
+    "Imbibe":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"","Ice":"Chilled Glass",
+      "Page":"https://imbibemagazine.com/recipe/dead-rabbit-tipperary-recipe/",
+      "Ingredients":[{"Type":"Green Chartreuse","Amount":"1/2 oz"},{"Type":"Irish Whiskey","Amount":"1 1/2 oz"},
+        {"Type":"Sweet Vermouth","Amount":"1 oz"}, {"Type":"Rich Simple Syrup","Amount":"1 tsp"},
+        {"Type":"Water","Amount":"1/2 oz"},{"Type":"Orange Bitters","Amount":"2 dashes"}]
+    }
+  }},
+  "Lucky Negroni":{"Recipes":{
+    "Imbibe":{ "Rating":0,"Notes":"","Glass":"Stemmed","Garnish":"Lemon Peel","Ice":"",
+      "Page":"https://imbibemagazine.com/recipe/lucky-negroni/",
+      "Ingredients":[{"Type":"Green Chartreuse","Amount":"1/2 oz"},{"Type":"St George Terroir Gin","Amount":"1 1/2 oz"},
+        {"Type":"Salers Apertif","Amount":"1 oz"},{"Type":"Celery Bitters","Amount":"2 dashes"}]
+    }
+  }},
+  "The Written Word":{"Recipes":{
+    "Food 52":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Cherry & Lime Wheel on a Pick","Ice":"Chilled Glass",
+      "Page":"https://food52.com/recipes/78408-the-written-word-gin-chartreuse-cocktail-with-cointreau",
+      "Ingredients":[{"Type":"Green Chartreuse","Amount":"3/4 oz"},{"Type":"Gin","Amount":"3/4 oz"},
+        {"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Cointrau","Amount":"3/4 oz"}]
+    }
+  }},
+  "Demon of Destiny":{"Recipes":{
+    "Redfacery":{ "Rating":0,"Notes":"","Glass":"","Garnish":"","Ice":"",
+      "Page":"http://redfacery.blogspot.com/2011/02/satanic-cocktails-demon-of-destiny.html",
+      "Ingredients":[{"Type":"Sweet Vermouth","Amount":"3/4 oz"},{"Type":"Gin","Amount":"1 1/2 oz"},
+        {"Type":"Absinthe","Amount":"1/2 oz"},{"Type":"Tequila","Amount":"1/4 oz"},{"Type":"Agave Syrup","Amount":"1/4 oz"}]
+    }
+  }},
+  "Zelda Cocktail":{"Recipes":{
+    "Cocktails Distilled":{ "Rating":0,"Notes":"Muddle mint","Glass":"Cocktail","Garnish":"","Ice":"Chilled Glass",
+      "Page":"https://cocktailsdistilled.com/recipe/zelda-cocktail/",
+      "Ingredients":[{"Type":"Bison Vodka","Amount":"2 oz"},{"Type":"Orgeat","Amount":"3/4 oz"},
+        {"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Mint Leaves","Amount":"5 leaves"}]
     }
   }}
 }

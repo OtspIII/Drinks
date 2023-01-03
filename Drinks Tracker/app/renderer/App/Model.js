@@ -52,7 +52,7 @@ var Model = {
         }
       }
       // console.log(current);
-      // allSubs.splice(allSubs.indexOf(current),1);
+      allSubs.splice(allSubs.indexOf(current),1);
       let curr = Model.SubDict[current];
       for(let s in curr){
         if(Model.SubDict[s]){
@@ -73,9 +73,37 @@ var Model = {
           Model.IDict[sub] = Math.max(Model.IDict[sub] ? Model.IDict[sub] : 0,Model.SubDict[dr][sub]);
       }
     }
+
+    for(let rec in Model.DrinkDict){
+      let bMatch = 0;
+      let best = null;
+      for(let book in Model.DrinkDict[rec].Recipes){
+        let match = 1.1;
+        let shopStatus = 0;
+        // console.log(rec + " / " + book);
+        for(let i in Model.DrinkDict[rec].Recipes[book].Ingredients){
+          let subValue = God.FindSubValue(Model.DrinkDict[rec].Recipes[book].Ingredients[i].Type);
+          // console.log(God.FindSubValue(ing.Type).Match);
+          match = Math.min(match,subValue.Match);
+          shopStatus = Math.max(shopStatus,subValue.ShopStatus);
+        }
+        // console.log()
+        Model.DrinkDict[rec].Recipes[book].Match = match;
+        Model.DrinkDict[rec].Recipes[book].ShopStatus = shopStatus;
+        if(match > bMatch) {
+          bMatch = match;
+          best = book;
+        }
+      }
+      // console.log(best + " / " + );
+      if(best){
+        Model.DrinkDict[rec].Match = Model.DrinkDict[rec].Recipes[best].Match;
+        Model.DrinkDict[rec].ShopStatus = Model.DrinkDict[rec].Recipes[best].ShopStatus;
+      }
+    }
     //   console.log(safety)
     // console.log(Model.SubDict);
-    console.log(Model.IDict);
+    // console.log(Model.IDict);
     if(msg != "") console.log(msg);
     God.Searchbar.Setup();
     // console.log(tables);

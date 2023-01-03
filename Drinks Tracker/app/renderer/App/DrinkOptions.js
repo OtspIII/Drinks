@@ -19,8 +19,26 @@ class DrinkOptions extends React.Component {
   DrinkList(){
     let tables = [];
     tables.push(<h3 key="top">List of Tables</h3>);
-    for(let t in Model.DrinkDict)
-      tables.push(<div key={"T"+tables.length} className="TableListEntry" onClick={e=>{this.SetTable(t)}}>{t}</div>);
+
+    let drinks = [[]];
+    for(let thr of God.Thresholds)
+      drinks.push([]);
+    for(let t in Model.DrinkDict){
+      let drink = Model.DrinkDict[t];
+      let n = 0;
+      for(let thr of God.Thresholds){
+        if(drink.Match > thr) break;
+        n++;
+      }
+      drinks[n].push(t);
+    }
+
+
+    for(let dr of drinks){
+      for(let t of dr)
+        tables.push(<div key={"T"+tables.length} className="TableListEntry" onClick={e=>{this.SetTable(t)}}>{t}</div>);
+      tables.push(<br key={"br"+tables.length}/>);
+    }
     return tables;
   }
 
@@ -41,11 +59,16 @@ class DrinkOptions extends React.Component {
     
     let ing = [];
     for(let i of chosen.Ingredients){
-      ing.push(<div key={"I"+ing.length+i.Type+i.Amount}>{i.Type}: {i.Amount}</div>);
+      let subValue = God.FindSubValue(i.Type);
+      let notes = null;
+      if(subValue.Type != i.Type) notes = <i>({i.Type})</i>
+      ing.push(<div key={"I"+ing.length+i.Type+i.Amount}>{subValue.Type}: {i.Amount} {notes}</div>);
     }
 
     return (<div>
       <h3>{this.state.table}</h3>
+      Match: {chosen.Match * 100}%<br/>
+      Shop Status: {chosen.ShopStatus}<br/><br/>
       <u><b>Ingredients</b></u>
       {ing}<br/><i>
       Glass: {God.NaCheck(chosen.Glass)}<br/>
