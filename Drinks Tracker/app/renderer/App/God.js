@@ -105,6 +105,18 @@ var God = {
       else shopStatus = 3;
     }
     return {Type:"Missing",Match:0,ShopStatus:shopStatus};
+  },
+  Shuffle(list){
+    let r = [];
+    let safety = 999;
+    while(list.length > 0 && safety > 0){
+      safety--;
+      let n = Math.floor(Math.random() * list.length);
+      let chosen = list.splice(n,1);
+      r.push(chosen[0]);
+    }
+    // console.log(r);
+    return r;
   }
 }
 

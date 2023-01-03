@@ -112,7 +112,7 @@
     "Food 52":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Cherry & Lime Wheel on a Pick","Ice":"Chilled Glass",
       "Page":"https://food52.com/recipes/78408-the-written-word-gin-chartreuse-cocktail-with-cointreau",
       "Ingredients":[{"Type":"Green Chartreuse","Amount":"3/4 oz"},{"Type":"Gin","Amount":"3/4 oz"},
-        {"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Cointrau","Amount":"3/4 oz"}]
+        {"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Cointreau","Amount":"3/4 oz"}]
     }
   }},
   "Demon of Destiny":{"Recipes":{
@@ -127,6 +127,28 @@
       "Page":"https://cocktailsdistilled.com/recipe/zelda-cocktail/",
       "Ingredients":[{"Type":"Bison Vodka","Amount":"2 oz"},{"Type":"Orgeat","Amount":"3/4 oz"},
         {"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Mint Leaves","Amount":"5 leaves"}]
+    }
+  }},
+  "Scorpion, Reinterpreted":{"Recipes":{
+    "Food & Wine":{ "Rating":4.5,"Notes":"","Glass":"Tiki","Garnish":"Straw & Umbrella","Ice":"Crushed",
+      "Page":"https://www.foodandwine.com/cocktails-spirits/orgeat-cocktail-recipes",
+      "Ingredients":[{"Type":"Light Rum","Amount":"2 oz"},{"Type":"Orgeat","Amount":"1 oz"},
+        {"Type":"Orange Juice","Amount":"2 oz"},{"Type":"Angostura Bitters","Amount":"2 dashes"},
+        {"Type":"Lemon Juice","Amount":"1 oz"},{"Type":"Bourbon","Amount":"1 oz"}]
+    }
+  }},
+  "The Chestnut Cup":{"Recipes":{
+    "Cocktails Distilled":{ "Rating":0,"Notes":"","Glass":"High Ball","Garnish":"Crushed Ice","Ice":"3/4 Cubes",
+      "Page":"https://cocktailsdistilled.com/recipe/the-chestnut-cup/",
+      "Ingredients":[{"Type":"Gin","Amount":"1 oz"},{"Type":"Campari","Amount":"1 oz"},
+        {"Type":"Lemon Juice","Amount":"1 oz"},{"Type":"Orgeat","Amount":"3/4 oz"}]
+    }
+  }},
+  "The Casper":{"Recipes":{
+    "Cocktails Distilled":{ "Rating":0,"Notes":"","Glass":"Old Fashioned","Garnish":"Rose Water, Nutmeg","Ice":"Filled",
+      "Page":"https://cocktailsdistilled.com/recipe/the-casper/",
+      "Ingredients":[{"Type":"Reposado Tequila","Amount":"2 oz"},
+        {"Type":"Lime Juice","Amount":"1/2 oz"},{"Type":"Orgeat","Amount":"1 oz"}]
     }
   }}
 }

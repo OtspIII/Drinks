@@ -21,7 +21,7 @@ var Model = {
       for(let recipe in Model.DrinkDict[dr].Recipes){
         let rec = Model.DrinkDict[dr].Recipes[recipe];
         for(let ing of rec.Ingredients){
-          if(!Model.SubDict[ing.Type]) msg += ing.Type + "\n";
+          if(!Model.SubDict[ing.Type]) msg += "\""+ing.Type + "\":{},\n";
         }
       }
     }
@@ -104,6 +104,7 @@ var Model = {
     //   console.log(safety)
     // console.log(Model.SubDict);
     // console.log(Model.IDict);
+    Model.DrinkNames = God.Shuffle(Model.DrinkNames);
     if(msg != "") console.log(msg);
     God.Searchbar.Setup();
     // console.log(tables);

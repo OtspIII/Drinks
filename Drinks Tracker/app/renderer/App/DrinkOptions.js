@@ -23,11 +23,11 @@ class DrinkOptions extends React.Component {
     let drinks = [[]];
     for(let thr of God.Thresholds)
       drinks.push([]);
-    for(let t in Model.DrinkDict){
+    for(let t of Model.DrinkNames){
       let drink = Model.DrinkDict[t];
       let n = 0;
       for(let thr of God.Thresholds){
-        if(drink.Match > thr) break;
+        if(drink.Match >= thr) break;
         n++;
       }
       drinks[n].push(t);

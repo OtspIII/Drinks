@@ -2,6 +2,8 @@
   "Martin Millers Gin":{"London Dry Gin":1},
   "Sipsmith Gin":{"London Dry Gin":1},
   "London Dry Gin":{"Gin":0.9},
+  "St George Terroir Gin":{"Gin":0.9},
+  "Gin":{},
 
   "Wild Turkey Rye Whiskey":{"Rye Whiskey":1},
   "Rittenhouse Rye Whiskey":{"Rye Whiskey":1},
@@ -10,6 +12,8 @@
   "Rye Whiskey":{"Whiskey":0.9},
   "Buffalo Trace Bourbon":{"Bourbon":1},
   "Bourbon":{"Whiskey":0.9},
+  "Irish Whiskey":{"Whiskey":0.9},
+  "Whiskey":{},
   
   "Rhum Agricole Blanc":{"Rum Agricole":1},
   "Rhum Agricole":{"Rum":0.9},
@@ -17,16 +21,23 @@
   "Bumbu Rum":{"Spiced Rum":1},
   "Golden Rum":{"Rum":0.9},
   "Spiced Rum":{"Rum":0.9},
+  "Light Rum":{"Rum":0.9},
+  "Rum":{},
   
   "Olmeca Altos Reposado Tequila":{"Reposado Tequila":1},
+  "Reposado Tequila":{"Tequila":0.9},
+  "Tequila":{},
 
   "Ketel One Vodka":{"Vodka":1},
+  "Bison Vodka":{"Vodka":0.8},
+  "Vodka":{},
 
   "Cointreau":{"Orange Liqueur":0.9},
   "Triple-Sec":{"Orange Liqueur":0.9},
   "Blue Curacao":{"Curacao":0.99},
   "Orange Curacao":{"Curacao":0.99},
   "Curacao":{"Orange Liqueur":0.9},
+  "Orange Liqueur":{},
   
   "Absinthe":{"Anise Liqueur":0.9},
   "Edouard Absinthe":{"Absinthe":1},
@@ -44,19 +55,27 @@
   "Angostura Bitters":{"Bitters":0.8},
   "Cherry Bitters":{"Bitters":0.8},
   "Orange Bitters":{"Bitters":0.8},
+  "Celery Bitters":{"Bitters":0.8},
   "Bitters":{},
 
   "Demerara Sugar Cube":{"Sugar":0.9},
   "Simple Syrup":{"Sugar":1},
+  "Rich Simple Syrup":{"Sugar":1},
   "Grenadine":{"Syrup":0.7,"Grocery":0.1},
-  "Taylor's Falurnum":{"Falurnum":1},
+  "Taylor's Falernum":{"Falernum":1},
   "Orgeat":{"Syrup":0.7},
-  "Falurnum":{"Syrup":0.7},
+  "Falernum":{"Syrup":0.7},
+  "Agave Syrup":{"Syrup":0.7,"Sugar":0.8},
   "Sugar":{"Grocery":0.1,"Staple":0.1,"Syrup":0.7},
+  "Turmeric":{"Spice":0.8,"Grocery":0.1},
 
   "Orange Juice":{"Orange":1,"Fruit":0.2},
   "Lemon Juice":{"Lemon":1},"Lemon":{"Fruit":0.2,"Staple":0.1},
   "Lime Juice":{"Lime":1},"Lime":{"Fruit":0.2,"Staple":0.1},
+  "Pineapple Juice":{"Pineapple":1},
+  "Pineapple":{"Fruit":0.2,"Grocery":0.1},
+  "Coconut Milk":{"Grocery":0.1},
+  "Mint Leaves":{"Grocery":0.1},
   "Fruit":{"Juice":0.1,"Grocery":0.1},
 
   "Soda Water":{"Sparkling Water":0.9},
@@ -95,6 +114,11 @@
 
   "Campari":{"Bitter Aperitif":0.9},
   "Aperol":{"Bitter Aperitif":0.9},
-  "Bonollo":{"Aperitif":0.9}
-  
+  "Bonollo":{"Aperitif":0.9},
+
+  "Salers Apertif":{"Gentian Liqueur":1},
+  "Gentian Liqueur":{"Aperitif":0.8},
+
+  "Water":{"Staple":1}
+
 }

@@ -113,6 +113,11 @@ html,body {
 
 .TableListEntry{
   cursor: pointer;
+  width: 20vw;
+}
+
+.TableListEntry:hover{
+  background-color: #DDDDDD;
 }
 
 .BackButton{
