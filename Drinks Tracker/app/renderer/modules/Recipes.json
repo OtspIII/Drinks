@@ -14,6 +14,10 @@
     }
   }},
   "Sazerac":{"Notes":"Misha's favorite", "Recipes":{
+    "Misha":{"Rating":5,"Notes":"Melt the sugar with the bitters","Glass":"Old Fashioned","Garnish":"Twisted Lemon Peel","Ice":"Chilled Glass","Page":"",
+      "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1 cube"},{"Type":"Whiskey","Amount":"2 oz"},
+        {"Type":"Absinthe","Amount":"1/4 oz"},{"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
+    },
     "A Taste for Absinthe":{ "Rating":4,"Notes":"","Glass":"Old Fashioned","Garnish":"Twisted Lemon Peel","Ice":"Chilled Glass","Page":34,
       "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1 cube"},{"Type":"Rittenhouse Rye Whiskey","Amount":"2 oz"},
         {"Type":"Vieuz Pontarlier","Amount":"rinse"},{"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
@@ -149,6 +153,37 @@
       "Page":"https://cocktailsdistilled.com/recipe/the-casper/",
       "Ingredients":[{"Type":"Reposado Tequila","Amount":"2 oz"},
         {"Type":"Lime Juice","Amount":"1/2 oz"},{"Type":"Orgeat","Amount":"1 oz"}]
+    }
+  }},
+  "Strange Weaver":{"Recipes":{
+    "Imbibe":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Orange Zest","Ice":"Crushed",
+      "Page":"https://imbibemagazine.com/recipe/strange-weaver/",
+      "Ingredients":[{"Type":"Rum","Amount":"1 oz"},{"Type":"Gin","Amount":"1 oz"},
+        {"Type":"Lemon Juice","Amount":"1/4 oz"},{"Type":"Orgeat","Amount":"1/2 oz"},
+        {"Type":"Cocchi Torino","Amount":"3/4 oz"},{"Type":"Campari","Amount":"1/2 oz"}]
+    }
+  }},
+  "Surf Liner Rye Whiskey Cocktail":{"Recipes":{
+    "Imbibe":{ "Rating":0,"Notes":"","Glass":"Double Old Fashioned","Garnish":"Pineapple Leaf, Edible Orchid, Cherry  and Lemon Wheel","Ice":"Crushed",
+      "Page":"https://imbibemagazine.com/recipe/surf-liner/",
+      "Ingredients":[{"Type":"Rye Whiskey","Amount":"2 oz"},{"Type":"Pineapple Juice","Amount":"1 oz"},
+        {"Type":"Lemon Juice","Amount":"3/4 oz"},{"Type":"Orgeat","Amount":"3/4 oz"},
+        {"Type":"Peychaud's Bitters","Amount":"2 dashes"}]
+    }
+  }},
+  "Momisette":{"Recipes":{
+    "Liquor.com":{ "Rating":0,"Notes":"","Glass":"Collins","Garnish":"","Ice":"Yes",
+      "Page":"https://www.liquor.com/recipes/momisette/",
+      "Ingredients":[{"Type":"Pastis","Amount":"1 oz"},{"Type":"Orgeat","Amount":"1/4 oz"},
+        {"Type":"Sparkling Water","Amount":"to top"}]
+    }
+  }},
+  "Juan Ho Royale":{"Recipes":{
+    "Cocktail Party App":{ "Rating":0,"Notes":"Start w/ wine, top w/ rest","Glass":"Coupe","Garnish":"","Ice":"",
+      "Page":"https://cocktailpartyapp.com/drinks/juan-ho-royale/",
+      "Ingredients":[{"Type":"Sparkling White Wine","Amount":"2 oz"},{"Type":"Blanco Tequila","Amount":"1 1/2 oz"},
+        {"Type":"Blue Curacao","Amount":"1/2 oz"},{"Type":"Falernum","Amount":"1/2 oz"},
+        {"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Orgeat","Amount":"1/2 oz"}]
     }
   }}
 }

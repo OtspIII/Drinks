@@ -113,7 +113,7 @@ html,body {
 
 .TableListEntry{
   cursor: pointer;
-  width: 20vw;
+  width: 25vw;
 }
 
 .TableListEntry:hover{
@@ -132,4 +132,11 @@ html,body {
 .Link{
   text-decoration: underline;
   cursor: pointer;
+}
+
+.Rating{
+  width:10vw;
+  height:1vw;
+  background-color: red;
+  display: inline;
 }

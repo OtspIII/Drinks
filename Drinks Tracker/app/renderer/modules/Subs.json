@@ -26,6 +26,7 @@
   
   "Olmeca Altos Reposado Tequila":{"Reposado Tequila":1},
   "Reposado Tequila":{"Tequila":0.9},
+  "Blanco Tequila":{"Tequila":0.9},
   "Tequila":{},
 
   "Ketel One Vodka":{"Vodka":1},
@@ -46,6 +47,7 @@
   "Kubler Absinthe":{"Absinthe":1},
   "Absinthe Blanche":{"Absinthe":1},
   "Doc Hersons Green Absinthe":{"Absinthe":1},
+  "Pastis":{"Anise Liqueur":0.9},
 
   "Benedictine":{"Herbal Liqeur":0.8},
   "Yellow Chartreuse":{"Chartreuse":0.9,"Herbal Liqeur":0.8},
@@ -85,6 +87,7 @@
   "Milk":{"Grocery":0.1},
   
   "Dolin Sweet Vermouth":{"Sweet Vermouth":1},
+  "Cocchi Torino":{"Sweet Vermouth":1},
   "Sweet Vermouth":{"Vermouth":0.7,"Fortified Wine":0.6},
   "Vermouth":{"Fortified Wine":0.8},
   "Dry Sack Sherry":{"Sherry":1},
@@ -99,6 +102,7 @@
   "Aromatic Wine":{"Wine":0.8},
 
   "Champagne":{"Sparkling Wine":0.9},
+  "Sparkling White Wine":{"Sparkling Wine":0.9},
   "Sparkling Wine":{"Wine":0.5},
   
   "Creme de Menthe":{"Mint":0.7},

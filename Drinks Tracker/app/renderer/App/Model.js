@@ -77,6 +77,7 @@ var Model = {
     for(let rec in Model.DrinkDict){
       let bMatch = 0;
       let best = null;
+      let bRating = 0;
       for(let book in Model.DrinkDict[rec].Recipes){
         let match = 1.1;
         let shopStatus = 0;
@@ -94,12 +95,15 @@ var Model = {
           bMatch = match;
           best = book;
         }
+        bRating = Math.max(bRating,Model.DrinkDict[rec].Recipes[book].Rating);
       }
       // console.log(best + " / " + );
       if(best){
         Model.DrinkDict[rec].Match = Model.DrinkDict[rec].Recipes[best].Match;
         Model.DrinkDict[rec].ShopStatus = Model.DrinkDict[rec].Recipes[best].ShopStatus;
       }
+      Model.DrinkDict[rec].Rating = bRating;
+
     }
     //   console.log(safety)
     // console.log(Model.SubDict);
