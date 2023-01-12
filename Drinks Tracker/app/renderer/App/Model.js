@@ -63,8 +63,15 @@ var Model = {
         }
       }
     }
+    let list = [];
+    for(let dr in Model.IList){
+      if(!Model.IList[dr]) continue;
+      list.push(dr);
+    }
+    Model.IList = list;
     for(let dr of Model.IList){
       Model.IDict[dr] = 1.1;
+      // itxt[dr] = true;
       if(!Model.SubDict[dr]) {
         msg += "\""+dr + "\":{},\n";
       }
@@ -73,6 +80,7 @@ var Model = {
           Model.IDict[sub] = Math.max(Model.IDict[sub] ? Model.IDict[sub] : 0,Model.SubDict[dr][sub]);
       }
     }
+    // console.log(JSON.stringify(itxt,undefined," "));
 
     for(let rec in Model.DrinkDict){
       let bMatch = 0;

@@ -29,7 +29,7 @@
     }
   }},
   "North of the Border":{"Recipes":{
-    "A Taste for Absinthe":{ "Rating":0,"Notes":"","Glass":"Collins","Garnish":"","Ice":"Crushed","Page":62,
+    "A Taste for Absinthe":{ "Rating":2,"Notes":"","Glass":"Collins","Garnish":"","Ice":"Crushed","Page":62,
       "Ingredients":[{"Type":"Simple Syrup","Amount":"1/2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},
         {"Type":"Absinthe","Amount":"1/2 oz"},{"Type":"Orange Juice","Amount":"1/2 oz"},
         {"Type":"Crown Royal Whiskey","Amount":"2 oz"},{"Type":"Angostura Bitters","Amount":"2 dashes, on top"}]
@@ -184,6 +184,20 @@
       "Ingredients":[{"Type":"Sparkling White Wine","Amount":"2 oz"},{"Type":"Blanco Tequila","Amount":"1 1/2 oz"},
         {"Type":"Blue Curacao","Amount":"1/2 oz"},{"Type":"Falernum","Amount":"1/2 oz"},
         {"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Orgeat","Amount":"1/2 oz"}]
+    }
+  }},
+  "Painkiller":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Highball or Hurricane","Garnish":"Nutmeg","Ice":"Shaken & Poured",
+      "Page":188,
+      "Ingredients":[{"Type":"Pusser's Navy Rum","Amount":"2 1/2 oz"},{"Type":"Pineapple Juice","Amount":"4 oz"},
+        {"Type":"Orange Juice","Amount":"1 oz"},{"Type":"Coconut Cream","Amount":"1 oz"}]
+    }
+  }},
+  "Mai Tai":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Lime & Mint","Ice":"Filled",
+      "Page":185,
+      "Ingredients":[{"Type":"Appleton Estate Extra","Amount":"1 oz"},{"Type":"Clement VSOP","Amount":"1 oz"},
+        {"Type":"Pierre Ferrand","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Orgeat","Amount":"1/4 oz"}]
     }
   }}
 }

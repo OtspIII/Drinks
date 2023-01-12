@@ -22,6 +22,11 @@
   "Golden Rum":{"Rum":0.9},
   "Spiced Rum":{"Rum":0.9},
   "Light Rum":{"Rum":0.9},
+  "Pusser's Navy Rum":{"Dark Rum":1},
+  "Appleton Estate Extra":{"Dark Rum":1},
+  "Clement VSOP":{"Amber Rum":1},
+  "Dark Rum":{"Rum":0.9},
+  "Amber Rum":{"Rum":0.9},
   "Rum":{},
   
   "Olmeca Altos Reposado Tequila":{"Reposado Tequila":1},
@@ -35,6 +40,7 @@
 
   "Cointreau":{"Orange Liqueur":0.9},
   "Triple-Sec":{"Orange Liqueur":0.9},
+  "Pierre Ferrand":{"Orange Curacao":1},
   "Blue Curacao":{"Curacao":0.99},
   "Orange Curacao":{"Curacao":0.99},
   "Curacao":{"Orange Liqueur":0.9},
@@ -76,7 +82,9 @@
   "Lime Juice":{"Lime":1},"Lime":{"Fruit":0.2,"Staple":0.1},
   "Pineapple Juice":{"Pineapple":1},
   "Pineapple":{"Fruit":0.2,"Grocery":0.1},
-  "Coconut Milk":{"Grocery":0.1},
+  "Coconut Milk":{"Coconut":1},
+  "Coconut Cream":{"Coconut":1},
+  "Coconut":{"Grocery":0.1},
   "Mint Leaves":{"Grocery":0.1},
   "Fruit":{"Juice":0.1,"Grocery":0.1},
 
