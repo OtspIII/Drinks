@@ -149,7 +149,7 @@
     }
   }},
   "The Casper":{"Recipes":{
-    "Cocktails Distilled":{ "Rating":0,"Notes":"","Glass":"Old Fashioned","Garnish":"Rose Water, Nutmeg","Ice":"Filled",
+    "Cocktails Distilled":{ "Rating":3.5,"Notes":"","Glass":"Old Fashioned","Garnish":"Rose Water, Nutmeg","Ice":"Filled",
       "Page":"https://cocktailsdistilled.com/recipe/the-casper/",
       "Ingredients":[{"Type":"Reposado Tequila","Amount":"2 oz"},
         {"Type":"Lime Juice","Amount":"1/2 oz"},{"Type":"Orgeat","Amount":"1 oz"}]
@@ -194,10 +194,24 @@
     }
   }},
   "Mai Tai":{"Recipes":{
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Lime & Mint","Ice":"Filled",
+    "The New Cocktail Hour":{ "Rating":4.5,"Notes":"Easiest tiki drink to make","Glass":"Rocks","Garnish":"Lime & Mint","Ice":"Filled",
       "Page":185,
       "Ingredients":[{"Type":"Appleton Estate Extra","Amount":"1 oz"},{"Type":"Clement VSOP","Amount":"1 oz"},
         {"Type":"Pierre Ferrand","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Orgeat","Amount":"1/4 oz"}]
+    }
+  }},
+  "El Presidente":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":3.5,"Notes":"Very smooth, like glass","Glass":"Cocktail","Garnish":"Lime Wedge","Ice":"Chilled Glass",
+      "Page":83,
+      "Ingredients":[{"Type":"Flor de Cana 4 Yr","Amount":"1 1/2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"1 oz"},
+        {"Type":"Pierre Ferrand","Amount":"1/4 oz"},{"Type":"Grenadine","Amount":"1/2 tsp"},{"Type":"Orange Bitters","Amount":"1 dash"}]
+    }
+  }},
+  "Old Fashioned":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Orange Peel","Ice":"Chilled Glass, Large Cube",
+      "Page":28,
+      "Ingredients":[{"Type":"Whiskey","Amount":"2 oz"},{"Type":"Demerara Sugar Cube","Amount":"1 cube"},
+        {"Type":"Angostura Bitters","Amount":"2-3 dashes"},{"Type":"Water","Amount":"1 tsp"}]
     }
   }}
 }

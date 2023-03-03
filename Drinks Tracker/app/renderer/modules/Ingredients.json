@@ -1,7 +1,40 @@
-[
-  "Buffalo Trace Bourbon","Olmeca Altos Reposado Tequila","Sipsmith Gin",
-  "Angostura Bitters",  "Triple-Sec",  "Dry Sack Sherry", "Orange Bitters",
-  "Taylor's Falernum",  "Doc Hersons Green Absinthe", "Cherry Bitters", "Kahlua", "Amaro Montenegro",
-  "Letherbee Fernet", "Peychaud's Bitters", "Bonollo", "Bumbu Rum", "Remy Martin XO Special", "Ketel One Vodka", "Mount Gay Rum",
-  "Campari","Green Chartreuse","Blue Curacao", "Orgeat","Lemon","Sugar","Lillet Blanc", "Orange Juice","Water","Coconut","Lime"
-]
+{
+  "Buffalo Trace Bourbon": false,
+  "Olmeca Altos Reposado Tequila": false,
+  "Sipsmith Gin": false,
+  "Ketel One Vodka": true,
+  "Mount Gay Rum": true,
+  "Bumbu Rum": true,
+  "Remy Martin XO Special": true,
+  
+  "Angostura Bitters": true,
+  "Cherry Bitters": true,
+  "Peychaud's Bitters": true,
+  "Orange Bitters": true,
+  
+  "Green Chartreuse": true,
+  "Doc Hersons Green Absinthe": true,
+  
+  "Amaro Montenegro": true,
+  "Letherbee Fernet": true,
+  "Campari": true,
+  "Blue Curacao": true,
+  "Triple-Sec": true,
+  
+  "Dry Sack Sherry": true,
+  "Lillet Blanc": true,
+  
+  "Kahlua": true,
+  "Bonollo": true,
+  
+  "Orgeat": true,
+  "Taylor's Falernum": true,
+  
+  "Orange Juice": false,
+  "Water": true,
+  "Coconut": true,
+  "Lime": true,
+  "Lemon": true,
+  "Sugar": true,
+  "Demerara Sugar Cube":true
+ }
