@@ -2,6 +2,7 @@
   "Martin Millers Gin":{"London Dry Gin":1},
   "Sipsmith Gin":{"London Dry Gin":1},
   "London Dry Gin":{"Gin":0.9},
+  "Four Pillars Dry Gin":{"Gin":0.9},
   "St George Terroir Gin":{"Gin":0.9},
   "Gin":{},
 
@@ -32,6 +33,7 @@
   "Rum":{},
   
   "Olmeca Altos Reposado Tequila":{"Reposado Tequila":1},
+  "Arette Reposado Tequila":{"Reposado Tequila":1},
   "Reposado Tequila":{"Tequila":0.9},
   "Blanco Tequila":{"Tequila":0.9},
   "Tequila":{},
@@ -55,6 +57,7 @@
   "Kubler Absinthe":{"Absinthe":1},
   "Absinthe Blanche":{"Absinthe":1},
   "Doc Hersons Green Absinthe":{"Absinthe":1},
+  "Herbsaint":{"Anise Liquer":0.9},
   "Pastis":{"Anise Liqueur":0.9},
 
   "Benedictine":{"Herbal Liqeur":0.8},
@@ -97,8 +100,12 @@
   "Milk":{"Grocery":0.1},
   
   "Dolin Sweet Vermouth":{"Sweet Vermouth":1},
+  "Dolin Dry Vermouth":{"Dry Vermouth":1},
   "Cocchi Torino":{"Sweet Vermouth":1},
   "Sweet Vermouth":{"Vermouth":0.7,"Fortified Wine":0.6},
+  "Martini Rossi Sweet Vermouth":{"Sweet Vermouth":1},
+  "Martini Rossi Dry Vermouth":{"Dry Vermouth":1},
+  "Dry Vermouth":{"Vermouth":0.7,"Fortified Wine":0.6},
   "Vermouth":{"Fortified Wine":0.8},
   "Dry Sack Sherry":{"Sherry":1},
   "Sherry":{"Fortified Wine":0.8},

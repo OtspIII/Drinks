@@ -1,6 +1,9 @@
 {
   "Buffalo Trace Bourbon": false,
+  "Rittenhouse Rye Whiskey":true,
   "Olmeca Altos Reposado Tequila": false,
+  "Arette Reposado Tequila":true,
+  "Four Pillars Dry Gin":true,
   "Sipsmith Gin": false,
   "Ketel One Vodka": true,
   "Mount Gay Rum": true,
@@ -13,7 +16,11 @@
   "Orange Bitters": true,
   
   "Green Chartreuse": true,
-  "Doc Hersons Green Absinthe": true,
+  "Doc Hersons Green Absinthe": false,
+  "Herbsaint":true,
+
+  "Martini Rossi Sweet Vermouth":true,
+  "Martini Rossi Dry Vermouth":true,
   
   "Amaro Montenegro": true,
   "Letherbee Fernet": true,
@@ -27,7 +34,7 @@
   "Kahlua": true,
   "Bonollo": true,
   
-  "Orgeat": true,
+  "Orgeat": false,
   "Taylor's Falernum": true,
   
   "Orange Juice": false,

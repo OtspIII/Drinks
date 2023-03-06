@@ -62,10 +62,24 @@ class DrinkOptions extends React.Component {
     for(let rec in drink.Recipes){
       recipes.push(rec);
     }
-    let chosenN = drink.Fave && drink.Recipes[drink.Fave] ? drink.Fave : recipes[0];
-    if(this.state.chosen && this.state.chosen.Drink == this.state.table) chosenN = this.state.chosen.Recipe;
-    let chosen = drink.Recipes[chosenN];
+    // let chosenN = drink.Fave && drink.Recipes[drink.Fave] ? drink.Fave : recipes[0];
+    // if(this.state.chosen && this.state.chosen.Drink == this.state.table) chosenN = this.state.chosen.Recipe;
+    // let chosen = drink.Recipes[chosenN];
+    let txts = [];
+    for(let rec of recipes){
+      if(txts.length > 0) txts.push(<div key={"SPACE"+txts.length}><br/>--- --- ---<br/><br/><br/></div>)
+      txts.push(<div key={"DRINK"+rec}>{this.DrinkText(drink.Recipes[rec],rec)}</div>)
+    }
     
+
+    return (<div>
+      <h3>{this.state.table}</h3>
+      {txts}
+      <div className="BackButton" onClick={e=>{this.setState({table:null})}}>Back</div>
+    </div>);
+  }
+
+  DrinkText(chosen,chosenN){
     let ing = [];
     for(let i of chosen.Ingredients){
       let subValue = God.FindSubValue(i.Type);
@@ -74,20 +88,16 @@ class DrinkOptions extends React.Component {
       ing.push(<div key={"I"+ing.length+i.Type+i.Amount}>{subValue.Type}: {i.Amount} {notes}</div>);
     }
 
-    return (<div>
-      <h3>{this.state.table}</h3>
-      Match: {chosen.Match * 100}%<br/>
-      Shop Status: {chosen.ShopStatus}<br/><br/>
-      <u><b>Ingredients</b></u>
-      {ing}<br/><i>
-      Glass: {God.NaCheck(chosen.Glass)}<br/>
-      Ice: {God.NaCheck(chosen.Ice)}<br/>
-      Garnish: {God.NaCheck(chosen.Garnish)}<br/>
-      Rating: {chosen.Rating ? chosen.Rating : "Untried"}<br/>
-      From: {chosenN} ({chosen.Page})<br/>
-      </i><br/>
-      <div className="BackButton" onClick={e=>{this.setState({table:null})}}>Back</div>
-    </div>);
+    return <div>Match: {chosen.Match * 100}%<br/>
+    Shop Status: {chosen.ShopStatus}<br/><br/>
+    <u><b>Ingredients</b></u>
+    {ing}<br/><i>
+    Glass: {God.NaCheck(chosen.Glass)}<br/>
+    Ice: {God.NaCheck(chosen.Ice)}<br/>
+    Garnish: {God.NaCheck(chosen.Garnish)}<br/>
+    Rating: {chosen.Rating ? chosen.Rating : "Untried"}<br/>
+    From: {chosenN} ({chosen.Page})<br/>
+    </i><br/></div>;
   }
   
   render() {
