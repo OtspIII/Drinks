@@ -208,10 +208,68 @@
     }
   }},
   "Old Fashioned":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Old Fashioned","Garnish":"Cherry, Orange Slice","Ice":"Ice",
+      "Page":"70",
+      "Ingredients":[{"Type":"Rye Whiskey","Amount":"2 oz"},{"Type":"Angostura Bitters","Amount":"1 dash"},
+        {"Type":"Sugar Cube","Amount":"1 cube"},{"Type":"Orange","Amount":"1/2 slice"},{"Type":"Maraschino Cherry","Amount":"1"}]
+    },
     "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Orange Peel","Ice":"Chilled Glass, Large Cube",
       "Page":28,
       "Ingredients":[{"Type":"Whiskey","Amount":"2 oz"},{"Type":"Demerara Sugar Cube","Amount":"1 cube"},
         {"Type":"Angostura Bitters","Amount":"2-3 dashes"},{"Type":"Water","Amount":"1 tsp"}]
+    }
+  }},
+  "Negroni":{"Recipes":{
+    "Misha":{ "Rating":5,"Notes":"","Glass":"Rocks","Garnish":"Orange Twist","Ice":"Large Cube",
+      "Page":"N/a",
+      "Ingredients":[{"Type":"Campari","Amount":"1 oz"},{"Type":"London Dry Gin","Amount":"1 oz"},
+        {"Type":"Sweet Vermouth","Amount":"1 oz"}]
+    },
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Orange Twist","Ice":"Large Cube",
+      "Page":"37",
+      "Ingredients":[{"Type":"Campari","Amount":"1 oz"},{"Type":"London Dry Gin","Amount":"2 oz"},
+        {"Type":"Sweet Vermouth","Amount":"1 oz"},{"Type":"Angostura Bitters","Amount":"1.5 dashes"}]
+    }
+  }},
+  "Gin & Tonic":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Goblet","Garnish":"","Ice":"Chilled Glass, Ice",
+      "Page":"51",
+      "Ingredients":[{"Type":"Gin","Amount":"2 oz"},{"Type":"Tonic Water","Amount":"4 oz, topped"}]
+    }
+  }},
+  "Clover Club":{"Recipes":{
+    "Serious Eats":{ "Rating":5,"Notes":"","Glass":"Cocktail","Garnish":"","Ice":"Chilled Glass",
+      "Page":"https://www.seriouseats.com/clover-club-recipe-brooklyn",
+      "Ingredients":[{"Type":"Gin","Amount":"2 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"}
+        ,{"Type":"Grenadine","Amount":"2 tsp"},{"Type":"Egg White","Amount":"1, shaken"}]
+    }
+  }},
+  "Red Gin":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":3.5,"Notes":"","Glass":"Old Fashioned","Garnish":"Lemon Twist","Ice":"Ice",
+      "Page":"55",
+      "Ingredients":[{"Type":"London Dry Gin","Amount":"2 oz"},{"Type":"Peychaud's Bitters","Amount":"3 dashes"},
+        {"Type":"Grenadine","Amount":"1/4 oz"},{"Type":"Seltzer Water","Amount":"splash"}]
+    }
+  }},
+  "Martini":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+      "Page":"31",
+      "Ingredients":[{"Type":"London Dry Gin","Amount":"1.5 oz"},{"Type":"Orange Bitters","Amount":"2 dashes"},
+        {"Type":"Dolin Dry Vermouth","Amount":"1.5 oz"}]
+    }
+  }},
+  "Dirty Martini":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"3 Olives","Ice":"Chilled Glass",
+      "Page":"31",
+      "Ingredients":[{"Type":"London Dry Gin","Amount":"1.5 oz"},{"Type":"Olive Brine","Amount":"1/2 oz"},
+        {"Type":"Dolin Dry Vermouth","Amount":"1.5 oz"}]
+    }
+  }},
+  "Manhattan":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":4,"Notes":"","Glass":"Cocktail","Garnish":"Cherry","Ice":"",
+      "Page":"75",
+      "Ingredients":[{"Type":"Rye Whiskey","Amount":"2 oz"},{"Type":"Sweet Vermouth","Amount":"1 oz"},
+        {"Type":"Angostura Bitters","Amount":"2 dashes"}]
     }
   }}
 }

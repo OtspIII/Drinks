@@ -4,6 +4,9 @@
   "London Dry Gin":{"Gin":0.9},
   "Four Pillars Dry Gin":{"Gin":0.9},
   "St George Terroir Gin":{"Gin":0.9},
+  "Genever":{"Gin":0.9},
+  "Old Tom Gin":{"Gin":0.9},
+  "Plymouth Gin":{"Gin":0.9},
   "Gin":{},
 
   "Wild Turkey Rye Whiskey":{"Rye Whiskey":1},
@@ -13,6 +16,7 @@
   "Rye Whiskey":{"Whiskey":0.9},
   "Buffalo Trace Bourbon":{"Bourbon":1},
   "Bourbon":{"Whiskey":0.9},
+  "Scotch":{"Whiskey":0.9},
   "Irish Whiskey":{"Whiskey":0.9},
   "Whiskey":{},
   
@@ -71,7 +75,8 @@
   "Celery Bitters":{"Bitters":0.8},
   "Bitters":{},
 
-  "Demerara Sugar Cube":{"Sugar":0.9},
+  "Demerara Sugar Cube":{"Sugar Cube":0.9},
+  "Sugar Cube":{"Sugar":1},
   "Simple Syrup":{"Sugar":1},
   "Rich Simple Syrup":{"Sugar":1},
   "Grenadine":{"Syrup":0.7,"Grocery":0.1},
@@ -82,7 +87,7 @@
   "Sugar":{"Grocery":0.1,"Staple":0.1,"Syrup":0.7},
   "Turmeric":{"Spice":0.8,"Grocery":0.1},
 
-  "Orange Juice":{"Orange":1,"Fruit":0.2},
+  "Orange Juice":{"Orange":0.7},"Orange":{"Fruit":0.2},
   "Lemon Juice":{"Lemon":1},"Lemon":{"Fruit":0.2,"Staple":0.1},
   "Lime Juice":{"Lime":1},"Lime":{"Fruit":0.2,"Staple":0.1},
   "Pineapple Juice":{"Pineapple":1},
@@ -92,10 +97,16 @@
   "Coconut":{"Grocery":0.1},
   "Mint Leaves":{"Grocery":0.1},
   "Fruit":{"Juice":0.1,"Grocery":0.1},
+  "Olive Brine":{"Olive":1},
+  "Olive":{"Grocery":0.1},
+  "Maraschino Cherry":{"Grocery":0.1},
 
   "Soda Water":{"Sparkling Water":0.9},
+  "Seltzer Water":{"Sparkling Water":0.9},
   "Sparkling Water":{"Grocery":0.1},
-  "Egg White":{"Grocery":0.1},
+  "Tonic Water":{"Sparkling Water":0.7},
+  "Egg White":{"Egg":1},
+  "Egg":{"Grocery":0.1},
   "Heavy Cream":{"Milk":0.9},
   "Milk":{"Grocery":0.1},
   
