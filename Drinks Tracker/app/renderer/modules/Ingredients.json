@@ -19,7 +19,7 @@
   "Doc Hersons Green Absinthe": false,
   "Herbsaint":true,
 
-  "Martini Rossi Sweet Vermouth":true,
+  "Martini Rossi Sweet Vermouth":false,
   "Martini Rossi Dry Vermouth":true,
   
   "Amaro Montenegro": true,
@@ -43,8 +43,8 @@
   "Water": true,
   "Sparkling Water": true,
   "Coconut": true,
-  "Lime": true,
-  "Lemon": true,
+  "Lime": false,
+  "Lemon": false,
   "Sugar": true,
   "Demerara Sugar Cube":true,
   "Egg":true,

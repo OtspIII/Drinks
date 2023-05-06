@@ -54,15 +54,16 @@
   "Curacao":{"Orange Liqueur":0.9},
   "Orange Liqueur":{},
   
-  "Absinthe":{"Anise Liqueur":0.9},
   "Edouard Absinthe":{"Absinthe":1},
   "Absinthe Verte":{"Absinthe":1},
   "Vieuz Pontarlier":{"Absinthe":1},
   "Kubler Absinthe":{"Absinthe":1},
   "Absinthe Blanche":{"Absinthe":1},
   "Doc Hersons Green Absinthe":{"Absinthe":1},
-  "Herbsaint":{"Anise Liquer":0.9},
+  "Herbsaint":{"Anise Liqueur":1},
   "Pastis":{"Anise Liqueur":0.9},
+  "Anise Liqueur":{},
+  "Absinthe":{"Anise Liqueur":0.9},
 
   "Benedictine":{"Herbal Liqeur":0.8},
   "Yellow Chartreuse":{"Chartreuse":0.9,"Herbal Liqeur":0.8},
