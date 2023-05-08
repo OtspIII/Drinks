@@ -47,6 +47,7 @@ html,body {
 
 .TableDisplay {
   left: 1vw;
+  overflow:auto;
   /* background-color: red; */
 }
 .ResultDisplay {
@@ -122,6 +123,23 @@ html,body {
 
 .TableListEntry.MandIng{
   color:red;
+}
+
+.TableListEntry.Perfect{
+  background-color:#4CAF5055;
+}
+.TableListEntry.Good{
+  background-color:#56ffff55;
+}
+.TableListEntry.UsesMand{
+  background-color:#ff00ff99;
+  text-decoration: underline;
+}
+.TableListEntry.Okay{
+  background-color:#ffa50055;
+}
+.TableListEntry.Bad{
+  background-color:#ff000055;
 }
 
 .BackButton{

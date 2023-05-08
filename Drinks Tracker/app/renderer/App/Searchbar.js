@@ -47,7 +47,7 @@ class Searchbar extends React.Component {
     this.setState({value:'', active:false});
     if (this.state.thingDict[v]){
       let thing = this.state.thingDict[v];
-      God.TableDisplay.SetTable(thing);
+      God.DrinkOptions.SetTable(thing);
     
     }
   }

@@ -10,6 +10,8 @@ var Model = {
   INames:[],
   IDict:{},
   MandIngs:[],
+  MissingIngs:{},
+  MissingList:[],
   Init: ()=>{
     //Import drink data
     Model.DrinkDict = require(Model.Path+"\\Recipes.json");
@@ -93,10 +95,25 @@ var Model = {
         let shopStatus = 0;
         // console.log(rec + " / " + book);
         for(let i in Model.DrinkDict[rec].Recipes[book].Ingredients){
-          let subValue = God.FindSubValue(Model.DrinkDict[rec].Recipes[book].Ingredients[i].Type);
+          let type = Model.DrinkDict[rec].Recipes[book].Ingredients[i].Type;
+          let subValue = God.FindSubValue(type);
           // console.log(God.FindSubValue(ing.Type).Match);
           match = Math.min(match,subValue.Match);
           shopStatus = Math.max(shopStatus,subValue.ShopStatus);
+          // console.log("SUBV: " + type + " / " + subValue.Match)
+          if(subValue.Match < God.MandThresh){
+            
+            let v = (Model.MissingIngs[type] ? Model.MissingIngs[type] : 0) + 1;
+            // console.log("MISSING: " + type + " / " + v)
+            // console.log(Model.SubDict[type])
+            Model.MissingIngs[type] = v;
+            for(let sub in Model.SubDict[type]){
+              if(Model.SubDict[type][sub] < God.MandThresh) continue;
+              let v = (Model.MissingIngs[sub] ? Model.MissingIngs[sub] : 0) + 1;
+              Model.MissingIngs[sub] = v;
+              // console.log("SUB: " + sub + " / " + v);
+            }
+          }
         }
         // console.log()
         Model.DrinkDict[rec].Recipes[book].Match = match;
@@ -107,6 +124,7 @@ var Model = {
         }
         bRating = Math.max(bRating,Model.DrinkDict[rec].Recipes[book].Rating);
       }
+      
       // console.log(best + " / " + );
       if(best){
         Model.DrinkDict[rec].Match = Model.DrinkDict[rec].Recipes[best].Match;
@@ -115,6 +133,21 @@ var Model = {
       Model.DrinkDict[rec].Rating = bRating;
 
     }
+    // console.log(Model.MissingIngs);
+    for(let i in Model.MissingIngs){
+      let ok = true;
+      for(let sub in Model.SubDict[i]){
+        // console.log("I: " + i + " / " + Model.SubDict[i][sub] + " / " + Model.MissingIngs[sub])
+        if(Model.SubDict[i][sub] >= God.MandThresh && Model.MissingIngs[sub] != null) {
+          ok = false;
+          break;
+        }
+      }
+      if(ok)
+        Model.MissingList.push(i);
+    }
+    // console.log(Model.MissingList);
+    Model.MissingList.sort((a,b)=> Model.MissingIngs[a] < Model.MissingIngs[b] ? 1 : -1);
     //   console.log(safety)
     // console.log(Model.SubDict);
     // console.log(Model.IDict);
@@ -213,7 +246,7 @@ var Model = {
     else{
       Model.MandIngs.splice(ind,1);
     }
-    console.log("TOGGLE ING: " + ing + " / " + ind);
+    // console.log("TOGGLE ING: " + ing + " / " + ind);
     Model.MainScreen.Refresh();
   },
   MandFilter(drink){
@@ -233,12 +266,12 @@ var Model = {
         for(let n in Model.SubDict[need])
           ns[n] = Model.SubDict[need][n];
         
-        if(drink.Name == "Rattlesnake") console.log(">>"+need);
-        if(drink.Name == "Rattlesnake") console.log(ns);
+        // if(drink.Name == "Rattlesnake") console.log(">>"+need);
+        // if(drink.Name == "Rattlesnake") console.log(ns);
         for(let i of drink.Recipes[rec].Ingredients){
           let ing = Model.SubDict[i.Type];
-          if(drink.Name == "Rattlesnake") console.log("--"+i.Type+"--");
-          if(drink.Name == "Rattlesnake") console.log(ing);
+          // if(drink.Name == "Rattlesnake") console.log("--"+i.Type+"--");
+          // if(drink.Name == "Rattlesnake") console.log(ing);
           if(ing == null) continue;
           for(let sub in ns){
             if( ns[sub] < God.MandThresh) continue;
@@ -258,7 +291,7 @@ var Model = {
     }
     if(!ok)
       return r / 2;
-    return r;
+    return Math.max(r,0.795);
   }
 }
 

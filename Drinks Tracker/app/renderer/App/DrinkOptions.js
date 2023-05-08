@@ -18,6 +18,7 @@ class DrinkOptions extends React.Component {
 
   DrinkList(){
     let tables = [];
+    let bad = [];
     // tables.push(<h3 key="top">List of Tables</h3>);
 
     let drinks = [[]];
@@ -38,8 +39,8 @@ class DrinkOptions extends React.Component {
     }
 
 
-    for(let dr of drinks){
-      for(let t of dr){
+    for(let dr in drinks){
+      for(let t of drinks[dr]){
         let rec = Model.DrinkDict[t];
         let rating = " ("+Math.floor(rec.Rating)+"/"+5+")";
         if(rec.Rating == 0) rating = "(???)";
@@ -48,10 +49,15 @@ class DrinkOptions extends React.Component {
         //   for(let n = 1;n <= rec.Rating;n++) rating += "⭐";
         // }
         // while(rating.length < 5) rating += "*";
-        tables.push(<div key={"T"+tables.length} className="TableListEntry" onClick={e=>{this.SetTable(t)}}> {t} {rating}</div>);
+        let cl = "TableListEntry " + God.ThreshColor[dr];
+        if(God.PassFilter(rec))
+          tables.push(<div key={"T"+tables.length} className={cl} onClick={e=>{this.SetTable(t)}}> {t} {rating}</div>);
+        else
+          bad.push(<div key={"TB"+bad.length} className={cl} onClick={e=>{this.SetTable(t)}}> {t} {rating}</div>);
       }
       tables.push(<br key={"br"+tables.length}/>);
     }
+    tables.push(bad);
     return tables;
   }
 

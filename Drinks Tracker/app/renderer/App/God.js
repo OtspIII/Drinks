@@ -5,7 +5,9 @@ const {Menu, MenuItem } = require('electron').remote
 const remote = require ("electron").remote;
 
 var God = {
-  Thresholds:[0.9,0.8,0.6],
+  RatingThresh:4,
+  Thresholds:[0.9,0.8,0.79,0.6],
+  ThreshColor:["Perfect","Good","UsesMand","Okay","Bad"],
   MandThresh:0.8,
   Alphabet:"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
   // CleanHTML(txt){
@@ -118,6 +120,19 @@ var God = {
     }
     // console.log(r);
     return r;
+  },
+  PassFilter(drink){
+    let ok = false;
+    for(let rec in drink.Recipes){
+      let rating = drink.Recipes[rec].Rating;
+      if(rating == 0 || rating >= God.RatingThresh){
+        ok = true;
+        break;
+      }
+    }
+    //console.log("PF: " + drink.Name + " / " + drink.Recipes + " / " + ok);
+    if(!ok) return false;
+    return true;
   }
 }
 

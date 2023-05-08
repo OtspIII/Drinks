@@ -31,17 +31,30 @@ class InCabinet extends React.Component {
     }
     return tables;
   }
+
+  ToBuyList(){    
+    let tables = [];
+    for(let t of Model.MissingList){
+      let cl = "TableListEntry";
+      if(Model.MandIngs.indexOf(t) != -1) cl += " MandIng";
+      tables.push(<div key={"T"+tables.length} className={cl} onClick={e=>{Model.ToggleMandIng(t)}}>{t}: {Model.MissingIngs[t]}</div>);
+    }
+    return tables;
+  }
   
   render() {
     let content = null;
     // if(!this.state.table) 
     content = this.IngredientList();
     // else content = this.TableDetails();
+    let extras = this.ToBuyList();
     
     return (<div><h1><u>In My Cabinet...</u></h1>
     {/* <Searchbar/> */}
     <br/>
     {content}
+    <h3><u>To Buy. . .</u></h3>
+    {extras}
     </div>);
   }
 }
