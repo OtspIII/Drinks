@@ -55,8 +55,9 @@ class DrinkOptions extends React.Component {
         else
           bad.push(<div key={"TB"+bad.length} className={cl} onClick={e=>{this.SetTable(t)}}> {t} {rating}</div>);
       }
-      tables.push(<br key={"br"+tables.length}/>);
+      
     }
+    tables.push(<br key={"br"+tables.length}/>);
     tables.push(bad);
     return tables;
   }
