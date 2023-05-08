@@ -24,8 +24,11 @@ class InCabinet extends React.Component {
     let tables = [];
     // tables.push(<h3 key="top">List of Tables</h3>);
     // console.log(Model.IList)
-    for(let t in Model.IList)
-      tables.push(<div key={"T"+tables.length} className="TableListEntry" >{Model.IList[t]}</div>);
+    for(let t in Model.IList){
+      let cl = "TableListEntry";
+      if(Model.MandIngs.indexOf(Model.IList[t]) != -1) cl += " MandIng";
+      tables.push(<div key={"T"+tables.length} className={cl} onClick={e=>{Model.ToggleMandIng(Model.IList[t])}}>{Model.IList[t]}</div>);
+    }
     return tables;
   }
   

@@ -9,6 +9,7 @@ var Model = {
   DrinkInfo:{},
   INames:[],
   IDict:{},
+  MandIngs:[],
   Init: ()=>{
     //Import drink data
     Model.DrinkDict = require(Model.Path+"\\Recipes.json");
@@ -18,6 +19,7 @@ var Model = {
     for(let dr in Model.DrinkDict){
       Model.DrinkNames.push(dr);
       Model.DrinkInfo[dr] = {};
+      Model.DrinkDict[dr].Name = dr;
       for(let recipe in Model.DrinkDict[dr].Recipes){
         let rec = Model.DrinkDict[dr].Recipes[recipe];
         for(let ing of rec.Ingredients){
@@ -202,6 +204,61 @@ var Model = {
       // result.Readout.push({Text:JSON.stringify(ent.Info)});
     }
     
+  },
+  ToggleMandIng(ing){
+    let ind = Model.MandIngs.indexOf(ing);
+    if(ind == -1) {
+      Model.MandIngs.push(ing);
+    }
+    else{
+      Model.MandIngs.splice(ind,1);
+    }
+    console.log("TOGGLE ING: " + ing + " / " + ind);
+    Model.MainScreen.Refresh();
+  },
+  MandFilter(drink){
+    let r = drink.Match;
+    let needs = [];
+    for(let need of Model.MandIngs)
+      needs.push(need);
+    let ok = false;
+    
+    
+    for(let rec in drink.Recipes){
+      
+      for(let need of needs){
+        ok = false;
+        let ns = {};
+        ns[need] = 1;
+        for(let n in Model.SubDict[need])
+          ns[n] = Model.SubDict[need][n];
+        
+        if(drink.Name == "Rattlesnake") console.log(">>"+need);
+        if(drink.Name == "Rattlesnake") console.log(ns);
+        for(let i of drink.Recipes[rec].Ingredients){
+          let ing = Model.SubDict[i.Type];
+          if(drink.Name == "Rattlesnake") console.log("--"+i.Type+"--");
+          if(drink.Name == "Rattlesnake") console.log(ing);
+          if(ing == null) continue;
+          for(let sub in ns){
+            if( ns[sub] < God.MandThresh) continue;
+            
+            if(i.Type == sub || i.Type == need || (ing[sub] != null && ing[sub] >= God.MandThresh)){
+              ok = true;
+              break;
+            }
+          }
+          if(ok) break;
+        }
+        if(!ok) break;
+        
+      }
+      if(ok) break;
+      
+    }
+    if(!ok)
+      return r / 2;
+    return r;
   }
 }
 

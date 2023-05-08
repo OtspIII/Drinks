@@ -25,9 +25,13 @@ class DrinkOptions extends React.Component {
       drinks.push([]);
     for(let t of Model.DrinkNames){
       let drink = Model.DrinkDict[t];
+      let match = drink.Match;
+      if(Model.MandIngs.length > 0){
+        match = Model.MandFilter(drink);
+      }
       let n = 0;
       for(let thr of God.Thresholds){
-        if(drink.Match >= thr) break;
+        if(match >= thr) break;
         n++;
       }
       drinks[n].push(t);

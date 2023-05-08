@@ -6,6 +6,7 @@ const remote = require ("electron").remote;
 
 var God = {
   Thresholds:[0.9,0.8,0.6],
+  MandThresh:0.8,
   Alphabet:"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
   // CleanHTML(txt){
   //   if (!txt)

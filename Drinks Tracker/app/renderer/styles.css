@@ -120,6 +120,10 @@ html,body {
   background-color: #DDDDDD;
 }
 
+.TableListEntry.MandIng{
+  color:red;
+}
+
 .BackButton{
   cursor: pointer;
   background-color: #AAAAAA;
