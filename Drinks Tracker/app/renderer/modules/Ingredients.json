@@ -43,10 +43,13 @@
   "Water": true,
   "Sparkling Water": true,
   "Coconut": true,
-  "Lime": false,
+  "Lime": true,
   "Lemon": true,
   "Sugar": true,
   "Demerara Sugar Cube":true,
   "Egg":true,
-  "Maraschino Cherry":true
+  "Maraschino Cherry":true,
+  "Olive": true,
+  "Milk": true,
+  "Turmeric":true
  }

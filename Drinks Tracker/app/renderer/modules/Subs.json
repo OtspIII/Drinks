@@ -20,7 +20,7 @@
   "Irish Whiskey":{"Whiskey":0.9},
   "Whiskey":{},
   
-  "Rhum Agricole Blanc":{"Rum Agricole":1},
+  "Rhum Agricole Blanc":{"Rum Agricole":1,"Rum":0.9},
   "Rhum Agricole":{"Rum":0.9},
   "Mount Gay Rum":{"Golden Rum":1},
   "Bumbu Rum":{"Spiced Rum":1},
@@ -86,7 +86,9 @@
   "Falernum":{"Syrup":0.7},
   "Agave Syrup":{"Syrup":0.7,"Sugar":0.8},
   "Sugar":{"Grocery":0.1,"Staple":0.1,"Syrup":0.7},
-  "Turmeric":{"Spice":0.8,"Grocery":0.1},
+  "Turmeric":{"Spice":0.7,"Grocery":0.1},
+  "Salt Water":{"Salt":1},
+  "Salt":{"Grocery":0.1,"Staple":0.1},
 
   "Orange Juice":{"Orange":0.7},"Orange":{"Fruit":0.2},
   "Lemon Juice":{"Lemon":1},"Lemon":{"Fruit":0.2,"Staple":0.1},
@@ -101,6 +103,7 @@
   "Olive Brine":{"Olive":1},
   "Olive":{"Grocery":0.1},
   "Maraschino Cherry":{"Grocery":0.1},
+  "Basil":{"Grocery":0.1},
 
   "Soda Water":{"Sparkling Water":0.9},
   "Seltzer Water":{"Sparkling Water":0.9},
