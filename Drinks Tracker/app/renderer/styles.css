@@ -52,6 +52,7 @@ html,body {
 }
 .ResultDisplay {
   right: 1vw;
+  overflow:auto;
   /* background-color: blue; */
 }
 

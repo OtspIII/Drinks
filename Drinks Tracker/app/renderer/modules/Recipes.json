@@ -18,9 +18,9 @@
       "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1 cube"},{"Type":"Whiskey","Amount":"2 oz"},
         {"Type":"Absinthe","Amount":"1/4 oz"},{"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
     },
-    "Misha2":{"Rating":5,"Notes":"Melt the sugar with the bitters","Glass":"Old Fashioned","Garnish":"Twisted Lemon Peel","Ice":"Chilled Glass","Page":"",
-      "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1 cube"},{"Type":"Cognac","Amount":"2 oz"},
-        {"Type":"Absinthe","Amount":"1/4 oz"},{"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
+    "The New Cocktail Hour":{ "Rating":5,"Notes":"","Glass":"Rocks","Garnish":"Twisted Lemon Peel","Ice":"Chilled Glass","Page":37,
+      "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1 cube"},{"Type":"Pierre Ferrand 1840","Amount":"2 oz"},
+        {"Type":"Absinthe","Amount":"rinse"},{"Type":"Peychaud's Bitters","Amount":"2 dashes"},{"Type":"Angostura Bitters","Amount":"1 dash"}]
     },
     "A Taste for Absinthe":{ "Rating":4,"Notes":"","Glass":"Old Fashioned","Garnish":"Twisted Lemon Peel","Ice":"Chilled Glass","Page":34,
       "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1 cube"},{"Type":"Rittenhouse Rye Whiskey","Amount":"2 oz"},
@@ -56,6 +56,11 @@
     "A Taste for Absinthe":{ "Rating":4,"Notes":"","Glass":"Sour","Garnish":"","Ice":"Chilled Glass","Page":109,
       "Ingredients":[{"Type":"Simple Syrup","Amount":"3/4 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},
         {"Type":"Absinthe","Amount":"wash"},{"Type":"American Rye Whiskey","Amount":"2 oz"},
+        {"Type":"Egg White","Amount":"1"}]
+    },
+    "The New Cocktail Hour":{ "Rating":4,"Notes":"","Glass":"Coupe","Garnish":"Angostura Fang Marks","Ice":"Chilled Glass","Page":76,
+      "Ingredients":[{"Type":"Simple Syrup","Amount":"1/4 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},
+        {"Type":"Absinthe","Amount":"1/2 oz"},{"Type":"Old Overholt Whiskey","Amount":"2 oz"},
         {"Type":"Egg White","Amount":"1"}]
     }
   }},
@@ -201,14 +206,14 @@
     "The New Cocktail Hour":{ "Rating":4.5,"Notes":"Easiest tiki drink to make","Glass":"Rocks","Garnish":"Lime & Mint","Ice":"Filled",
       "Page":185,
       "Ingredients":[{"Type":"Appleton Estate Extra","Amount":"1 oz"},{"Type":"Clement VSOP","Amount":"1 oz"},
-        {"Type":"Pierre Ferrand","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Orgeat","Amount":"1/4 oz"}]
+        {"Type":"Pierre Ferrand Orange Curacao","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Orgeat","Amount":"1/4 oz"}]
     }
   }},
   "El Presidente":{"Recipes":{
     "The New Cocktail Hour":{ "Rating":3.5,"Notes":"Very smooth, like glass","Glass":"Cocktail","Garnish":"Lime Wedge","Ice":"Chilled Glass",
       "Page":83,
       "Ingredients":[{"Type":"Flor de Cana 4 Yr","Amount":"1 1/2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"1 oz"},
-        {"Type":"Pierre Ferrand","Amount":"1/4 oz"},{"Type":"Grenadine","Amount":"1/2 tsp"},{"Type":"Orange Bitters","Amount":"1 dash"}]
+        {"Type":"Pierre Ferrand Orange Curacao","Amount":"1/4 oz"},{"Type":"Grenadine","Amount":"1/2 tsp"},{"Type":"Orange Bitters","Amount":"1 dash"}]
     }
   }},
   "Old Fashioned":{"Recipes":{
@@ -246,6 +251,12 @@
       "Page":"https://www.seriouseats.com/clover-club-recipe-brooklyn",
       "Ingredients":[{"Type":"Gin","Amount":"2 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"}
         ,{"Type":"Grenadine","Amount":"2 tsp"},{"Type":"Egg White","Amount":"1, shaken"}]
+    },
+    "The New Cocktail Hour":{ "Rating":4.5,"Notes":"","Glass":"Coupe","Garnish":"Raspberry","Ice":"Chilled Glass",
+      "Page":51,
+      "Ingredients":[{"Type":"Plymouth Gin","Amount":"1 1/2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"1/2 oz"}
+        ,{"Type":"Lemon Juice","Amount":"1/2 oz"}
+        ,{"Type":"Raspberry Syrup","Amount":"1/2 oz"},{"Type":"Egg White","Amount":"1, shaken"}]
     }
   }},
   "Red Gin":{"Recipes":{
@@ -301,6 +312,100 @@
     "Liquor.com":{ "Rating":0,"Notes":"","Glass":"Coupe or Nick & Nora","Garnish":"Lemon Twist","Ice":"Chilled Glass",
       "Page":"https://www.liquor.com/recipes/alaska/",
       "Ingredients":[{"Type":"Gin","Amount":"1 1/2 oz"},{"Type":"Yellow Chartreuse","Amount":"1/2 oz"},{"Type":"Orange Bitters","Amount":"1 dash"}]
+    }
+  }},
+  "Knickerbocker":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"Drop the lime half in","Glass":"Rocks","Garnish":"2-3 Raspberries","Ice":"Ice, Chilled Glass",
+      "Page":32,
+      "Ingredients":[{"Type":"Appleton Special Rum","Amount":"2 oz"},{"Type":"Raspberry Syrup","Amount":"1 1/2 tsp"},
+        {"Type":"Pierre Ferrand Orange Curacao","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1 oz"}]
+    }
+  }},
+  "Japanese Cocktail":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lime Wheel","Ice":"Chilled Glass",
+      "Page":33,
+      "Ingredients":[{"Type":"Pierre Ferrand Ambre Brandy","Amount":"2 oz"},{"Type":"Orgeat","Amount":"1/2 oz"},
+        {"Type":"Angostura Bitters","Amount":"1 dash"},{"Type":"Lime Juice","Amount":"1/2 oz"}]
+    }
+  }},
+  "Bijou":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":4.5,"Notes":"","Glass":"Martini","Garnish":"","Ice":"Chilled Glass",
+      "Page":51,
+      "Ingredients":[{"Type":"Plymouth Gin","Amount":"2 oz"},{"Type":"Green Chartreuse","Amount":"1/2 oz"},
+        {"Type":"Sweet Vermouth","Amount":"1 oz"},{"Type":"Orange Bitters","Amount":"2 dashes"}]
+    }
+  }},
+  "Bronx Cocktail":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Martini","Garnish":"Orange Twist","Ice":"Chilled Glass",
+      "Page":58,
+      "Ingredients":[{"Type":"Plymouth Gin","Amount":"2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"1/2 oz"},
+        {"Type":"Carpano Antica Sweet Vermouth","Amount":"1/2 oz"},{"Type":"Orange Bitters","Amount":"1 dash"},
+        {"Type":"Orange Juice","Amount":"1 oz"}]
+    }
+  }},
+  "French 75":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Lemon Peel","Ice":"Ice, Chilled Glass",
+      "Page":60,
+      "Ingredients":[{"Type":"Plymouth Gin","Amount":"1 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},
+        {"Type":"Simple Syrup","Amount":"1/2 oz"},{"Type":"Champagne","Amount":"4 oz"}]
+    }
+  }},
+  "Tipperary Cocktail":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+      "Page":65,
+      "Ingredients":[{"Type":"Bushmills Whiskey","Amount":"2 oz"},{"Type":"Carpano Antica Sweet Vermouth","Amount":"1 oz"},
+        {"Type":"Green Chartreuse","Amount":"rinse"}]
+    }
+  }},
+  "Algonquin":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"","Ice":"Chilled Glass",
+      "Page":77,
+      "Ingredients":[{"Type":"Rittenhouse Rye Whiskey","Amount":"1 1/2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"3/4 oz"},
+        {"Type":"Pineapple Juice","Amount":"3/4 oz"}]
+    }
+  }},
+  "Champs-Elysees":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+      "Page":77,
+      "Ingredients":[{"Type":"Pierre Ferrand Ambre Brandy","Amount":"1 1/2 oz"},{"Type":"Green Chartreuse","Amount":"1/2 oz"},
+        {"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Angostura Bitters","Amount":"1 dash"}]
+    }
+  }},
+  "Scofflaw":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+      "Page":78,
+      "Ingredients":[{"Type":"Rittenhouse Rye Whiskey","Amount":"1 1/2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"1 oz"},
+        {"Type":"Lemon Juice","Amount":"3/4 oz"},{"Type":"Grenadine","Amount":"3/4 oz"}]
+    }
+  }},
+  "Last Word":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lime Twist","Ice":"Chilled Glass",
+      "Page":85,
+      "Ingredients":[{"Type":"St George Terroir Gin","Amount":"1 oz"},{"Type":"Luxardo Maraschino Liqueur","Amount":"1 oz"},
+        {"Type":"Green Chartreuse","Amount":"3/4 oz"},
+        {"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Simple Syrup","Amount":"1/4 oz"}]
+    }
+  }},
+  "Pegu Club":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lime Wedge Hanging By Skin Twist","Ice":"Chilled Glass",
+      "Page":87,
+      "Ingredients":[{"Type":"Plymouth Gin","Amount":"2 oz"},{"Type":"Pierre Ferrand Orange Curacao","Amount":"1 oz"},
+        {"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Angostura Bitters","Amount":"1-2 dashes"}]
+    }
+  }},
+  "Stork Club Cocktail":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Orange Twist","Ice":"Chilled Glass",
+      "Page":87,
+      "Ingredients":[{"Type":"Hayman's Gin","Amount":"2 oz"},{"Type":"Cointreau","Amount":"1/4 oz"},
+        {"Type":"Orange Juice","Amount":"1/2 oz"},
+        {"Type":"Lime Juice","Amount":"1/4 oz"},{"Type":"Angostura Bitters","Amount":"1 dash"}]
+    }
+  }},
+  "Monkey Gland":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":3,"Notes":"","Glass":"Coupe","Garnish":"Orange Twist","Ice":"Chilled Glass",
+      "Page":88,
+      "Ingredients":[{"Type":"Beefeater Gin","Amount":"2 oz"},{"Type":"Grenadine","Amount":"1 tsp"},
+        {"Type":"Orange Juice","Amount":"1 oz"},{"Type":"Absinthe","Amount":"rinse"}]
     }
   }}
 }

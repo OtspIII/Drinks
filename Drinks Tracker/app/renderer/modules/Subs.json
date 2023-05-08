@@ -1,6 +1,8 @@
 {
   "Martin Millers Gin":{"London Dry Gin":1},
   "Sipsmith Gin":{"London Dry Gin":1},
+  "Beefeater Gin":{"London Dry Gin":1},
+  "Hayman's Gin":{"Old Tom Gin":1},
   "London Dry Gin":{"Gin":0.9},
   "Four Pillars Dry Gin":{"Gin":0.9},
   "St George Terroir Gin":{"Gin":0.9},
@@ -11,15 +13,18 @@
 
   "Wild Turkey Rye Whiskey":{"Rye Whiskey":1},
   "Rittenhouse Rye Whiskey":{"Rye Whiskey":1},
+  "Old Overholt Whiskey":{"Rye Whiskey":1},
   "Crown Royal Whiskey":{"Rye Whiskey":1},
   "American Rye Whiskey":{"Rye Whiskey":1},
   "Rye Whiskey":{"Whiskey":0.9},
   "Buffalo Trace Bourbon":{"Bourbon":1},
+  "Bushmills Whiskey":{"Irish Whiskey":1},
   "Bourbon":{"Whiskey":0.9},
   "Scotch":{"Whiskey":0.9},
   "Irish Whiskey":{"Whiskey":0.9},
   "Whiskey":{},
   
+  "Appleton Special Rum":{"Golden Rum":1},
   "Rhum Agricole Blanc":{"Rum Agricole":1,"Rum":0.9},
   "Rhum Agricole":{"Rum":0.9},
   "Mount Gay Rum":{"Golden Rum":1},
@@ -46,9 +51,14 @@
   "Bison Vodka":{"Vodka":0.8},
   "Vodka":{},
 
+  "Luxardo Maraschino Liqueur":{"Maraschino":1},
+  "Maraschino":{},
+  "Pierre Ferrand Ambre Brandy":{"Brandy":1},
+  "Brandy":{},
+
   "Cointreau":{"Orange Liqueur":0.9},
   "Triple-Sec":{"Orange Liqueur":0.9},
-  "Pierre Ferrand":{"Orange Curacao":1},
+  "Pierre Ferrand Orange Curacao":{"Orange Curacao":1},
   "Blue Curacao":{"Curacao":0.99},
   "Orange Curacao":{"Curacao":0.99},
   "Curacao":{"Orange Liqueur":0.9},
@@ -80,7 +90,7 @@
   "Sugar Cube":{"Sugar":1},
   "Simple Syrup":{"Sugar":1},
   "Rich Simple Syrup":{"Sugar":1},
-  "Grenadine":{"Syrup":0.7,"Grocery":0.1},
+  "Grenadine":{"Fruit Syrup":0.8,"Grocery":0.1},
   "Taylor's Falernum":{"Falernum":1},
   "Orgeat":{"Syrup":0.7},
   "Falernum":{"Syrup":0.7},
@@ -89,6 +99,7 @@
   "Turmeric":{"Spice":0.7,"Grocery":0.1},
   "Salt Water":{"Salt":1},
   "Salt":{"Grocery":0.1,"Staple":0.1},
+  "Fruit Syrup":{"Syrup":0.8},
 
   "Orange Juice":{"Orange":0.7},"Orange":{"Fruit":0.2},
   "Lemon Juice":{"Lemon":1},"Lemon":{"Fruit":0.2,"Staple":0.1},
@@ -104,6 +115,8 @@
   "Olive":{"Grocery":0.1},
   "Maraschino Cherry":{"Grocery":0.1},
   "Basil":{"Grocery":0.1},
+  "Raspberry Syrup":{"Raspberry":1,"Fruit Syrup":0.8},
+  "Raspberry":{"Grocery":0.1},
 
   "Soda Water":{"Sparkling Water":0.9},
   "Seltzer Water":{"Sparkling Water":0.9},
@@ -114,6 +127,7 @@
   "Heavy Cream":{"Milk":0.9},
   "Milk":{"Grocery":0.1},
   
+  "Carpano Antica Sweet Vermouth":{"Sweet Vermouth":1},
   "Dolin Sweet Vermouth":{"Sweet Vermouth":1},
   "Dolin Dry Vermouth":{"Dry Vermouth":1},
   "Cocchi Torino":{"Sweet Vermouth":1},
@@ -146,6 +160,7 @@
   "Fernet":{"Amaro":0.9},
   "Amaro":{"Herbal Liqeur":0.5},
 
+  "Pierre Ferrand 1840":{"Cognac":1},
   "Remy Martin XO Special":{"Cognac":1},
   "Cognac":{},
 
