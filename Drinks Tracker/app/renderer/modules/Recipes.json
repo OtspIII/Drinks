@@ -18,6 +18,10 @@
       "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1 cube"},{"Type":"Whiskey","Amount":"2 oz"},
         {"Type":"Absinthe","Amount":"1/4 oz"},{"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
     },
+    "Misha2":{"Rating":5,"Notes":"Melt the sugar with the bitters","Glass":"Old Fashioned","Garnish":"Twisted Lemon Peel","Ice":"Chilled Glass","Page":"",
+      "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1 cube"},{"Type":"Cognac","Amount":"2 oz"},
+        {"Type":"Absinthe","Amount":"1/4 oz"},{"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
+    },
     "A Taste for Absinthe":{ "Rating":4,"Notes":"","Glass":"Old Fashioned","Garnish":"Twisted Lemon Peel","Ice":"Chilled Glass","Page":34,
       "Ingredients":[{"Type":"Demerara Sugar Cube","Amount":"1 cube"},{"Type":"Rittenhouse Rye Whiskey","Amount":"2 oz"},
         {"Type":"Vieuz Pontarlier","Amount":"rinse"},{"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
