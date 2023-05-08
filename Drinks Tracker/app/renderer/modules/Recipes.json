@@ -213,7 +213,7 @@
       "Ingredients":[{"Type":"Rye Whiskey","Amount":"2 oz"},{"Type":"Angostura Bitters","Amount":"1 dash"},
         {"Type":"Sugar Cube","Amount":"1 cube"},{"Type":"Orange","Amount":"1/2 slice"},{"Type":"Maraschino Cherry","Amount":"1"}]
     },
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Orange Peel","Ice":"Chilled Glass, Large Cube",
+    "The New Cocktail Hour":{ "Rating":4,"Notes":"","Glass":"Cocktail","Garnish":"Orange Peel","Ice":"Chilled Glass, Large Cube",
       "Page":28,
       "Ingredients":[{"Type":"Whiskey","Amount":"2 oz"},{"Type":"Demerara Sugar Cube","Amount":"1 cube"},
         {"Type":"Angostura Bitters","Amount":"2-3 dashes"},{"Type":"Water","Amount":"1 tsp"}]
@@ -232,7 +232,7 @@
     }
   }},
   "Gin & Tonic":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Goblet","Garnish":"","Ice":"Chilled Glass, Ice",
+    "I'm Just Here For The Drinks":{ "Rating":4.5,"Notes":"","Glass":"Goblet","Garnish":"","Ice":"Chilled Glass, Ice",
       "Page":"51",
       "Ingredients":[{"Type":"Gin","Amount":"2 oz"},{"Type":"Tonic Water","Amount":"4 oz, topped"}]
     }
@@ -270,6 +270,33 @@
       "Page":"75",
       "Ingredients":[{"Type":"Rye Whiskey","Amount":"2 oz"},{"Type":"Sweet Vermouth","Amount":"1 oz"},
         {"Type":"Angostura Bitters","Amount":"2 dashes"}]
+    }
+  }},
+  "Live Basil Gimlet":{"Recipes":{
+    "NYT Cooking":{ "Rating":3.5,"Notes":"Muddle Leaves","Glass":"Coupe","Garnish":"Basil Leaf","Ice":"Chilled Glass",
+    "Page":"https://cooking.nytimes.com/recipes/1013650-live-basil-gimlet",
+      "Ingredients":[{"Type":"Basil","Amount":"5 large leaves"},{"Type":"Gin","Amount":"1 1/2 oz"},
+        {"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Simple Syrup","Amount":"1/2 oz"}]
+    }
+  }},
+  "Greenpoint":{"Recipes":{
+    "Liquor.com":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+      "Page":"https://www.liquor.com/recipes/greenpoint/",
+      "Ingredients":[{"Type":"Rye Whiskey","Amount":"2 oz"},{"Type":"Sweet Vermouth","Amount":"1/2 oz"},{"Type":"Yellow Chartreuse","Amount":"1/2 oz"},
+        {"Type":"Angostura Bitters","Amount":"1 dash"},{"Type":"Orange Bitters","Amount":"1 dash"}]
+    }
+  }},
+  "Love & Murder":{"Recipes":{
+    "Liquor.com":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"","Ice":"Chilled Glass",
+      "Page":"https://www.liquor.com/love-and-murder-cocktail-recipe-5211432",
+      "Ingredients":[{"Type":"Campari","Amount":"1 oz"},{"Type":"Green Chartreuse","Amount":"1 oz"},
+        {"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Simple Syrup","Amount":"3/4 oz"},{"Type":"Salt Water","Amount":"4 drops, 5:1 water:salt"}]
+    }
+  }},
+  "Alaska":{"Recipes":{
+    "Liquor.com":{ "Rating":0,"Notes":"","Glass":"Coupe or Nick & Nora","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+      "Page":"https://www.liquor.com/recipes/alaska/",
+      "Ingredients":[{"Type":"Gin","Amount":"1 1/2 oz"},{"Type":"Yellow Chartreuse","Amount":"1/2 oz"},{"Type":"Orange Bitters","Amount":"1 dash"}]
     }
   }}
 }
