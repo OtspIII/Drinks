@@ -267,14 +267,14 @@
     }
   }},
   "Martini":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+    "I'm Just Here For The Drinks":{ "Rating":3.5,"Notes":"","Glass":"Cocktail","Garnish":"Lemon Twist","Ice":"Chilled Glass",
       "Page":"31",
       "Ingredients":[{"Type":"London Dry Gin","Amount":"1.5 oz"},{"Type":"Orange Bitters","Amount":"2 dashes"},
         {"Type":"Dolin Dry Vermouth","Amount":"1.5 oz"}]
     }
   }},
   "Dirty Martini":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"3 Olives","Ice":"Chilled Glass",
+    "I'm Just Here For The Drinks":{ "Rating":3.6,"Notes":"","Glass":"Cocktail","Garnish":"3 Olives","Ice":"Chilled Glass",
       "Page":"31",
       "Ingredients":[{"Type":"London Dry Gin","Amount":"1.5 oz"},{"Type":"Olive Brine","Amount":"1/2 oz"},
         {"Type":"Dolin Dry Vermouth","Amount":"1.5 oz"}]
@@ -302,14 +302,14 @@
     }
   }},
   "Love & Murder":{"Recipes":{
-    "Liquor.com":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"","Ice":"Chilled Glass",
+    "Liquor.com":{ "Rating":2,"Notes":"","Glass":"Coupe","Garnish":"","Ice":"Chilled Glass",
       "Page":"https://www.liquor.com/love-and-murder-cocktail-recipe-5211432",
       "Ingredients":[{"Type":"Campari","Amount":"1 oz"},{"Type":"Green Chartreuse","Amount":"1 oz"},
         {"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Simple Syrup","Amount":"3/4 oz"},{"Type":"Salt Water","Amount":"4 drops, 5:1 water:salt"}]
     }
   }},
   "Alaska":{"Recipes":{
-    "Liquor.com":{ "Rating":0,"Notes":"","Glass":"Coupe or Nick & Nora","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+    "Liquor.com":{ "Rating":3.5,"Notes":"","Glass":"Coupe or Nick & Nora","Garnish":"Lemon Twist","Ice":"Chilled Glass",
       "Page":"https://www.liquor.com/recipes/alaska/",
       "Ingredients":[{"Type":"Gin","Amount":"1 1/2 oz"},{"Type":"Yellow Chartreuse","Amount":"1/2 oz"},{"Type":"Orange Bitters","Amount":"1 dash"}]
     }
@@ -394,7 +394,7 @@
     }
   }},
   "Stork Club Cocktail":{"Recipes":{
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Orange Twist","Ice":"Chilled Glass",
+    "The New Cocktail Hour":{ "Rating":4,"Notes":"","Glass":"Coupe","Garnish":"Orange Twist","Ice":"Chilled Glass",
       "Page":87,
       "Ingredients":[{"Type":"Hayman's Gin","Amount":"2 oz"},{"Type":"Cointreau","Amount":"1/4 oz"},
         {"Type":"Orange Juice","Amount":"1/2 oz"},
@@ -406,6 +406,13 @@
       "Page":88,
       "Ingredients":[{"Type":"Beefeater Gin","Amount":"2 oz"},{"Type":"Grenadine","Amount":"1 tsp"},
         {"Type":"Orange Juice","Amount":"1 oz"},{"Type":"Absinthe","Amount":"rinse"}]
+    }
+  }},
+  
+  "Long Island Iced Tea":{"Recipes":{
+    "NYT Cooking":{ "Rating":0,"Notes":"","Glass":"Tall","Garnish":"Lemon Lime Slices","Ice":"Filled","Page":"https://cooking.nytimes.com/recipes/1022391-long-island-iced-tea",
+      "Ingredients":[{"Type":"Vodka","Amount":"1/2 oz"},{"Type":"Gin","Amount":"1/2 oz"},{"Type":"White Rum","Amount":"1/2 oz"},{"Type":"Blanco Tequila","Amount":"1/2 oz"},{"Type":"Triple-Sec","Amount":"1/2 oz"},
+      {"Type":"Maple Syrup","Amount":"1/2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1/3 oz"},{"Type":"Salt","Amount":"pinch"},{"Type":"Coca-Cola","Amount":"2 oz"}]
     }
   }}
 }

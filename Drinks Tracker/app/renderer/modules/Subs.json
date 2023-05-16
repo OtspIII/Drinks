@@ -100,6 +100,7 @@
   "Salt Water":{"Salt":1},
   "Salt":{"Grocery":0.1,"Staple":0.1},
   "Fruit Syrup":{"Syrup":0.8},
+  "Maple Syrup":{"Syrup":0.8},
 
   "Orange Juice":{"Orange":0.7},"Orange":{"Fruit":0.2},
   "Lemon Juice":{"Lemon":1},"Lemon":{"Fruit":0.2,"Staple":0.1},
@@ -126,6 +127,8 @@
   "Egg":{"Grocery":0.1},
   "Heavy Cream":{"Milk":0.9},
   "Milk":{"Grocery":0.1},
+  "Coca-Cola":{"Soda":0.8},
+  "Soda":{"Grocery":0.1},
   
   "Carpano Antica Sweet Vermouth":{"Sweet Vermouth":1},
   "Dolin Sweet Vermouth":{"Sweet Vermouth":1},
