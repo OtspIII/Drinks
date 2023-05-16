@@ -408,11 +408,55 @@
         {"Type":"Orange Juice","Amount":"1 oz"},{"Type":"Absinthe","Amount":"rinse"}]
     }
   }},
-  
   "Long Island Iced Tea":{"Recipes":{
-    "NYT Cooking":{ "Rating":0,"Notes":"","Glass":"Tall","Garnish":"Lemon Lime Slices","Ice":"Filled","Page":"https://cooking.nytimes.com/recipes/1022391-long-island-iced-tea",
+    "NYT Cooking":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Lemon Lime Slices","Ice":"Filled","Page":"https://cooking.nytimes.com/recipes/1022391-long-island-iced-tea",
       "Ingredients":[{"Type":"Vodka","Amount":"1/2 oz"},{"Type":"Gin","Amount":"1/2 oz"},{"Type":"White Rum","Amount":"1/2 oz"},{"Type":"Blanco Tequila","Amount":"1/2 oz"},{"Type":"Triple-Sec","Amount":"1/2 oz"},
       {"Type":"Maple Syrup","Amount":"1/2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1/3 oz"},{"Type":"Salt","Amount":"pinch"},{"Type":"Coca-Cola","Amount":"2 oz"}]
+    }
+  }},
+  "Tokyo Tea":{"Recipes":{
+    "A Couple Cooks":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Cocktail Cherry","Ice":"Filled","Page":"https://www.acouplecooks.com/tokyo-tea/",
+      "Ingredients":[{"Type":"Vodka","Amount":"1/2 oz"},{"Type":"Gin","Amount":"1/2 oz"},{"Type":"White Rum","Amount":"1/2 oz"},{"Type":"Tequila","Amount":"1/2 oz"},{"Type":"Triple-Sec","Amount":"1/2 oz"},
+      {"Type":"Simple Syrup","Amount":"1/2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Midori","Amount":"1 oz"},{"Type":"Soda Water","Amount":"splash"}]
+    }
+  }},
+  "Japanese Slipper":{"Recipes":{
+    "A Couple Cooks":{ "Rating":0,"Notes":"","Glass":"Martini","Garnish":"Cocktail Cherry","Ice":"Chilled Glass","Page":"https://www.acouplecooks.com/japanese-slipper/",
+      "Ingredients":[{"Type":"Midori","Amount":"1 1/2 oz"},{"Type":"Cointreau","Amount":"1 1/2 oz"},{"Type":"Lemon Juice","Amount":"1 1/2 oz"}]
+    }
+  }},
+  "Midori Sour":{"Recipes":{
+    "A Couple Cooks":{ "Rating":0,"Notes":"","Glass":"Lowball","Garnish":"Cocktail Cherry & Lime Slice","Ice":"Yes","Page":"https://www.acouplecooks.com/midori-sour/",
+      "Ingredients":[{"Type":"Midori","Amount":"2 oz"},{"Type":"Lime Juice","Amount":"1/2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Soda Water","Amount":"2 oz, to top"}]
+    }
+  }},
+  "Green Demon":{"Recipes":{
+    "Mix That Drink":{ "Rating":0,"Notes":"","Glass":"Large Goblet","Garnish":"Lime Wheel","Ice":"","Page":"https://mixthatdrink.com/green-demon/",
+      "Ingredients":[{"Type":"Midori","Amount":"1 oz"},{"Type":"Vodka","Amount":"1 oz"},{"Type":"White Rum","Amount":"1 oz"},{"Type":"Lemonade","Amount":"to taste"}]
+    }
+  }},
+  "Midori Illusion":{"Recipes":{
+    "Drinklab":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"","Ice":"Yes","Page":"https://www.drinklab.org/midori-illusion-cocktail-recipe/",
+      "Ingredients":[{"Type":"Melon Liqueur","Amount":"2 oz"},{"Type":"Vodka","Amount":"1/2 oz"},{"Type":"Triple-Sec","Amount":"1/2 oz"},
+      {"Type":"Lemon Juice","Amount":"1 oz"},{"Type":"Pineapple Juice","Amount":"2 oz"}]
+    }
+  }},
+  "Ace of Spades":{"Recipes":{
+    "Destiny":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"","Ice":"Yes","Page":"",
+      "Ingredients":[{"Type":"Midori","Amount":"1 1/2 oz"},{"Type":"White Rum","Amount":"1/2 oz"},{"Type":"Lemon Juice","Amount":"1 oz"},{"Type":"Simple Syrup","Amount":"1 oz"},
+      {"Type":"Pineapple Juice","Amount":"2 oz"}]
+    }
+  }},
+  "Liquid Marijuana":{"Recipes":{
+    "Tipsy Bartender":{ "Rating":0,"Notes":"","Glass":"Collins","Garnish":"","Ice":"Yes","Page":"https://tipsybartender.com/recipe/liquid-marijuana-cocktail/",
+      "Ingredients":[{"Type":"Spiced Rum","Amount":"3/4 oz"},{"Type":"Melon Liqueur","Amount":"3/4 oz"},{"Type":"Coconut Rum","Amount":"3/4 oz"},{"Type":"Blue Curacao","Amount":"3/4 oz"},
+      {"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Simple Syrup","Amount":"1/2 oz"},{"Type":"Pineapple Juice","Amount":"1 oz"}]
+    }
+  }},
+  "Craft Midori Sour":{"Recipes":{
+    "Reddit":{ "Rating":0,"Notes":"","Glass":"Collins","Garnish":"","Ice":"Yes","Page":"https://www.reddit.com/r/cocktails/comments/41w2l5/so_we_are_stuck_with_a_bottle_of_midori/",
+      "Ingredients":[{"Type":"Midori","Amount":"2 oz"},{"Type":"Vodka","Amount":"1 oz"},{"Type":"Grapefruit Juice","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1/2 oz"},
+      {"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Green Chartreuse","Amount":"1/2 oz"}]
     }
   }}
 }

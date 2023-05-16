@@ -3,6 +3,7 @@
   "Sipsmith Gin":{"London Dry Gin":1},
   "Beefeater Gin":{"London Dry Gin":1},
   "Hayman's Gin":{"Old Tom Gin":1},
+  "Citadelle Gin":{"Gin":1},
   "London Dry Gin":{"Gin":0.9},
   "Four Pillars Dry Gin":{"Gin":0.9},
   "St George Terroir Gin":{"Gin":0.9},
@@ -75,9 +76,12 @@
   "Anise Liqueur":{},
   "Absinthe":{"Anise Liqueur":0.9},
 
-  "Benedictine":{"Herbal Liqeur":0.8},
-  "Yellow Chartreuse":{"Chartreuse":0.9,"Herbal Liqeur":0.8},
-  "Green Chartreuse":{"Chartreuse":0.9,"Herbal Liqeur":0.8},
+  "Benedictine":{"Herbal Liqueur":0.8},
+  "Yellow Chartreuse":{"Chartreuse":0.9,"Herbal Liqueur":0.8},
+  "Green Chartreuse":{"Chartreuse":0.9,"Herbal Liqueur":0.8},
+
+  "Midori":{"Melon Liqueur":0.9},
+  "Melon Liqueur":{},
 
   "Peychaud's Bitters":{"Bitters":0.8},
   "Angostura Bitters":{"Bitters":0.8},
@@ -118,6 +122,7 @@
   "Basil":{"Grocery":0.1},
   "Raspberry Syrup":{"Raspberry":1,"Fruit Syrup":0.8},
   "Raspberry":{"Grocery":0.1},
+  "Lemonade":{"Lemon":0.7},
 
   "Soda Water":{"Sparkling Water":0.9},
   "Seltzer Water":{"Sparkling Water":0.9},
@@ -127,7 +132,7 @@
   "Egg":{"Grocery":0.1},
   "Heavy Cream":{"Milk":0.9},
   "Milk":{"Grocery":0.1},
-  "Coca-Cola":{"Soda":0.8},
+  "Coca-Cola":{"Soda":0.7},
   "Soda":{"Grocery":0.1},
   
   "Carpano Antica Sweet Vermouth":{"Sweet Vermouth":1},
@@ -149,6 +154,7 @@
   "Sweet White Vermouth":{"White Vermouth":1},
   "White Vermouth":{"Aromatic Wine":0.8},
   "Aromatic Wine":{"Wine":0.8},
+  "Orange Wine":{"Wine":0.8},
 
   "Champagne":{"Sparkling Wine":0.9},
   "Sparkling White Wine":{"Sparkling Wine":0.9},
@@ -161,7 +167,7 @@
   "Amaro Montenegro":{"Amaro":0.9},
   "Letherbee Fernet":{"Fernet":1},
   "Fernet":{"Amaro":0.9},
-  "Amaro":{"Herbal Liqeur":0.5},
+  "Amaro":{"Herbal Liqueur":0.5},
 
   "Pierre Ferrand 1840":{"Cognac":1},
   "Remy Martin XO Special":{"Cognac":1},

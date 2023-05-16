@@ -9,6 +9,7 @@
   "Mount Gay Rum": true,
   "Bumbu Rum": true,
   "Remy Martin XO Special": true,
+  "Citadelle Gin":true,
   
   "Angostura Bitters": true,
   "Cherry Bitters": true,
@@ -21,6 +22,7 @@
 
   "Martini Rossi Sweet Vermouth":false,
   "Martini Rossi Dry Vermouth":true,
+  "Dolin Sweet Vermouth":true,
   
   "Amaro Montenegro": true,
   "Letherbee Fernet": true,
@@ -30,9 +32,11 @@
   
   "Dry Sack Sherry": true,
   "Lillet Blanc": true,
+  "Orange Wine":true,
   
   "Kahlua": true,
   "Bonollo": true,
+  "Midori":true,
   
   "Orgeat": false,
   "Taylor's Falernum": true,
@@ -43,13 +47,14 @@
   "Water": true,
   "Sparkling Water": true,
   "Coconut": true,
-  "Lime": false,
-  "Lemon": false,
+  "Lime": true,
+  "Lemon": true,
   "Sugar": true,
   "Demerara Sugar Cube":true,
   "Egg":true,
   "Maraschino Cherry":true,
   "Olive": true,
   "Milk": true,
-  "Turmeric":true
+  "Turmeric":true,
+  "Maple Syrup":true
  }
