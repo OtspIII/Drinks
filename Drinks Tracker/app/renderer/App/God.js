@@ -5,7 +5,7 @@ const {Menu, MenuItem } = require('electron').remote
 const remote = require ("electron").remote;
 
 var God = {
-  RatingThresh:4,
+  RatingThresh:3.51,
   Thresholds:[0.9,0.8,0.79,0.6],
   ThreshColor:["Perfect","Good","UsesMand","Okay","Bad"],
   MandThresh:0.8,

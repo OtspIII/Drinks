@@ -106,14 +106,6 @@
         {"Type":"Egg White","Amount":"1"}]
     }
   }},
-  "Dead Rabbit Tipperary":{"Recipes":{
-    "Imbibe":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"","Ice":"Chilled Glass",
-      "Page":"https://imbibemagazine.com/recipe/dead-rabbit-tipperary-recipe/",
-      "Ingredients":[{"Type":"Green Chartreuse","Amount":"1/2 oz"},{"Type":"Irish Whiskey","Amount":"1 1/2 oz"},
-        {"Type":"Sweet Vermouth","Amount":"1 oz"}, {"Type":"Rich Simple Syrup","Amount":"1 tsp"},
-        {"Type":"Water","Amount":"1/2 oz"},{"Type":"Orange Bitters","Amount":"2 dashes"}]
-    }
-  }},
   "Lucky Negroni":{"Recipes":{
     "Imbibe":{ "Rating":0,"Notes":"","Glass":"Stemmed","Garnish":"Lemon Peel","Ice":"",
       "Page":"https://imbibemagazine.com/recipe/lucky-negroni/",
@@ -122,7 +114,7 @@
     }
   }},
   "The Written Word":{"Recipes":{
-    "Food 52":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Cherry & Lime Wheel on a Pick","Ice":"Chilled Glass",
+    "Food 52":{ "Rating":3,"Notes":"","Glass":"Coupe","Garnish":"Cherry & Lime Wheel on a Pick","Ice":"Chilled Glass",
       "Page":"https://food52.com/recipes/78408-the-written-word-gin-chartreuse-cocktail-with-cointreau",
       "Ingredients":[{"Type":"Green Chartreuse","Amount":"3/4 oz"},{"Type":"Gin","Amount":"3/4 oz"},
         {"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Cointreau","Amount":"3/4 oz"}]
@@ -351,7 +343,13 @@
     }
   }},
   "Tipperary Cocktail":{"Recipes":{
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+    "Imbibe":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"","Ice":"Chilled Glass",
+      "Page":"https://imbibemagazine.com/recipe/dead-rabbit-tipperary-recipe/",
+      "Ingredients":[{"Type":"Green Chartreuse","Amount":"1/2 oz"},{"Type":"Irish Whiskey","Amount":"1 1/2 oz"},
+        {"Type":"Sweet Vermouth","Amount":"1 oz"}, {"Type":"Rich Simple Syrup","Amount":"1 tsp"},
+        {"Type":"Water","Amount":"1/2 oz"},{"Type":"Orange Bitters","Amount":"2 dashes"}]
+    },
+    "The New Cocktail Hour":{ "Rating":3.5,"Notes":"","Glass":"Coupe","Garnish":"Lemon Twist","Ice":"Chilled Glass",
       "Page":65,
       "Ingredients":[{"Type":"Bushmills Whiskey","Amount":"2 oz"},{"Type":"Carpano Antica Sweet Vermouth","Amount":"1 oz"},
         {"Type":"Green Chartreuse","Amount":"rinse"}]
@@ -372,7 +370,7 @@
     }
   }},
   "Scofflaw":{"Recipes":{
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+    "The New Cocktail Hour":{ "Rating":3.75,"Notes":"","Glass":"Coupe","Garnish":"Lemon Twist","Ice":"Chilled Glass",
       "Page":78,
       "Ingredients":[{"Type":"Rittenhouse Rye Whiskey","Amount":"1 1/2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"1 oz"},
         {"Type":"Lemon Juice","Amount":"3/4 oz"},{"Type":"Grenadine","Amount":"3/4 oz"}]
@@ -415,13 +413,13 @@
     }
   }},
   "Tokyo Tea":{"Recipes":{
-    "A Couple Cooks":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Cocktail Cherry","Ice":"Filled","Page":"https://www.acouplecooks.com/tokyo-tea/",
+    "A Couple Cooks":{ "Rating":4,"Notes":"","Glass":"Highball","Garnish":"Cocktail Cherry","Ice":"Filled","Page":"https://www.acouplecooks.com/tokyo-tea/",
       "Ingredients":[{"Type":"Vodka","Amount":"1/2 oz"},{"Type":"Gin","Amount":"1/2 oz"},{"Type":"White Rum","Amount":"1/2 oz"},{"Type":"Tequila","Amount":"1/2 oz"},{"Type":"Triple-Sec","Amount":"1/2 oz"},
       {"Type":"Simple Syrup","Amount":"1/2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Midori","Amount":"1 oz"},{"Type":"Soda Water","Amount":"splash"}]
     }
   }},
   "Japanese Slipper":{"Recipes":{
-    "A Couple Cooks":{ "Rating":0,"Notes":"","Glass":"Martini","Garnish":"Cocktail Cherry","Ice":"Chilled Glass","Page":"https://www.acouplecooks.com/japanese-slipper/",
+    "A Couple Cooks":{ "Rating":4,"Notes":"","Glass":"Martini","Garnish":"Cocktail Cherry","Ice":"Chilled Glass","Page":"https://www.acouplecooks.com/japanese-slipper/",
       "Ingredients":[{"Type":"Midori","Amount":"1 1/2 oz"},{"Type":"Cointreau","Amount":"1 1/2 oz"},{"Type":"Lemon Juice","Amount":"1 1/2 oz"}]
     }
   }},

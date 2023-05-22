@@ -33,6 +33,7 @@
   "Golden Rum":{"Rum":0.9},
   "Spiced Rum":{"Rum":0.9},
   "Light Rum":{"Rum":0.9},
+  "Coconut Rum":{"Rum":0.9},
   "Pusser's Navy Rum":{"Dark Rum":1},
   "Appleton Estate Extra":{"Dark Rum":1},
   "Clement VSOP":{"Amber Rum":1},
@@ -123,6 +124,7 @@
   "Raspberry Syrup":{"Raspberry":1,"Fruit Syrup":0.8},
   "Raspberry":{"Grocery":0.1},
   "Lemonade":{"Lemon":0.7},
+  "Grapefruit Juice":{"Grocery":0.1},
 
   "Soda Water":{"Sparkling Water":0.9},
   "Seltzer Water":{"Sparkling Water":0.9},
