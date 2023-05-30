@@ -17,6 +17,10 @@
   "Old Overholt Whiskey":{"Rye Whiskey":1},
   "Crown Royal Whiskey":{"Rye Whiskey":1},
   "American Rye Whiskey":{"Rye Whiskey":1},
+  "J. Rieger's Kansas City Whiskey":{"Bourbon":0.99,"Rye Whiskey":0.99,"Corn Whiskey":0.99,"Whiskey":0.9},
+  "Old Overholt Rye":{"Rye Whiskey":1},
+  "Old Forester Bourbon":{"Bourbon":1},
+
   "Rye Whiskey":{"Whiskey":0.9},
   "Buffalo Trace Bourbon":{"Bourbon":1},
   "Bushmills Whiskey":{"Irish Whiskey":1},
@@ -43,6 +47,7 @@
   "Amber Rum":{"Rum":0.9},
   "Rum":{},
   
+  "Olmeca Altos Tequila Blanco":{"Blanco Tequila":1},
   "Olmeca Altos Reposado Tequila":{"Reposado Tequila":1},
   "Arette Reposado Tequila":{"Reposado Tequila":1},
   "Reposado Tequila":{"Tequila":0.9},
@@ -58,6 +63,7 @@
   "Pierre Ferrand Ambre Brandy":{"Brandy":1},
   "Brandy":{},
 
+  "Giffard Blue Curacao":{"Blue Curacao":1},
   "Cointreau":{"Orange Liqueur":0.9},
   "Triple-Sec":{"Orange Liqueur":0.9},
   "Pierre Ferrand Orange Curacao":{"Orange Curacao":1},
@@ -84,6 +90,7 @@
   "Midori":{"Melon Liqueur":0.9},
   "Melon Liqueur":{},
 
+  "Regan's Orange Bitters No. 6":{"Orange Bitters":1},
   "Peychaud's Bitters":{"Bitters":0.8},
   "Angostura Bitters":{"Bitters":0.8},
   "Cherry Bitters":{"Bitters":0.8},
@@ -106,6 +113,11 @@
   "Salt":{"Grocery":0.1,"Staple":0.1},
   "Fruit Syrup":{"Syrup":0.8},
   "Maple Syrup":{"Syrup":0.8},
+  "Black Pepper":{"Grocery":0.1},
+  "Ginger Syrup":{"Syrup":0.7},
+  "Ginger Beer":{"Grocery":0.1,"Soda":0.8},
+  "Balsamic Vinegar":{"Vinegar":0.8,"Grocery":0.1},
+
 
   "Orange Juice":{"Orange":0.7},"Orange":{"Fruit":0.2},
   "Lemon Juice":{"Lemon":1},"Lemon":{"Fruit":0.2,"Staple":0.1},
@@ -125,6 +137,8 @@
   "Raspberry":{"Grocery":0.1},
   "Lemonade":{"Lemon":0.7},
   "Grapefruit Juice":{"Grocery":0.1},
+  "Jalapeno":{"Grocery":0.1},
+  "Raspberry Shrub":{"Raspberry":1},
 
   "Soda Water":{"Sparkling Water":0.9},
   "Seltzer Water":{"Sparkling Water":0.9},
@@ -158,8 +172,11 @@
   "Aromatic Wine":{"Wine":0.8},
   "Orange Wine":{"Wine":0.8},
 
+  "Korbel Brut Sparkling Wine":{"Brut Sparkling Wine":1},
   "Champagne":{"Sparkling Wine":0.9},
   "Sparkling White Wine":{"Sparkling Wine":0.9},
+  "Brut Sparkling Wine":{"Sparkling Wine":0.9},
+  "Prosecco":{"Sparkling Wine":0.9},
   "Sparkling Wine":{"Wine":0.5},
   
   "Creme de Menthe":{"Mint":0.7},

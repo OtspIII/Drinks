@@ -1,4 +1,11 @@
 {
+  "Sparkling Water": true,
+  "Coconut": true,
+  "Lime": true,
+  "Lemon": true,
+  "Orange Juice": false,
+  "Orange": false,
+
   "Buffalo Trace Bourbon": false,
   "Rittenhouse Rye Whiskey":true,
   "Olmeca Altos Reposado Tequila": false,
@@ -42,19 +49,16 @@
   "Taylor's Falernum": true,
   "Grenadine":true,
   
-  "Orange Juice": true,
-  "Orange": true,
   "Water": true,
-  "Sparkling Water": false,
-  "Coconut": false,
-  "Lime": true,
-  "Lemon": false,
-  "Sugar": true,
   "Demerara Sugar Cube":true,
+  "Sugar": true,
   "Egg":true,
   "Maraschino Cherry":true,
   "Olive": true,
   "Milk": true,
   "Turmeric":true,
-  "Maple Syrup":true
+  "Maple Syrup":true,
+  "Black Pepper":true,
+  "Balsamic Vinegar":true,
+  "Jalapeno":true
  }

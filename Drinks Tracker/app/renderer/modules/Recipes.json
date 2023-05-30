@@ -65,7 +65,7 @@
     }
   }},
   "Absinthe Fizz":{"Recipes":{
-    "A Taste for Absinthe":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"","Ice":"","Page":141,
+    "A Taste for Absinthe":{ "Rating":3,"Notes":"","Glass":"Cocktail","Garnish":"","Ice":"","Page":141,
       "Ingredients":[{"Type":"Simple Syrup","Amount":"3/4 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},
         {"Type":"Absinthe Blanche","Amount":"1 1/2 oz"},{"Type":"Soda Water","Amount":"top off"},
         {"Type":"Egg White","Amount":"1"}]
@@ -91,7 +91,7 @@
     }
   }},
   "Lost in Laos":{"Recipes":{
-    "Imbibe":{ "Rating":0,"Notes":"Muddle all but gin, milk, & basil","Glass":"Collins","Garnish":"Thai Basil, 6 Lime Leaves","Ice":"Filled",
+    "Imbibe":{ "Rating":2.9,"Notes":"Muddle all but gin, milk, & basil","Glass":"Collins","Garnish":"Thai Basil, 6 Lime Leaves","Ice":"Filled",
       "Page":"https://imbibemagazine.com/recipe/lost-in-laos/",
       "Ingredients":[{"Type":"Green Chartreuse","Amount":"1/2 oz"},{"Type":"Agave Syrup","Amount":"1/2 oz"},
         {"Type":"Lime Juice","Amount":"3/4 oz"}, {"Type":"Turmeric","Amount":"1/4 oz"},
@@ -325,6 +325,11 @@
       "Page":51,
       "Ingredients":[{"Type":"Plymouth Gin","Amount":"2 oz"},{"Type":"Green Chartreuse","Amount":"1/2 oz"},
         {"Type":"Sweet Vermouth","Amount":"1 oz"},{"Type":"Orange Bitters","Amount":"2 dashes"}]
+    },
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"A Cherry","Ice":"Chilled Glass",
+      "Page":"164",
+      "Ingredients":[{"Type":"London Dry Gin","Amount":"3/4 oz"},{"Type":"Green Chartreuse","Amount":"3/4 oz"},
+      {"Type":"Sweet Vermouth","Amount":"3/4 oz"},{"Type":"Orange Bitters","Amount":"1 dash"}]
     }
   }},
   "Bronx Cocktail":{"Recipes":{
@@ -385,7 +390,7 @@
     }
   }},
   "Pegu Club":{"Recipes":{
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lime Wedge Hanging By Skin Twist","Ice":"Chilled Glass",
+    "The New Cocktail Hour":{ "Rating":3.9,"Notes":"","Glass":"Coupe","Garnish":"Lime Wedge Hanging By Skin Twist","Ice":"Chilled Glass",
       "Page":87,
       "Ingredients":[{"Type":"Plymouth Gin","Amount":"2 oz"},{"Type":"Pierre Ferrand Orange Curacao","Amount":"1 oz"},
         {"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Angostura Bitters","Amount":"1-2 dashes"}]
@@ -424,7 +429,7 @@
     }
   }},
   "Midori Sour":{"Recipes":{
-    "A Couple Cooks":{ "Rating":0,"Notes":"","Glass":"Lowball","Garnish":"Cocktail Cherry & Lime Slice","Ice":"Yes","Page":"https://www.acouplecooks.com/midori-sour/",
+    "A Couple Cooks":{ "Rating":3,"Notes":"","Glass":"Lowball","Garnish":"Cocktail Cherry & Lime Slice","Ice":"Yes","Page":"https://www.acouplecooks.com/midori-sour/",
       "Ingredients":[{"Type":"Midori","Amount":"2 oz"},{"Type":"Lime Juice","Amount":"1/2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Soda Water","Amount":"2 oz, to top"}]
     }
   }},
@@ -455,6 +460,107 @@
     "Reddit":{ "Rating":0,"Notes":"","Glass":"Collins","Garnish":"","Ice":"Yes","Page":"https://www.reddit.com/r/cocktails/comments/41w2l5/so_we_are_stuck_with_a_bottle_of_midori/",
       "Ingredients":[{"Type":"Midori","Amount":"2 oz"},{"Type":"Vodka","Amount":"1 oz"},{"Type":"Grapefruit Juice","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1/2 oz"},
       {"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Green Chartreuse","Amount":"1/2 oz"}]
+    }
+  }},
+  "Southern Baptist":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Candied Ginger","Ice":"",
+      "Page":"89",
+      "Ingredients":[{"Type":"Rye Whiskey","Amount":"2 oz"},{"Type":"Ginger Syrup","Amount":"3/4 oz"},
+        {"Type":"Lime Juice","Amount":"3/4 oz"}]
+    }
+  }},
+  "Old Pal":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Lemon Twist, Discarded","Ice":"Chilled Glass",
+      "Page":"89",
+      "Ingredients":[{"Type":"Rye Whiskey","Amount":"1 1/2 oz"},{"Type":"Campari","Amount":"3/4 oz"},
+        {"Type":"Dry Vermouth","Amount":"3/4 oz"}]
+    }
+  }},
+  "Pendergast #2":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Lemon Zest","Ice":"Chilled Glass",
+      "Page":"95",
+      "Ingredients":[{"Type":"J. Rieger's Kansas City Whiskey","Amount":"1/2 oz"},{"Type":"Benedictine","Amount":"1/2 oz"},
+        {"Type":"Sweet Vermouth","Amount":"3/4 oz"},{"Type":"Orange Bitters","Amount":"3-4 dashes"}]
+    }
+  }},
+  "Rye-Tai":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Old Fashioned","Garnish":"Lime Shell","Ice":"Crushed",
+      "Page":"96",
+      "Ingredients":[{"Type":"Rittenhouse Rye Whiskey","Amount":"1 oz"},{"Type":"Old Overholt Rye","Amount":"1 oz"},
+        {"Type":"Cointreau","Amount":"1/2 oz"},{"Type":"Orgeat","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1 oz"}]
+    }
+  }},
+  "Seelbach":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Champagne Flute","Garnish":"Orange Twist","Ice":"Crushed",
+      "Page":"98",
+      "Ingredients":[{"Type":"Old Forester Bourbon","Amount":"1 oz"},{"Type":"Triple-Sec","Amount":"1/2 oz"},
+        {"Type":"Angostura Bitters","Amount":"7 dashes"},{"Type":"Peychaud's Bitters","Amount":"7 dashes"},
+        {"Type":"Korbel Brut Sparkling Wine","Amount":"5 oz, topped"}]
+    }
+  }},
+  "Kentucky Buck":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Collins","Garnish":"Lemon Wheel, 1 Strawberry","Ice":"Yes",
+      "Page":"105",
+      "Ingredients":[{"Type":"Bourbon","Amount":"2 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},
+        {"Type":"Angostura Bitters","Amount":"2 dashes"},{"Type":"Simple Syrup","Amount":"1/2 oz"},
+        {"Type":"Ginger Beer","Amount":"topped"}]
+    }
+  }},
+  "Blackberry Buck":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"2 Blackberries","Ice":"Yes",
+      "Page":"111",
+      "Ingredients":[{"Type":"Bourbon","Amount":"2 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},
+        {"Type":"Ginger Syrup","Amount":"1/4 oz"},{"Type":"Balsamic Vinegar","Amount":"1/4 oz"},
+        {"Type":"Ginger Beer","Amount":"topped"},{"Type":"Black Pepper","Amount":"2 cracks, topped"}]
+    }
+  }},
+  "Saint Jacques District":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Orange Twist","Ice":"Chilled Glass",
+      "Page":"141",
+      "Ingredients":[{"Type":"Cognac","Amount":"2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},
+        {"Type":"Cointreau","Amount":"1/2 oz"},{"Type":"Grenadine","Amount":"1/2 oz"},
+        {"Type":"Regan's Orange Bitters No. 6","Amount":"2 dashes"}]
+    }
+  }},
+  "Retox":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Any","Garnish":"Salt Rim, Lemon Slice","Ice":"Yes",
+      "Page":"150",
+      "Ingredients":[{"Type":"Reposado Tequila","Amount":"2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},
+        {"Type":"Jalapeno","Amount":"2-3 slices, muddled"},{"Type":"Maple Syrup","Amount":"3/4 oz"}]
+    }
+  }},
+  "Margarita":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Any","Garnish":"Salt Rim, Lime Wedge","Ice":"Yes",
+      "Page":"150",
+      "Ingredients":[{"Type":"Blanco Tequila","Amount":"2 oz"},{"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Cointreau","Amount":"3/4 oz"}]
+    }
+  }},
+  "Teatro":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":5,"Notes":"","Glass":"Cocktail","Garnish":"Cherries","Ice":"Yes",
+      "Page":"164",
+      "Ingredients":[{"Type":"Olmeca Altos Tequila Blanco","Amount":"1 oz"},{"Type":"Green Chartreuse","Amount":"1 oz"},
+      {"Type":"Sweet Vermouth","Amount":"1 oz"},{"Type":"Orange Bitters","Amount":"2 dashes"}]
+    }
+  }},
+  "Puck Uranus":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":4,"Notes":"","Glass":"Highball","Garnish":"Lime Wheel","Ice":"Yes",
+      "Page":"167",
+      "Ingredients":[{"Type":"Olmeca Altos Reposado Tequila","Amount":"2 oz"},{"Type":"Giffard Blue Curacao","Amount":"1/2 oz"},
+      {"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Prosecco","Amount":"top off"}]
+    }
+  }},
+  "Rosarita":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":4,"Notes":"","Glass":"Old Fashioned","Garnish":"Raspberry & Basil Leaf","Ice":"Yes",
+      "Page":"170",
+      "Ingredients":[{"Type":"Blanco Tequila","Amount":"2 oz"},{"Type":"Absinthe","Amount":"2 dashes"},
+      {"Type":"Raspberry Shrub","Amount":"1 1/2 oz"}]
+    }
+  }},
+  "Daiquiri":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":4,"Notes":"","Glass":"Coupe","Garnish":"Lime Wedge","Ice":"Chilled Glass",
+      "Page":"174",
+      "Ingredients":[{"Type":"White Rum","Amount":"1 1/2 oz"},{"Type":"Lime Juice","Amount":"3/4 oz"},
+      {"Type":"Simple Syrup","Amount":"3/4 oz"}]
     }
   }}
 }
