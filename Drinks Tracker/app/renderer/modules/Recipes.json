@@ -515,7 +515,7 @@
     }
   }},
   "Saint Jacques District":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Orange Twist","Ice":"Chilled Glass",
+    "I'm Just Here For The Drinks":{ "Rating":4.5,"Notes":"","Glass":"Cocktail","Garnish":"Orange Twist","Ice":"Chilled Glass",
       "Page":"141",
       "Ingredients":[{"Type":"Cognac","Amount":"2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},
         {"Type":"Cointreau","Amount":"1/2 oz"},{"Type":"Grenadine","Amount":"1/2 oz"},
@@ -530,7 +530,7 @@
     }
   }},
   "Margarita":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Any","Garnish":"Salt Rim, Lime Wedge","Ice":"Yes",
+    "I'm Just Here For The Drinks":{ "Rating":4,"Notes":"","Glass":"Any","Garnish":"Salt Rim, Lime Wedge","Ice":"Yes",
       "Page":"150",
       "Ingredients":[{"Type":"Blanco Tequila","Amount":"2 oz"},{"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Cointreau","Amount":"3/4 oz"}]
     }
@@ -561,6 +561,53 @@
       "Page":"174",
       "Ingredients":[{"Type":"White Rum","Amount":"1 1/2 oz"},{"Type":"Lime Juice","Amount":"3/4 oz"},
       {"Type":"Simple Syrup","Amount":"3/4 oz"}]
+    }
+  }},
+  "Just the Paperwork":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Orange Twist","Ice":"Served Neat",
+      "Page":"192",
+      "Ingredients":[{"Type":"Amaro Nonino","Amount":"1 1/2 oz"},{"Type":"Cognac","Amount":"1 oz"},
+      {"Type":"Cocchi Americano","Amount":"1 oz"},{"Type":"Orange Bitters","Amount":"2 dashes"},
+      {"Type":"Water","Amount":"1/2 oz"}]
+    }
+  }},
+  "Oh My Word!":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"","Ice":"Stir & Strain",
+      "Page":"199",
+      "Ingredients":[{"Type":"Amaro Montenegro","Amount":"3/4 oz"},{"Type":"Old Tom Gin","Amount":"3/4 oz"},
+      {"Type":"Green Chartreuse","Amount":"3/4 oz"},{"Type":"Maraschino","Amount":"3/4 oz"},
+      {"Type":"Orange Bitters","Amount":"2 dashes"}]
+    }
+  }},
+  "Guatemalan Square":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":4.5,"Notes":"","Glass":"Cocktail","Garnish":"Orange Twist","Ice":"Chilled Glass",
+      "Page":"214",
+      "Ingredients":[{"Type":"Zacapa 23 Rum","Amount":"1 oz"},{"Type":"Rittenhouse Rye Whiskey","Amount":"1/2 oz"},
+      {"Type":"Carpano Antica Sweet Vermouth","Amount":"1/2 oz"},{"Type":"Pierre Ferrand Dry Curacao","Amount":"1/4 oz"},
+      {"Type":"Angostura Bitters","Amount":"2 dashes"},{"Type":"Peychaud's Bitters","Amount":"2 dashes"}]
+    }
+  }},
+  "Vieux Carre":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Orange Twist","Ice":"On The Rocks",
+      "Page":"214",
+      "Ingredients":[{"Type":"Cognac","Amount":"3/4 oz"},{"Type":"Rye Whiskey","Amount":"3/4 oz"},
+      {"Type":"Sweet Vermouth","Amount":"3/4 oz"},{"Type":"Benedictine","Amount":".5 tsp"},
+      {"Type":"Angostura Bitters","Amount":"1 dash"},{"Type":"Peychaud's Bitters","Amount":"1 dash"}]
+    }
+  }},
+  "Hanky Panky":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Nick & Nora","Garnish":"Orange Twist, Discarded","Ice":"Chilled Glass",
+      "Page":"227",
+      "Ingredients":[{"Type":"Gin","Amount":"1 1/2 oz"},{"Type":"Sweet Vermouth","Amount":"1 1/2 oz"},
+      {"Type":"Fernet-Branca","Amount":"2 dashes"}]
+    }
+  }},
+  "Smoke & Mirrors":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Flattened Orange Twist","Ice":"Chilled Glass",
+      "Page":"232",
+      "Ingredients":[{"Type":"NY Dorothy Parker Gin","Amount":"1 1/2 oz"},{"Type":"Laphroaig 10-Year Whiskey","Amount":"1/2 oz"},
+      {"Type":"Amontillado Sherry","Amount":"1/2 oz"},{"Type":"Noilly Pratt Dry Vermouth","Amount":"1/2 oz"},
+      {"Type":"Orange Bitters","Amount":"2 dashes"}]
     }
   }}
 }

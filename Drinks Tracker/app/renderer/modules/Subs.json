@@ -1,4 +1,5 @@
 {
+  "NY Dorothy Parker Gin":{"Gin":0.9},
   "Martin Millers Gin":{"London Dry Gin":1},
   "Sipsmith Gin":{"London Dry Gin":1},
   "Beefeater Gin":{"London Dry Gin":1},
@@ -12,6 +13,7 @@
   "Plymouth Gin":{"Gin":0.9},
   "Gin":{},
 
+  "Laphroaig 10-Year Whiskey":{"Single Malt Scotch":1},
   "Wild Turkey Rye Whiskey":{"Rye Whiskey":1},
   "Rittenhouse Rye Whiskey":{"Rye Whiskey":1},
   "Old Overholt Whiskey":{"Rye Whiskey":1},
@@ -25,16 +27,19 @@
   "Buffalo Trace Bourbon":{"Bourbon":1},
   "Bushmills Whiskey":{"Irish Whiskey":1},
   "Bourbon":{"Whiskey":0.9},
+  "Single Malt Scotch":{"Scotch":1},
   "Scotch":{"Whiskey":0.9},
   "Irish Whiskey":{"Whiskey":0.9},
   "Whiskey":{},
   
+  "Zacapa 23 Rum":{"Aged Rum":1},
   "Appleton Special Rum":{"Golden Rum":1},
   "Rhum Agricole Blanc":{"Rum Agricole":1,"Rum":0.9},
   "Rhum Agricole":{"Rum":0.9},
   "Mount Gay Rum":{"Golden Rum":1},
   "Bumbu Rum":{"Spiced Rum":1},
   "Golden Rum":{"Rum":0.9},
+  "Aged Rum":{"Rum":0.9},
   "Spiced Rum":{"Rum":0.9},
   "Light Rum":{"Rum":0.9},
   "Coconut Rum":{"Rum":0.9},
@@ -67,6 +72,8 @@
   "Cointreau":{"Orange Liqueur":0.9},
   "Triple-Sec":{"Orange Liqueur":0.9},
   "Pierre Ferrand Orange Curacao":{"Orange Curacao":1},
+  "Pierre Ferrand Dry Curacao":{"Dry Curacao":1},
+  "Dry Curacao":{"Curacao":0.9},
   "Blue Curacao":{"Curacao":0.99},
   "Orange Curacao":{"Curacao":0.99},
   "Curacao":{"Orange Liqueur":0.9},
@@ -83,9 +90,9 @@
   "Anise Liqueur":{},
   "Absinthe":{"Anise Liqueur":0.9},
 
-  "Benedictine":{"Herbal Liqueur":0.8},
-  "Yellow Chartreuse":{"Chartreuse":0.9,"Herbal Liqueur":0.8},
-  "Green Chartreuse":{"Chartreuse":0.9,"Herbal Liqueur":0.8},
+  "Benedictine":{"Herbal Liqueur":0.9},
+  "Yellow Chartreuse":{"Chartreuse":0.95,"Herbal Liqueur":0.9},
+  "Green Chartreuse":{"Chartreuse":0.95,"Herbal Liqueur":0.9},
 
   "Midori":{"Melon Liqueur":0.9},
   "Melon Liqueur":{},
@@ -154,6 +161,7 @@
   "Carpano Antica Sweet Vermouth":{"Sweet Vermouth":1},
   "Dolin Sweet Vermouth":{"Sweet Vermouth":1},
   "Dolin Dry Vermouth":{"Dry Vermouth":1},
+  "Noilly Pratt Dry Vermouth":{"Dry Vermouth":1},
   "Cocchi Torino":{"Sweet Vermouth":1},
   "Sweet Vermouth":{"Vermouth":0.7,"Fortified Wine":0.6},
   "Martini Rossi Sweet Vermouth":{"Sweet Vermouth":1},
@@ -161,6 +169,7 @@
   "Dry Vermouth":{"Vermouth":0.7,"Fortified Wine":0.6},
   "Vermouth":{"Fortified Wine":0.8},
   "Dry Sack Sherry":{"Sherry":1},
+  "Amontillado Sherry":{"Sherry":1},
   "Sherry":{"Fortified Wine":0.8},
   
   "Lillet Blanc":{"Aromatic Wine":0.8},
@@ -183,8 +192,10 @@
   
   "Kahlua":{"Coffee Liqueur":0.9},
 
+  "Amaro Nonino":{"Amaro":0.9},
   "Amaro Montenegro":{"Amaro":0.9},
   "Letherbee Fernet":{"Fernet":1},
+  "Fernet-Branca":{"Fernet":1},
   "Fernet":{"Amaro":0.9},
   "Amaro":{"Herbal Liqueur":0.5},
 
