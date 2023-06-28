@@ -84,7 +84,7 @@
     }
   }},
   "Chartreuse Swizzle":{"Recipes":{
-    "Imbibe":{ "Rating":0,"Notes":"Swizzle Until Frothy","Glass":"Collins","Garnish":"Mint Sprig, Nutmeg","Ice":"Crushed",
+    "Imbibe":{ "Rating":4.5,"Notes":"Swizzle Until Frothy","Glass":"Collins","Garnish":"Mint Sprig, Nutmeg","Ice":"Crushed",
       "Page":"https://imbibemagazine.com/recipe/chartreuse-swizzle-recipe/",
       "Ingredients":[{"Type":"Green Chartreuse","Amount":"1 1/2 oz"},{"Type":"Pineapple Juice","Amount":"1 oz"},
         {"Type":"Lime Juice","Amount":"3/4 oz"}, {"Type":"Falernum","Amount":"1/2 oz"}]
@@ -230,6 +230,11 @@
       "Page":"37",
       "Ingredients":[{"Type":"Campari","Amount":"1 oz"},{"Type":"London Dry Gin","Amount":"2 oz"},
         {"Type":"Sweet Vermouth","Amount":"1 oz"},{"Type":"Angostura Bitters","Amount":"1.5 dashes"}]
+    },
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe or Rocks","Garnish":"Orange Wheel","Ice":"Chilled Glass",
+      "Page":91,
+      "Ingredients":[{"Type":"Plymouth Gin","Amount":"1 1/2 oz"},{"Type":"Campari","Amount":"3/4 oz"},
+        {"Type":"Carpano Antica Sweet Vermouth","Amount":"1 oz"}]
     }
   }},
   "Gin & Tonic":{"Recipes":{
@@ -287,7 +292,7 @@
     }
   }},
   "Greenpoint":{"Recipes":{
-    "Liquor.com":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+    "Liquor.com":{ "Rating":3,"Notes":"","Glass":"Coupe","Garnish":"Lemon Twist","Ice":"Chilled Glass",
       "Page":"https://www.liquor.com/recipes/greenpoint/",
       "Ingredients":[{"Type":"Rye Whiskey","Amount":"2 oz"},{"Type":"Sweet Vermouth","Amount":"1/2 oz"},{"Type":"Yellow Chartreuse","Amount":"1/2 oz"},
         {"Type":"Angostura Bitters","Amount":"1 dash"},{"Type":"Orange Bitters","Amount":"1 dash"}]
@@ -445,13 +450,13 @@
     }
   }},
   "Ace of Spades":{"Recipes":{
-    "Destiny":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"","Ice":"Yes","Page":"",
+    "Destiny":{ "Rating":3,"Notes":"","Glass":"Cocktail","Garnish":"","Ice":"Yes","Page":"",
       "Ingredients":[{"Type":"Midori","Amount":"1 1/2 oz"},{"Type":"White Rum","Amount":"1/2 oz"},{"Type":"Lemon Juice","Amount":"1 oz"},{"Type":"Simple Syrup","Amount":"1 oz"},
       {"Type":"Pineapple Juice","Amount":"2 oz"}]
     }
   }},
   "Liquid Marijuana":{"Recipes":{
-    "Tipsy Bartender":{ "Rating":0,"Notes":"","Glass":"Collins","Garnish":"","Ice":"Yes","Page":"https://tipsybartender.com/recipe/liquid-marijuana-cocktail/",
+    "Tipsy Bartender":{ "Rating":4,"Notes":"","Glass":"Collins","Garnish":"","Ice":"Yes","Page":"https://tipsybartender.com/recipe/liquid-marijuana-cocktail/",
       "Ingredients":[{"Type":"Spiced Rum","Amount":"3/4 oz"},{"Type":"Melon Liqueur","Amount":"3/4 oz"},{"Type":"Coconut Rum","Amount":"3/4 oz"},{"Type":"Blue Curacao","Amount":"3/4 oz"},
       {"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Simple Syrup","Amount":"1/2 oz"},{"Type":"Pineapple Juice","Amount":"1 oz"}]
     }
@@ -588,7 +593,7 @@
     }
   }},
   "Vieux Carre":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Orange Twist","Ice":"On The Rocks",
+    "I'm Just Here For The Drinks":{ "Rating":3.5,"Notes":"","Glass":"Cocktail","Garnish":"Orange Twist","Ice":"On The Rocks",
       "Page":"214",
       "Ingredients":[{"Type":"Cognac","Amount":"3/4 oz"},{"Type":"Rye Whiskey","Amount":"3/4 oz"},
       {"Type":"Sweet Vermouth","Amount":"3/4 oz"},{"Type":"Benedictine","Amount":".5 tsp"},
@@ -596,7 +601,7 @@
     }
   }},
   "Hanky Panky":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Nick & Nora","Garnish":"Orange Twist, Discarded","Ice":"Chilled Glass",
+    "I'm Just Here For The Drinks":{ "Rating":3,"Notes":"","Glass":"Nick & Nora","Garnish":"Orange Twist, Discarded","Ice":"Chilled Glass",
       "Page":"227",
       "Ingredients":[{"Type":"Gin","Amount":"1 1/2 oz"},{"Type":"Sweet Vermouth","Amount":"1 1/2 oz"},
       {"Type":"Fernet-Branca","Amount":"2 dashes"}]
@@ -608,6 +613,71 @@
       "Ingredients":[{"Type":"NY Dorothy Parker Gin","Amount":"1 1/2 oz"},{"Type":"Laphroaig 10-Year Whiskey","Amount":"1/2 oz"},
       {"Type":"Amontillado Sherry","Amount":"1/2 oz"},{"Type":"Noilly Pratt Dry Vermouth","Amount":"1/2 oz"},
       {"Type":"Orange Bitters","Amount":"2 dashes"}]
+    }
+  }},
+  "Island Time":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Old Fashioned","Garnish":"","Ice":"Pebble Ice",
+      "Page":"233",
+      "Ingredients":[{"Type":"Rhum Agricole","Amount":"2 oz"},{"Type":"Zucca Rabarbo","Amount":"3/4 oz"},
+      {"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Scrappy's Lime Bitters","Amount":"1 dash"}]
+    }
+  }},
+  "Black Tie Affair":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":3.5,"Notes":"","Glass":"Collins","Garnish":"Rosemary Sprig","Ice":"Pebble Ice",
+      "Page":"234",
+      "Ingredients":[{"Type":"Rye Whiskey","Amount":"1 oz"},{"Type":"Black Strap Cruzan Rum","Amount":"1 oz"},
+      {"Type":"Green Chartreuse","Amount":"1/2 oz"},{"Type":"Pineapple Juice","Amount":"3/4 oz"},{"Type":"Lime Juice","Amount":"1/2 oz"}]
+    }
+  }},
+  "Upper Crust":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Nick & Nora","Garnish":"Sugar Rim, Long Wide Lemon Twist","Ice":"Shaken & Poured",
+      "Page":"236",
+      "Ingredients":[{"Type":"Cognac","Amount":"1 oz"},{"Type":"Old Tom Gin","Amount":"1/2 oz"},
+      {"Type":"Maraschino","Amount":"1/4 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},{"Type":"Orgeat","Amount":"1/2 oz"}]
+    }
+  }},
+  "Shipwrecked":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":3.9,"Notes":"","Glass":"Coupe","Garnish":"Lime Wheel","Ice":"Chilled Glass",
+      "Page":"238",
+      "Ingredients":[{"Type":"El Dorado 8-Year Rum","Amount":"1 1/2 oz"},{"Type":"Del Maguey Vida Mezcal","Amount":"1/2 oz"},
+      {"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Amber Agave Nectar","Amount":"1/2 oz"}]
+    }
+  }},
+  "Suffering Fools":{"Recipes":{
+    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Candied Ginger","Ice":"Yes",
+      "Page":"242",
+      "Ingredients":[{"Type":"Pierre Ferrand 1840","Amount":"1 oz"},{"Type":"London Dry Gin","Amount":"1 oz"},
+      {"Type":"Lime Juice","Amount":"1/2 oz"},{"Type":"Pineapple Shrub","Amount":"1/2 oz"},
+      {"Type":"Angostura Bitters","Amount":"2 dashes"},{"Type":"Ginger Beer","Amount":"topped"}]
+    }
+  }},
+  "Boulevardier":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":3.5,"Notes":"","Glass":"Coupe","Garnish":"Orange Twist","Ice":"Chilled Glass",
+      "Page":88,
+      "Ingredients":[{"Type":"Buffalo Trace Bourbon","Amount":"2 oz"},{"Type":"Campari","Amount":"1 oz"},
+        {"Type":"Carpano Antica Sweet Vermouth","Amount":"1 oz"}]
+    }
+  }},
+  "Lucien Gaudin":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Orange Peel, Expressed","Ice":"Chilled Glass",
+      "Page":94,
+      "Ingredients":[{"Type":"Plymouth Gin","Amount":"1 oz"},{"Type":"Campari","Amount":"1/2 oz"},
+        {"Type":"Dolin Dry Vermouth","Amount":"1/2 oz"},{"Type":"Cointreau","Amount":"1/2 oz"}]
+    }
+  }},
+  "The Journalist":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Martini","Garnish":"Lemon Peel, Expressed","Ice":"Chilled Glass",
+      "Page":94,
+      "Ingredients":[{"Type":"Plymouth Gin","Amount":"2 oz"},{"Type":"Carpano Antica Sweet Vermouth","Amount":"1 oz"},
+        {"Type":"Dolin Dry Vermouth","Amount":"1 oz"},{"Type":"Pierre Ferrand Orange Curacao","Amount":"1 scant tsp"},
+        {"Type":"Lemon Juice","Amount":"1 scant tsp"},{"Type":"Angostura Bitters","Amount":"1 dash"}]
+    }
+  }},
+  "Royal Hawaiian":{"Recipes":{
+    "Punch Drunk":{ "Rating":0,"Notes":"","Glass":"Double Rocks","Garnish":"Mint","Ice":"Chilled Glass, Pebbles",
+      "Page":"https://punchdrink.com/recipes/cane-tables-royal-hawaiian/",
+      "Ingredients":[{"Type":"Bombay Dry Gin","Amount":"1 1/2 oz"},{"Type":"Pineapple Juice","Amount":"1 oz"},
+        {"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Orgeat","Amount":"1/2 oz"}]
     }
   }}
 }

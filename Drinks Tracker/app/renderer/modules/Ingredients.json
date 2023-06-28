@@ -1,10 +1,12 @@
 {
-  "Sparkling Water": true,
-  "Coconut": true,
+  "Sparkling Water": false,
+  "Coconut": false,
   "Lime": true,
   "Lemon": true,
   "Orange Juice": false,
   "Orange": false,
+  "Pineapple Juice":false,
+  "Agave Syrup":true,
 
   "Buffalo Trace Bourbon": false,
   "Rittenhouse Rye Whiskey":true,
@@ -13,15 +15,15 @@
   "Four Pillars Dry Gin":false,
   "Sipsmith Gin": false,
   "Ketel One Vodka": true,
-  "Mount Gay Rum": true,
-  "Bumbu Rum": true,
+  "Mount Gay Rum": false,
+  "Bumbu Rum": null,
   "Remy Martin XO Special": true,
   "Citadelle Gin":true,
   
   "Angostura Bitters": true,
   "Cherry Bitters": true,
   "Peychaud's Bitters": true,
-  "Orange Bitters": true,
+  "Orange Bitters": false,
   
   "Green Chartreuse": true,
   "Doc Hersons Green Absinthe": false,

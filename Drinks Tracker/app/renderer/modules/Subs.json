@@ -5,6 +5,7 @@
   "Beefeater Gin":{"London Dry Gin":1},
   "Hayman's Gin":{"Old Tom Gin":1},
   "Citadelle Gin":{"Gin":1},
+  "Bombay Dry Gin":{"London Dry Gin":1},
   "London Dry Gin":{"Gin":0.9},
   "Four Pillars Dry Gin":{"Gin":0.9},
   "St George Terroir Gin":{"Gin":0.9},
@@ -32,6 +33,8 @@
   "Irish Whiskey":{"Whiskey":0.9},
   "Whiskey":{},
   
+  "El Dorado 8-Year Rum":{"Aged Rum":1},
+  "Black Strap Cruzan Rum":{"Dark Rum":1},
   "Zacapa 23 Rum":{"Aged Rum":1},
   "Appleton Special Rum":{"Golden Rum":1},
   "Rhum Agricole Blanc":{"Rum Agricole":1,"Rum":0.9},
@@ -57,7 +60,9 @@
   "Arette Reposado Tequila":{"Reposado Tequila":1},
   "Reposado Tequila":{"Tequila":0.9},
   "Blanco Tequila":{"Tequila":0.9},
+  "Del Maguey Vida Mezcal":{"Mezcal":1},
   "Tequila":{},
+  "Mezcal":{"Tequila":0.8},
 
   "Ketel One Vodka":{"Vodka":1},
   "Bison Vodka":{"Vodka":0.8},
@@ -97,6 +102,8 @@
   "Midori":{"Melon Liqueur":0.9},
   "Melon Liqueur":{},
 
+  "Scrappy's Lime Bitters":{"Lime Bitters":1},
+  "Lime Bitters":{"Bitters":0.8},
   "Regan's Orange Bitters No. 6":{"Orange Bitters":1},
   "Peychaud's Bitters":{"Bitters":0.8},
   "Angostura Bitters":{"Bitters":0.8},
@@ -114,6 +121,7 @@
   "Orgeat":{"Syrup":0.7},
   "Falernum":{"Syrup":0.7},
   "Agave Syrup":{"Syrup":0.7,"Sugar":0.8},
+  "Amber Agave Nectar":{"Agave Syrup":1},
   "Sugar":{"Grocery":0.1,"Staple":0.1,"Syrup":0.7},
   "Turmeric":{"Spice":0.7,"Grocery":0.1},
   "Salt Water":{"Salt":1},
@@ -130,6 +138,7 @@
   "Lemon Juice":{"Lemon":1},"Lemon":{"Fruit":0.2,"Staple":0.1},
   "Lime Juice":{"Lime":1},"Lime":{"Fruit":0.2,"Staple":0.1},
   "Pineapple Juice":{"Pineapple":1},
+  "Pineapple Shrub":{"Pineapple":1},
   "Pineapple":{"Fruit":0.2,"Grocery":0.1},
   "Coconut Milk":{"Coconut":1},
   "Coconut Cream":{"Coconut":1},
@@ -192,6 +201,7 @@
   
   "Kahlua":{"Coffee Liqueur":0.9},
 
+  "Zucca Rabarbo":{"Amaro":0.9},
   "Amaro Nonino":{"Amaro":0.9},
   "Amaro Montenegro":{"Amaro":0.9},
   "Letherbee Fernet":{"Fernet":1},
