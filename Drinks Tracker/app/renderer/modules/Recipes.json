@@ -7,7 +7,7 @@
     }
   }},
   "Cocktail a la Lousiane":{"Recipes":{
-    "A Taste for Absinthe":{ "Rating":3.9,"Notes":"Strong-tasting. Red.","Glass":"Coupe","Garnish":"3 Brandied Cherries on Pick","Ice":"Chilled Glass, Large Ball","Page":33,
+    "A Taste for Absinthe":{ "Rating":4,"Notes":"Strong-tasting. Red.","Glass":"Coupe","Garnish":"3 Brandied Cherries on Pick","Ice":"Chilled Glass, Large Ball","Page":33,
       "Ingredients":[{"Type":"Wild Turkey Rye Whiskey","Amount":"2 oz"},{"Type":"Dolin Sweet Vermouth","Amount":"3/4 oz"},
         {"Type":"Benedictine","Amount":"3/4 oz"},{"Type":"Edouard Absinthe","Amount":"3 dashes"},
         {"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
@@ -40,7 +40,7 @@
     }
   }},
   "Dr. Funk":{"Recipes":{
-    "A Taste for Absinthe":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"","Ice":"Crushed","Page":69,
+    "A Taste for Absinthe":{ "Rating":3.4,"Notes":"","Glass":"Highball","Garnish":"","Ice":"Crushed","Page":69,
       "Ingredients":[{"Type":"Rhum Agricole Blanc","Amount":"1 1/2 oz"},{"Type":"Lime","Amount":"half, squeezed & added"},
         {"Type":"Absinthe Blanche","Amount":"1/4 oz"},{"Type":"Grenadine","Amount":"1/2 oz"},
         {"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Soda Water","Amount":"top off"}]

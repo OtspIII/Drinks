@@ -1,5 +1,5 @@
 {
-  "Sparkling Water": false,
+  "Sparkling Water": true,
   "Coconut": false,
   "Lime": true,
   "Lemon": true,
@@ -16,14 +16,16 @@
   "Sipsmith Gin": false,
   "Ketel One Vodka": true,
   "Mount Gay Rum": false,
-  "Bumbu Rum": null,
+  "Bumbu Rum": true,
   "Remy Martin XO Special": true,
   "Citadelle Gin":true,
+  "Plantation 3 Star Rum":true,
+  "Plantation Original Dark Rum":true,
   
   "Angostura Bitters": true,
   "Cherry Bitters": true,
   "Peychaud's Bitters": true,
-  "Orange Bitters": false,
+  "Orange Bitters": true,
   
   "Green Chartreuse": true,
   "Doc Hersons Green Absinthe": false,
