@@ -1,5 +1,5 @@
 {
-  "Sparkling Water": true,
+  "Sparkling Water": true,"Ginger Syrup":true,
   "Coconut": false,
   "Lime": true,
   "Lemon": true,
@@ -64,5 +64,6 @@
   "Maple Syrup":true,
   "Black Pepper":true,
   "Balsamic Vinegar":true,
-  "Jalapeno":true
+  "Jalapeno":true,
+  "Pickle Brine":true
  }

@@ -11,6 +11,12 @@
       "Ingredients":[{"Type":"Wild Turkey Rye Whiskey","Amount":"2 oz"},{"Type":"Dolin Sweet Vermouth","Amount":"3/4 oz"},
         {"Type":"Benedictine","Amount":"3/4 oz"},{"Type":"Edouard Absinthe","Amount":"3 dashes"},
         {"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
+    },
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Cherry or Fig","Ice":"Chilled Glass",
+      "Page":103,
+      "Ingredients":[{"Type":"Edouard Absinthe","Amount":"rinse"},{"Type":"Wild Turkey Rye Whiskey","Amount":"3/4 oz"},
+        {"Type":"Carpano Antica Sweet Vermouth","Amount":"3/4 oz"},{"Type":"Benedictine","Amount":"3/4 oz"},
+        {"Type":"Peychaud's Bitters","Amount":"3 dashes"}]
     }
   }},
   "Sazerac":{"Notes":"Misha's favorite", "Recipes":{
@@ -143,7 +149,7 @@
     }
   }},
   "The Chestnut Cup":{"Recipes":{
-    "Cocktails Distilled":{ "Rating":0,"Notes":"","Glass":"High Ball","Garnish":"Crushed Ice","Ice":"3/4 Cubes",
+    "Cocktails Distilled":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Crushed Ice","Ice":"3/4 Cubes",
       "Page":"https://cocktailsdistilled.com/recipe/the-chestnut-cup/",
       "Ingredients":[{"Type":"Gin","Amount":"1 oz"},{"Type":"Campari","Amount":"1 oz"},
         {"Type":"Lemon Juice","Amount":"1 oz"},{"Type":"Orgeat","Amount":"3/4 oz"}]
@@ -468,7 +474,7 @@
     }
   }},
   "Southern Baptist":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Cocktail","Garnish":"Candied Ginger","Ice":"",
+    "I'm Just Here For The Drinks":{ "Rating":3.9,"Notes":"","Glass":"Cocktail","Garnish":"Candied Ginger","Ice":"",
       "Page":"89",
       "Ingredients":[{"Type":"Rye Whiskey","Amount":"2 oz"},{"Type":"Ginger Syrup","Amount":"3/4 oz"},
         {"Type":"Lime Juice","Amount":"3/4 oz"}]
@@ -482,7 +488,7 @@
     }
   }},
   "Pendergast #2":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Lemon Zest","Ice":"Chilled Glass",
+    "I'm Just Here For The Drinks":{ "Rating":4,"Notes":"","Glass":"Rocks","Garnish":"Lemon Zest","Ice":"Chilled Glass",
       "Page":"95",
       "Ingredients":[{"Type":"J. Rieger's Kansas City Whiskey","Amount":"1/2 oz"},{"Type":"Benedictine","Amount":"1/2 oz"},
         {"Type":"Sweet Vermouth","Amount":"3/4 oz"},{"Type":"Orange Bitters","Amount":"3-4 dashes"}]
@@ -566,10 +572,15 @@
       "Page":"174",
       "Ingredients":[{"Type":"White Rum","Amount":"1 1/2 oz"},{"Type":"Lime Juice","Amount":"3/4 oz"},
       {"Type":"Simple Syrup","Amount":"3/4 oz"}]
+    },
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lime Wheel","Ice":"Chilled Glass",
+      "Page":108,
+      "Ingredients":[{"Type":"Flor de Cana 4 Yr","Amount":"2 oz"},{"Type":"Lime Juice","Amount":"1 oz"},
+      {"Type":"Simple Syrup","Amount":"1/2 oz"}]
     }
   }},
   "Just the Paperwork":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Orange Twist","Ice":"Served Neat",
+    "I'm Just Here For The Drinks":{ "Rating":4.9,"Notes":"","Glass":"Rocks","Garnish":"Orange Twist","Ice":"Served Neat",
       "Page":"192",
       "Ingredients":[{"Type":"Amaro Nonino","Amount":"1 1/2 oz"},{"Type":"Cognac","Amount":"1 oz"},
       {"Type":"Cocchi Americano","Amount":"1 oz"},{"Type":"Orange Bitters","Amount":"2 dashes"},
@@ -651,8 +662,16 @@
       {"Type":"Angostura Bitters","Amount":"2 dashes"},{"Type":"Ginger Beer","Amount":"topped"}]
     }
   }},
+  "Test Pilot":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":4.1,"Notes":"","Glass":"Rocks","Garnish":"Cherry & Pineapple Wedge","Ice":"Crushed Ice",
+      "Page":187,
+      "Ingredients":[{"Type":"Appleton Estate Extra","Amount":"1 1/2 oz"},{"Type":"Flor de Cana 4 Yr","Amount":"3/4 oz"},
+        {"Type":"Cointreau","Amount":"1/2 oz"},{"Type":"Falernum","Amount":"1/2 oz"},{"Type":"Pernod","Amount":"1/8 tsp"},
+        {"Type":"Lime Juice","Amount":"1/2 oz"},{"Type":"Angostura Bitters","Amount":"1 dash"}]
+    }
+  }},
   "Boulevardier":{"Recipes":{
-    "The New Cocktail Hour":{ "Rating":3.5,"Notes":"","Glass":"Coupe","Garnish":"Orange Twist","Ice":"Chilled Glass",
+    "The New Cocktail Hour":{ "Rating":3.9,"Notes":"","Glass":"Coupe","Garnish":"Orange Twist","Ice":"Chilled Glass",
       "Page":88,
       "Ingredients":[{"Type":"Buffalo Trace Bourbon","Amount":"2 oz"},{"Type":"Campari","Amount":"1 oz"},
         {"Type":"Carpano Antica Sweet Vermouth","Amount":"1 oz"}]
@@ -678,6 +697,86 @@
       "Page":"https://punchdrink.com/recipes/cane-tables-royal-hawaiian/",
       "Ingredients":[{"Type":"Bombay Dry Gin","Amount":"1 1/2 oz"},{"Type":"Pineapple Juice","Amount":"1 oz"},
         {"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Orgeat","Amount":"1/2 oz"}]
+    }
+  }},
+  "White Lady":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Martini","Garnish":"Lemon Peel","Ice":"Chilled Glass",
+      "Page":95,
+      "Ingredients":[{"Type":"Beefeater Gin","Amount":"1 1/2 oz"},{"Type":"Cointreau","Amount":"1 oz"},
+        {"Type":"Lemon Juice","Amount":"1 oz"},{"Type":"Egg White","Amount":"3/4 oz"}]
+    }
+  }},
+  "Planter's Punch":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Cherry, Orange Slice","Ice":"Filled",
+      "Page":96,
+      "Ingredients":[{"Type":"El Dorado 5-Year Rum","Amount":"1 oz"},{"Type":"Flor de Cana","Amount":"1 oz"},
+        {"Type":"Pierre Ferrand Orange Curacao","Amount":"1/2 oz"},{"Type":"Orange Juice","Amount":"2 oz"},{"Type":"Pineapple Juice","Amount":"2 oz"},
+        {"Type":"Lime Juice","Amount":"1/4 oz"},{"Type":"Grenadine","Amount":"1/2 tsp"},{"Type":"Angostura Bitters","Amount":"1 dash"},
+        {"Type":"Soda Water","Amount":"2 oz, to top"}]
+    }
+  }},
+  "Gibson":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Martini","Garnish":"Cocktail Onion","Ice":"Chilled Glass",
+      "Page":102,
+      "Ingredients":[{"Type":"St George Terroir Gin","Amount":"1 1/2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"1 oz"},{"Type":"Cocktail Onion","Amount":"1"}]
+    }
+  }},
+  "Old Hickory":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lemon Peel","Ice":"Chilled Glass",
+      "Page":107,
+      "Ingredients":[{"Type":"Carpano Antica Sweet Vermouth","Amount":"1 1/2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"1 oz"},
+      {"Type":"Orange Bitters","Amount":"3 dashes"},{"Type":"Peychaud's Bitters","Amount":"1 dash"}]
+    }
+  }},
+  "Bacardi":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lime Wheel","Ice":"Chilled Glass",
+      "Page":108,
+      "Ingredients":[{"Type":"Flor de Cana 4 Yr","Amount":"2 oz"},{"Type":"Lime Juice","Amount":"1 oz"},
+      {"Type":"Grenadine","Amount":"1/2 oz"}]
+    }
+  }},
+  "Mexican Firing Squad":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":3.6,"Notes":"Very sweet","Glass":"Rocks","Garnish":"Lime Wheel & 6-8 Pomegranite Seeds","Ice":"Filled",
+      "Page":109,
+      "Ingredients":[{"Type":"Herradura Tequila","Amount":"2 oz"},{"Type":"Lime Juice","Amount":"3/4 oz"},
+      {"Type":"Grenadine","Amount":"3/4 oz"},{"Type":"Angostura Bitters","Amount":"2 dashes"}]
+    }
+  }},
+  "Ransom Note":{"Recipes":{
+    "Serious Eats":{ "Rating":0,"Notes":"","Glass":"Martini","Garnish":"","Ice":"Chilled Glass",
+      "Page":"https://www.seriouseats.com/ransom-note-old-tom-gin-cocktail-gramercy-tavern-recipe",
+      "Ingredients":[{"Type":"Ransom Old Tom Gin","Amount":"2 oz"},{"Type":"Honey Syrup","Amount":"3/4 oz"},
+      {"Type":"Dry Mead","Amount":"3/4 oz"},{"Type":"Lemon Juice","Amount":"1/4 oz"}]
+    }
+  }},
+  "Cuba Libre":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"","Ice":"Topped",
+      "Page":109,
+      "Ingredients":[{"Type":"Appleton V/X","Amount":"2 oz"},{"Type":"Cola","Amount":"4 oz"},{"Type":"Lime","Amount":"2 slices, muddled"}]
+    }
+  }},
+  "Pickleback":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Shot","Garnish":"","Ice":"",
+      "Page":110,
+      "Ingredients":[{"Type":"Whiskey","Amount":"1 oz"},{"Type":"Pickle Brine","Amount":"1 oz, after"}]
+    }
+  }},
+  "Highball":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"","Ice":"Yes",
+      "Page":112,
+      "Ingredients":[{"Type":"Whiskey","Amount":"2 oz"},{"Type":"Ginger Beer","Amount":"4 oz"},{"Type":"Angostura Bitters","Amount":"1 dash"}]
+    }
+  }},
+  "Vesper":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Martini","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+      "Page":112,
+      "Ingredients":[{"Type":"Tanqueray Gin","Amount":"3 oz"},{"Type":"Stolichnaya Vodka","Amount":"1 oz"},{"Type":"Cocchi Americano","Amount":"1/4 oz"}]
+    }
+  }},
+  "Gimlet":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"3-4 Lime Wheels","Ice":"Filled",
+      "Page":113,
+      "Ingredients":[{"Type":"Beefeater Gin","Amount":"2 oz"},{"Type":"Lime Cordial","Amount":"2 oz"}]
     }
   }}
 }
