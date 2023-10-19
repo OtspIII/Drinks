@@ -66,7 +66,7 @@
     },
     "The New Cocktail Hour":{ "Rating":4,"Notes":"","Glass":"Coupe","Garnish":"Angostura Fang Marks","Ice":"Chilled Glass","Page":76,
       "Ingredients":[{"Type":"Simple Syrup","Amount":"1/4 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},
-        {"Type":"Absinthe","Amount":"1/2 oz"},{"Type":"Old Overholt Whiskey","Amount":"2 oz"},
+        {"Type":"Absinthe","Amount":"1/2 oz"},{"Type":"Old Overholt Rye","Amount":"2 oz"},
         {"Type":"Egg White","Amount":"1"}]
     }
   }},
@@ -510,7 +510,7 @@
     }
   }},
   "Kentucky Buck":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Collins","Garnish":"Lemon Wheel, 1 Strawberry","Ice":"Yes",
+    "I'm Just Here For The Drinks":{ "Rating":3.6,"Notes":"I did 1/2 oz ginger syrup, 2oz ginger beer--it was okay","Glass":"Collins","Garnish":"Lemon Wheel, 1 Strawberry","Ice":"Yes",
       "Page":"105",
       "Ingredients":[{"Type":"Bourbon","Amount":"2 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},
         {"Type":"Angostura Bitters","Amount":"2 dashes"},{"Type":"Simple Syrup","Amount":"1/2 oz"},
@@ -627,7 +627,7 @@
     }
   }},
   "Island Time":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Old Fashioned","Garnish":"","Ice":"Pebble Ice",
+    "I'm Just Here For The Drinks":{ "Rating":2,"Notes":"was my lime spoiled or something? did not work","Glass":"Old Fashioned","Garnish":"","Ice":"Pebble Ice",
       "Page":"233",
       "Ingredients":[{"Type":"Rhum Agricole","Amount":"2 oz"},{"Type":"Zucca Rabarbo","Amount":"3/4 oz"},
       {"Type":"Lime Juice","Amount":"1 oz"},{"Type":"Scrappy's Lime Bitters","Amount":"1 dash"}]
@@ -678,7 +678,7 @@
     }
   }},
   "Lucien Gaudin":{"Recipes":{
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Orange Peel, Expressed","Ice":"Chilled Glass",
+    "The New Cocktail Hour":{ "Rating":3,"Notes":"Daintier more orange negroni?","Glass":"Coupe","Garnish":"Orange Peel, Expressed","Ice":"Chilled Glass",
       "Page":94,
       "Ingredients":[{"Type":"Plymouth Gin","Amount":"1 oz"},{"Type":"Campari","Amount":"1/2 oz"},
         {"Type":"Dolin Dry Vermouth","Amount":"1/2 oz"},{"Type":"Cointreau","Amount":"1/2 oz"}]
@@ -777,6 +777,13 @@
     "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"3-4 Lime Wheels","Ice":"Filled",
       "Page":113,
       "Ingredients":[{"Type":"Beefeater Gin","Amount":"2 oz"},{"Type":"Lime Cordial","Amount":"2 oz"}]
+    }
+  }},
+  "Toronto Cocktail":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":4,"Notes":"","Glass":"Coupe","Garnish":"Orange Twist","Ice":"Chilled Glass",
+      "Page":117,
+      "Ingredients":[{"Type":"Old Overholt Rye","Amount":"2 oz"},{"Type":"Fernet-Branca","Amount":"1/4 oz"},
+      {"Type":"Simple Syrup","Amount":"1/4 oz"},{"Type":"Angostura Bitters","Amount":"2 dashes"}]
     }
   }}
 }

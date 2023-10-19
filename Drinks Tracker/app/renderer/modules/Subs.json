@@ -143,7 +143,7 @@
   "Maple Syrup":{"Syrup":0.8},
   "Black Pepper":{"Grocery":0.1},
   "Ginger Syrup":{"Syrup":0.7,"Ginger Beer":0.8},
-  "Ginger Beer":{"Grocery":0.1,"Soda":0.8},
+  "Ginger Beer":{"Grocery":0.1,"SodaX":0.5},
   "Balsamic Vinegar":{"Vinegar":0.8,"Grocery":0.1},
   "Lime Cordial":{"Grocery":0.1},
 
@@ -181,8 +181,8 @@
   "Egg":{"Grocery":0.1},
   "Heavy Cream":{"Milk":0.9},
   "Milk":{"Grocery":0.1},
-  "Cola":{"Soda":0.7},
-  "Coca-Cola":{"Soda":0.7},
+  "Cola":{"Soda":0.8},
+  "Coca-Cola":{"Cola":1},
   "Soda":{"Grocery":0.1},
   
   "Carpano Antica Sweet Vermouth":{"Sweet Vermouth":1},
@@ -208,6 +208,7 @@
   "Aromatic Wine":{"Wine":0.8},
   "Orange Wine":{"Wine":0.8},
 
+  "Andre Brut":{"Brut Sparkling Wine":1},
   "Korbel Brut Sparkling Wine":{"Brut Sparkling Wine":1},
   "Champagne":{"Sparkling Wine":0.9},
   "Sparkling White Wine":{"Sparkling Wine":0.9},
@@ -238,6 +239,6 @@
   "Salers Apertif":{"Gentian Liqueur":1},
   "Gentian Liqueur":{"Aperitif":0.8},
 
-  "Water":{"Staple":1}
+  "Water":{"Staple":0.1}
 
 }

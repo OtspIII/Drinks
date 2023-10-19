@@ -1,0 +1,3 @@
+God.FindSubValue -> uses best immediate sub value for the feature, not for sub.
+
+So, like, if water:{staple:1}, then any staple has a value of 1 instead of the subvalue it should have

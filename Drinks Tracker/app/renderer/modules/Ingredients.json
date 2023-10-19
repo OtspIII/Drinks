@@ -1,12 +1,16 @@
 {
-  "Sparkling Water": true,"Ginger Syrup":true,
+  "Sparkling Water": false,"Ginger Syrup":false,
   "Coconut": false,
-  "Lime": true,
-  "Lemon": true,
+  "Lime": false,
+  "Lemon": false,
   "Orange Juice": false,
   "Orange": false,
   "Pineapple Juice":false,
   "Agave Syrup":true,
+  "Simple Syrup":true,
+  "Coca-Cola":true,
+
+  "Andre Brut":true,
 
   "Buffalo Trace Bourbon": false,
   "Rittenhouse Rye Whiskey":true,
@@ -17,7 +21,7 @@
   "Ketel One Vodka": true,
   "Mount Gay Rum": false,
   "Bumbu Rum": true,
-  "Remy Martin XO Special": true,
+  "Remy Martin XO Special": false,
   "Citadelle Gin":true,
   "Plantation 3 Star Rum":true,
   "Plantation Original Dark Rum":true,
@@ -34,6 +38,7 @@
   "Martini Rossi Sweet Vermouth":false,
   "Martini Rossi Dry Vermouth":false,
   "Dolin Sweet Vermouth":true,
+  "Dolin Dry Vermouth":true,
   
   "Amaro Montenegro": true,
   "Letherbee Fernet": true,
@@ -65,5 +70,7 @@
   "Black Pepper":true,
   "Balsamic Vinegar":true,
   "Jalapeno":true,
-  "Pickle Brine":true
+  "Pickle Brine":false,
+  "Salt":true,
+  "Honey":true
  }
