@@ -1,19 +1,20 @@
 {
-  "Sparkling Water": false,"Ginger Syrup":false,
-  "Coconut": false,
+  "Sparkling Water": true,"Ginger Syrup":true,
+  "Coconut": true,
   "Lime": false,
   "Lemon": false,
   "Orange Juice": false,
   "Orange": false,
   "Pineapple Juice":false,
+  "Pineapple":false,
   "Agave Syrup":true,
   "Simple Syrup":true,
-  "Coca-Cola":true,
+  "Coca-Cola":false,
 
-  "Andre Brut":true,
+  "Andre Brut":false,
 
   "Buffalo Trace Bourbon": false,
-  "Rittenhouse Rye Whiskey":true,
+  "Rittenhouse Rye Whiskey":false,
   "Olmeca Altos Reposado Tequila": false,
   "Arette Reposado Tequila":true,
   "Four Pillars Dry Gin":false,
@@ -31,20 +32,20 @@
   "Peychaud's Bitters": true,
   "Orange Bitters": true,
   
-  "Green Chartreuse": true,
+  "Green Chartreuse": false,
   "Doc Hersons Green Absinthe": false,
   "Herbsaint":true,
 
   "Martini Rossi Sweet Vermouth":false,
   "Martini Rossi Dry Vermouth":false,
-  "Dolin Sweet Vermouth":true,
+  "Dolin Sweet Vermouth":false,
   "Dolin Dry Vermouth":true,
   
   "Amaro Montenegro": true,
   "Letherbee Fernet": true,
   "Campari": true,
   "Blue Curacao": true,
-  "Triple-Sec": true,
+  "Triple-Sec": false,
   
   "Dry Sack Sherry": true,
   "Lillet Blanc": true,
@@ -54,7 +55,7 @@
   "Bonollo": true,
   "Midori":true,
   
-  "Orgeat": false,
+  "Orgeat": true,
   "Taylor's Falernum": true,
   "Grenadine":true,
   

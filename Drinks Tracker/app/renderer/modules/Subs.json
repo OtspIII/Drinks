@@ -51,6 +51,8 @@
   "Spiced Rum":{"Rum":0.9},
   "Light Rum":{"Rum":0.9},
   "Coconut Rum":{"Rum":0.9},
+  "Demerara Rum":{"Dark Rum":1},
+  "Dark Jamaican Rum":{"Dark Rum":1},
   "Pusser's Navy Rum":{"Dark Rum":1},
   "Appleton Estate Extra":{"Dark Rum":1},
   "Appleton V/X":{"Aged Rum":1},
@@ -81,6 +83,7 @@
   "Maraschino":{},
   "Pierre Ferrand Ambre Brandy":{"Brandy":1},
   "Brandy":{},
+  "Jeppson's Malört":{},
 
   "Giffard Blue Curacao":{"Blue Curacao":1},
   "Cointreau":{"Orange Liqueur":0.9},
@@ -90,7 +93,7 @@
   "Dry Curacao":{"Curacao":0.9},
   "Blue Curacao":{"Curacao":0.99},
   "Orange Curacao":{"Curacao":0.99},
-  "Curacao":{"Orange Liqueur":0.9},
+  "Curacao":{"Orange Liqueur":0.91},
   "Orange Liqueur":{},
   
   "Edouard Absinthe":{"Absinthe":1},
@@ -146,6 +149,9 @@
   "Ginger Beer":{"Grocery":0.1,"SodaX":0.5},
   "Balsamic Vinegar":{"Vinegar":0.8,"Grocery":0.1},
   "Lime Cordial":{"Grocery":0.1},
+  "Allspice Dram":{"Falernum":0.8,"Grocery":0.1},
+  "Apple Cider":{"Grocery":0.1},
+  "Passion Fruit Syrup":{"Syrup":0.3},
 
 
   "Orange Juice":{"Orange":0.7},"Orange":{"Fruit":0.2},
@@ -165,7 +171,7 @@
   "Basil":{"Grocery":0.1},
   "Raspberry Syrup":{"Raspberry":1,"Fruit Syrup":0.8},
   "Raspberry":{"Grocery":0.1},
-  "Lemonade":{"Lemon":0.7},
+  "Lemonade":{"Grocery":0.1},
   "Grapefruit Juice":{"Grocery":0.1},
   "Cocktail Onion":{"Grocery":0.1},
   "Jalapeno":{"Grocery":0.1},
@@ -220,6 +226,7 @@
   
   "Kahlua":{"Coffee Liqueur":0.9},
 
+  "Averna Amaro":{"Amaro":0.9},
   "Zucca Rabarbo":{"Amaro":0.9},
   "Amaro Nonino":{"Amaro":0.9},
   "Amaro Montenegro":{"Amaro":0.9},
