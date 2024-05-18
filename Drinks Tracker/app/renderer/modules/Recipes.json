@@ -288,6 +288,11 @@
       "Page":"75",
       "Ingredients":[{"Type":"Rye Whiskey","Amount":"2 oz"},{"Type":"Sweet Vermouth","Amount":"1 oz"},
         {"Type":"Angostura Bitters","Amount":"2 dashes"}]
+    },
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe or Rocks","Garnish":"Cherry","Ice":"Large Cube",
+      "Page":41,
+      "Ingredients":[{"Type":"Rye Whiskey","Amount":"2 oz"},{"Type":"Carpano Antica Sweet Vermouth","Amount":"1 oz"},
+      {"Type":"Angostura Bitters","Amount":"2 dash"}]
     }
   }},
   "Live Basil Gimlet":{"Recipes":{
@@ -329,6 +334,13 @@
       "Page":33,
       "Ingredients":[{"Type":"Pierre Ferrand Ambre Brandy","Amount":"2 oz"},{"Type":"Orgeat","Amount":"1/2 oz"},
         {"Type":"Angostura Bitters","Amount":"1 dash"},{"Type":"Lime Juice","Amount":"1/2 oz"}]
+    }
+  }},
+  "Americano":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Orange Wheel","Ice":"Filled",
+      "Page":33,
+      "Ingredients":[{"Type":"Campari","Amount":"1 1/2 oz"},{"Type":"Cinzano Sweet Vermouth","Amount":"1 1/2 oz"},
+        {"Type":"Club Soda","Amount":"3 oz"}]
     }
   }},
   "Bijou":{"Recipes":{
@@ -423,7 +435,7 @@
     }
   }},
   "Long Island Iced Tea":{"Recipes":{
-    "NYT Cooking":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Lemon Lime Slices","Ice":"Filled","Page":"https://cooking.nytimes.com/recipes/1022391-long-island-iced-tea",
+    "NYT Cooking":{ "Rating":4.1,"Notes":"","Glass":"Highball","Garnish":"Lemon Lime Slices","Ice":"Filled","Page":"https://cooking.nytimes.com/recipes/1022391-long-island-iced-tea",
       "Ingredients":[{"Type":"Vodka","Amount":"1/2 oz"},{"Type":"Gin","Amount":"1/2 oz"},{"Type":"White Rum","Amount":"1/2 oz"},{"Type":"Blanco Tequila","Amount":"1/2 oz"},{"Type":"Triple-Sec","Amount":"1/2 oz"},
       {"Type":"Maple Syrup","Amount":"1/2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1/3 oz"},{"Type":"Salt","Amount":"pinch"},{"Type":"Coca-Cola","Amount":"2 oz"}]
     }
@@ -568,12 +580,12 @@
     }
   }},
   "Daiquiri":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":4,"Notes":"","Glass":"Coupe","Garnish":"Lime Wedge","Ice":"Chilled Glass",
+    "I'm Just Here For The Drinks":{ "Rating":3.9,"Notes":"","Glass":"Coupe","Garnish":"Lime Wedge","Ice":"Chilled Glass",
       "Page":"174",
       "Ingredients":[{"Type":"White Rum","Amount":"1 1/2 oz"},{"Type":"Lime Juice","Amount":"3/4 oz"},
       {"Type":"Simple Syrup","Amount":"3/4 oz"}]
     },
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lime Wheel","Ice":"Chilled Glass",
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"4","Glass":"Coupe","Garnish":"Lime Wheel","Ice":"Chilled Glass",
       "Page":108,
       "Ingredients":[{"Type":"Flor de Cana 4 Yr","Amount":"2 oz"},{"Type":"Lime Juice","Amount":"1 oz"},
       {"Type":"Simple Syrup","Amount":"1/2 oz"}]
@@ -700,7 +712,7 @@
     }
   }},
   "White Lady":{"Recipes":{
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Martini","Garnish":"Lemon Peel","Ice":"Chilled Glass",
+    "The New Cocktail Hour":{ "Rating":3.9,"Notes":"Creamy with a little orange","Glass":"Martini","Garnish":"Lemon Peel","Ice":"Chilled Glass",
       "Page":95,
       "Ingredients":[{"Type":"Beefeater Gin","Amount":"1 1/2 oz"},{"Type":"Cointreau","Amount":"1 oz"},
         {"Type":"Lemon Juice","Amount":"1 oz"},{"Type":"Egg White","Amount":"3/4 oz"}]
@@ -808,7 +820,7 @@
     }
   }},
   "Almond Pastis":{"Recipes":{
-    "Apothecary Cocktails":{ "Rating":3.6,"Notes":"Very strong","Glass":"12oz Glass","Garnish":"","Ice":"Yes",
+    "Apothecary Cocktails":{ "Rating":4,"Notes":"Very strong","Glass":"12oz Glass","Garnish":"","Ice":"Yes",
       "Page":62,
       "Ingredients":[{"Type":"Pastis","Amount":"3 oz"},{"Type":"Orgeat","Amount":"2 oz"},{"Type":"Water","Amount":"6 oz"}]
     }
@@ -818,12 +830,27 @@
       "Page":"https://www.seriouseats.com/ancient-mariner-navy-grog-tiki-rum-cocktail-recipe",
       "Ingredients":[{"Type":"Demerara Rum","Amount":"1 oz"},{"Type":"Dark Jamaican Rum","Amount":"1 oz"},{"Type":"Lime Juice","Amount":"3/4 oz"},
       {"Type":"Grapefruit Juice","Amount":"1/2 oz"},{"Type":"Simple Syrup","Amount":"1/2 oz"},{"Type":"Allspice Dram","Amount":"1/4 oz"}]
-    },
-    "The Forced Retirement":{"Recipes":{
-      "Anders Erickson":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Pineapple Fronds & Umbrella","Ice":"Crushed Ice",
-        "Page":"https://www.seriouseats.com/ancient-mariner-navy-grog-tiki-rum-cocktail-recipe",
-        "Ingredients":[{"Type":"Jeppson's Malört","Amount":"3/4 oz"},{"Type":"Beefeater Gin","Amount":"1 oz"},{"Type":"Campari","Amount":"1/2 oz"},
-        {"Type":"Grapefruit Juice","Amount":"3/4 oz"},{"Type":"Passion Fruit Syrup","Amount":"3/4 oz"},{"Type":"Lime Juice","Amount":"3/4 oz"}]
-      }
+    }
+  }},
+  "The Forced Retirement":{"Recipes":{
+    "Anders Erickson":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Pineapple Fronds & Umbrella","Ice":"Crushed Ice",
+      "Page":"https://www.seriouseats.com/ancient-mariner-navy-grog-tiki-rum-cocktail-recipe",
+      "Ingredients":[{"Type":"Jeppson's Malört","Amount":"3/4 oz"},{"Type":"Beefeater Gin","Amount":"1 oz"},{"Type":"Campari","Amount":"1/2 oz"},
+      {"Type":"Grapefruit Juice","Amount":"3/4 oz"},{"Type":"Passion Fruit Syrup","Amount":"3/4 oz"},{"Type":"Lime Juice","Amount":"3/4 oz"}]
+    }
+  }},
+  "Mark Twain Cocktail":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Lemon Peel, Twist & Drop","Ice":"Yes",
+      "Page":36,
+      "Ingredients":[{"Type":"Scotch","Amount":"2 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},{"Type":"Simple Syrup","Amount":"1 oz"},
+      {"Type":"Angostura Bitters","Amount":"2 dash"}]
+    }
+  }},
+  "Saratoga":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe or Rocks","Garnish":"Orange Twist","Ice":"Yes",
+      "Page":41,
+      "Ingredients":[{"Type":"Pierre Ferrand Ambre Brandy","Amount":"1 oz"},{"Type":"Rittenhouse Rye Whiskey","Amount":"1 oz"},{"Type":"Carpano Antica Sweet Vermouth","Amount":"1 oz"},
+      {"Type":"Regan's Orange Bitters No. 6","Amount":"2 dash"}]
+    }
   }}
 }

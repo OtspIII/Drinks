@@ -1,8 +1,8 @@
 {
-  "Sparkling Water": true,"Ginger Syrup":true,
+  "Sparkling Water": false,"Ginger Syrup":false,
   "Coconut": true,
-  "Lime": false,
-  "Lemon": false,
+  "Lime": true,
+  "Lemon": true,
   "Orange Juice": false,
   "Orange": false,
   "Pineapple Juice":false,
@@ -38,14 +38,15 @@
 
   "Martini Rossi Sweet Vermouth":false,
   "Martini Rossi Dry Vermouth":false,
-  "Dolin Sweet Vermouth":false,
+  "Dolin Sweet Vermouth":true,
   "Dolin Dry Vermouth":true,
   
   "Amaro Montenegro": true,
   "Letherbee Fernet": true,
   "Campari": true,
-  "Blue Curacao": true,
+  "Blue Curacao": false,
   "Triple-Sec": false,
+  "Gran Gala Triple-Sec":true,
   
   "Dry Sack Sherry": true,
   "Lillet Blanc": true,
@@ -55,7 +56,7 @@
   "Bonollo": true,
   "Midori":true,
   
-  "Orgeat": true,
+  "Orgeat": false,
   "Taylor's Falernum": true,
   "Grenadine":true,
   
