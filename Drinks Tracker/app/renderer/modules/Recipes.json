@@ -256,7 +256,7 @@
         ,{"Type":"Grenadine","Amount":"1/3 oz, aka 2 tsp"},{"Type":"Egg White","Amount":"1, shaken"}]
     },
     "The New Cocktail Hour":{ "Rating":4.5,"Notes":"","Glass":"Coupe","Garnish":"Raspberry","Ice":"Chilled Glass",
-      "Page":51,
+      "Page":57,
       "Ingredients":[{"Type":"Plymouth Gin","Amount":"1 1/2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"1/2 oz"}
         ,{"Type":"Lemon Juice","Amount":"1/2 oz"}
         ,{"Type":"Raspberry Syrup","Amount":"1/2 oz"},{"Type":"Egg White","Amount":"1, shaken"}]
@@ -272,15 +272,20 @@
   "Martini":{"Recipes":{
     "I'm Just Here For The Drinks":{ "Rating":3.5,"Notes":"","Glass":"Cocktail","Garnish":"Lemon Twist","Ice":"Chilled Glass",
       "Page":"31",
-      "Ingredients":[{"Type":"London Dry Gin","Amount":"1.5 oz"},{"Type":"Orange Bitters","Amount":"2 dashes"},
-        {"Type":"Dolin Dry Vermouth","Amount":"1.5 oz"}]
+      "Ingredients":[{"Type":"London Dry Gin","Amount":"1 1/2 oz"},{"Type":"Orange Bitters","Amount":"2 dashes"},
+        {"Type":"Dolin Dry Vermouth","Amount":"1 1/2 oz"}]
+    },
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lemon Peel","Ice":"",
+      "Page":46,
+      "Ingredients":[{"Type":"Hayman's Gin","Amount":"1 1/2 oz"},{"Type":"Dolin Blanc Vermouth","Amount":"1 oz"},{"Type":"Pierre Ferrand Orange Curacao","Amount":"1 tsp"},
+      {"Type":"Angostura Bitters","Amount":"1 dash"}]
     }
   }},
   "Dirty Martini":{"Recipes":{
     "I'm Just Here For The Drinks":{ "Rating":3.6,"Notes":"","Glass":"Cocktail","Garnish":"3 Olives","Ice":"Chilled Glass",
       "Page":"31",
-      "Ingredients":[{"Type":"London Dry Gin","Amount":"1.5 oz"},{"Type":"Olive Brine","Amount":"1/2 oz"},
-        {"Type":"Dolin Dry Vermouth","Amount":"1.5 oz"}]
+      "Ingredients":[{"Type":"London Dry Gin","Amount":"1 1/2 oz"},{"Type":"Olive Brine","Amount":"1/2 oz"},
+        {"Type":"Dolin Dry Vermouth","Amount":"1 1/2 oz"}]
     }
   }},
   "Manhattan":{"Recipes":{
@@ -337,7 +342,7 @@
     }
   }},
   "Americano":{"Recipes":{
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Orange Wheel","Ice":"Filled",
+    "The New Cocktail Hour":{ "Rating":3.6,"Notes":"","Glass":"Highball","Garnish":"Orange Wheel","Ice":"Filled",
       "Page":33,
       "Ingredients":[{"Type":"Campari","Amount":"1 1/2 oz"},{"Type":"Cinzano Sweet Vermouth","Amount":"1 1/2 oz"},
         {"Type":"Club Soda","Amount":"3 oz"}]
@@ -840,7 +845,7 @@
     }
   }},
   "Mark Twain Cocktail":{"Recipes":{
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Lemon Peel, Twist & Drop","Ice":"Yes",
+    "The New Cocktail Hour":{ "Rating":3,"Notes":"","Glass":"Rocks","Garnish":"Lemon Peel, Twist & Drop","Ice":"Yes",
       "Page":36,
       "Ingredients":[{"Type":"Scotch","Amount":"2 oz"},{"Type":"Lemon Juice","Amount":"3/4 oz"},{"Type":"Simple Syrup","Amount":"1 oz"},
       {"Type":"Angostura Bitters","Amount":"2 dash"}]
@@ -851,6 +856,65 @@
       "Page":41,
       "Ingredients":[{"Type":"Pierre Ferrand Ambre Brandy","Amount":"1 oz"},{"Type":"Rittenhouse Rye Whiskey","Amount":"1 oz"},{"Type":"Carpano Antica Sweet Vermouth","Amount":"1 oz"},
       {"Type":"Regan's Orange Bitters No. 6","Amount":"2 dash"}]
+    }
+  }},
+  "Gin Fizz":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Lemon Wheel","Ice":"Yes",
+      "Page":42,
+      "Ingredients":[{"Type":"Hayman's Gin","Amount":"2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Powdered Sugar","Amount":"1 tsp"},
+      {"Type":"Soda Water","Amount":"3-4 oz"}]
+    }
+  }},
+  "Ramos Gin Fizz":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Highball","Garnish":"Orange Flower Water (3 drops), Orange Wheel Half","Ice":"",
+      "Page":43,
+      "Ingredients":[{"Type":"Hayman's Gin","Amount":"2 oz"},{"Type":"Lemon Juice","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1/2 oz"},
+      {"Type":"Simple Syrup","Amount":"1 tbsp"},{"Type":"Half-And-Half","Amount":"1/2 oz"},{"Type":"Egg White","Amount":"1"},{"Type":"Club Soda","Amount":"top off"}]
+    }
+  }},
+  "Dry Martini":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lemon Peel","Ice":"Chilled Glass",
+      "Page":47,
+      "Ingredients":[{"Type":"Plymouth Gin","Amount":"2 oz"},{"Type":"Noilly Pratt Dry Vermouth","Amount":"1 oz"},{"Type":"Regan's Orange Bitters No. 6","Amount":"1 dash"}]
+    }
+  }},
+  "Tuxedo Cocktail":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lemon Peel","Ice":"Chilled Glass",
+      "Page":47,
+      "Ingredients":[{"Type":"Plymouth Gin","Amount":"2 oz"},{"Type":"Fino Sherry","Amount":"1 oz"},{"Type":"Regan's Orange Bitters No. 6","Amount":"1 dash"}]
+    }
+  }},
+  "Obituary Cocktail":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Lemon Peel","Ice":"Large Cube",
+      "Page":48,
+      "Ingredients":[{"Type":"Plymouth Gin","Amount":"2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"1/4 oz"},{"Type":"Absinthe","Amount":"rinse"}]
+    }
+  }},
+  "Metropole":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Orange Peel","Ice":"Chilled Glass",
+      "Page":48,
+      "Ingredients":[{"Type":"Pierre Ferrand Ambre Brandy","Amount":"2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"1 oz"},{"Type":"Peychaud's Bitters","Amount":"2 dash"},
+        {"Type":"Regan's Orange Bitters No. 6","Amount":"1 dash"}]
+    }
+  }},
+  "Alabazam":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Orange Peel","Ice":"Large Cube",
+      "Page":49,
+      "Ingredients":[{"Type":"Pierre Ferrand 1840","Amount":"1 1/2 oz"},{"Type":"Pierre Ferrand Orange Curacao","Amount":"1/2 oz"},{"Type":"Angostura Bitters","Amount":"1 tsp"},
+        {"Type":"Lemon Juice","Amount":"1/4 oz"},{"Type":"Demerara Sugar","Amount":"1 tsp"}]
+    }
+  }},
+  "Kangaroo Cocktail":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Martini","Garnish":"Olive or Lemon Twist","Ice":"Chilled Glass",
+      "Page":123,
+      "Ingredients":[{"Type":"Stolichnaya Vodka","Amount":"3 1/2 oz"},{"Type":"Noilly Pratt Dry Vermouth","Amount":"rinse"}]
+    }
+  }},
+  "Harvey Wallbanger":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Orange Wheel, Salt","Ice":"Chilled Glass",
+      "Page":128,
+      "Ingredients":[{"Type":"Stolichnaya Vodka","Amount":"1 1/2 oz"},{"Type":"Galliano","Amount":"1/2 oz"},{"Type":"Orange Juice","Amount":"2 oz"},
+        {"Type":"Lemon Juice","Amount":"1/4 oz"},{"Type":"Angostura Bitters","Amount":"1 dash"}]
     }
   }}
 }

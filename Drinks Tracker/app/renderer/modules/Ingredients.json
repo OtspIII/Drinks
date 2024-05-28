@@ -1,5 +1,5 @@
 {
-  "Sparkling Water": false,"Ginger Syrup":false,
+  "Sparkling Water": true,"Ginger Syrup":true,
   "Coconut": true,
   "Lime": true,
   "Lemon": true,
@@ -14,7 +14,7 @@
   "Andre Brut":false,
 
   "Buffalo Trace Bourbon": false,
-  "Rittenhouse Rye Whiskey":false,
+  "Rittenhouse Rye Whiskey":true,
   "Olmeca Altos Reposado Tequila": false,
   "Arette Reposado Tequila":true,
   "Four Pillars Dry Gin":false,
@@ -32,7 +32,7 @@
   "Peychaud's Bitters": true,
   "Orange Bitters": true,
   
-  "Green Chartreuse": false,
+  "Green Chartreuse": true,
   "Doc Hersons Green Absinthe": false,
   "Herbsaint":true,
 
@@ -74,5 +74,6 @@
   "Jalapeno":true,
   "Pickle Brine":false,
   "Salt":true,
-  "Honey":true
+  "Honey":true,
+  "Powdered Sugar":true
  }

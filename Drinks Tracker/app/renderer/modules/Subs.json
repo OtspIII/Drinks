@@ -130,6 +130,8 @@
 
   "Demerara Sugar Cube":{"Sugar Cube":0.9},
   "Sugar Cube":{"Sugar":1},
+  "Demerara Sugar":{"Sugar":0.9},
+  "Powdered Sugar":{"Sugar":0.8},
   "Simple Syrup":{"Sugar":1},
   "Rich Simple Syrup":{"Sugar":1},
   "Grenadine":{"Fruit Syrup":0.8,"Grocery":0.1},
@@ -181,12 +183,14 @@
   "Pickle Brine":{"Grocery":0.1},
 
   "Soda Water":{"Sparkling Water":0.9},
+  "Club Soda":{"Sparkling Water":0.9},
   "Seltzer Water":{"Sparkling Water":0.9},
   "Sparkling Water":{"Grocery":0.1},
   "Tonic Water":{"Sparkling Water":0.7},
   "Egg White":{"Egg":1},
   "Egg":{"Grocery":0.1},
   "Heavy Cream":{"Milk":0.9},
+  "Half-And-Half":{"Milk":0.9},
   "Milk":{"Grocery":0.1},
   "Cola":{"Soda":0.8},
   "Coca-Cola":{"Cola":1},
@@ -196,6 +200,7 @@
   "Cinzano Sweet Vermouth":{"Sweet Vermouth":1},
   "Dolin Sweet Vermouth":{"Sweet Vermouth":1},
   "Dolin Dry Vermouth":{"Dry Vermouth":1},
+  "Dolin Blanc Vermouth":{"White Vermouth":1},
   "Noilly Pratt Dry Vermouth":{"Dry Vermouth":1},
   "Cocchi Torino":{"Sweet Vermouth":1},
   "Sweet Vermouth":{"Vermouth":0.6,"Fortified Wine":0.5},
@@ -204,6 +209,7 @@
   "Dry Vermouth":{"Vermouth":0.6,"Fortified Wine":0.5},
   "Vermouth":{"Fortified Wine":0.8},
   "Dry Sack Sherry":{"Sherry":1},
+  "Fino Sherry":{"Sherry":1},
   "Amontillado Sherry":{"Sherry":1},
   "Sherry":{"Fortified Wine":0.8},
   
@@ -212,7 +218,7 @@
   "Cocchi Americano":{"Aromatic Wine":0.8},
   "Kina L'Avion d'Or":{"Aromatic Wine":0.8},
   "Sweet White Vermouth":{"White Vermouth":1},
-  "White Vermouth":{"Aromatic Wine":0.8},
+  "White Vermouth":{"Dry Vermouth":0.9},
   "Aromatic Wine":{"Wine":0.8},
   "Orange Wine":{"Wine":0.8},
 
@@ -236,6 +242,7 @@
   "Fernet-Branca":{"Fernet":1},
   "Fernet":{"Amaro":0.9},
   "Amaro":{"Herbal Liqueur":0.5},
+  "Galliano":{"Herbal Liqueur":0.6},
 
   "Pierre Ferrand 1840":{"Cognac":1},
   "Remy Martin XO Special":{"Cognac":1},
