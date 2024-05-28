@@ -89,23 +89,29 @@ var Model = {
     // console.log(JSON.stringify(itxt,undefined," "));
 
     for(let rec in Model.DrinkDict){
-      let bMatch = 0;
+      let bMatch = -0.1;
       let best = null;
       let bRating = 0;
       for(let book in Model.DrinkDict[rec].Recipes){
         let match = 1.1;
         let shopStatus = 0;
         // console.log(rec + " / " + book);
+        Model.DrinkDict[rec].Recipes[book].Missing = "";
         for(let i in Model.DrinkDict[rec].Recipes[book].Ingredients){
           let type = Model.DrinkDict[rec].Recipes[book].Ingredients[i].Type;
           let subValue = God.FindSubValue(type);
-          // console.log(God.FindSubValue(ing.Type).Match);
+          
+          //console.log(God.FindSubValue(i.Type).Match);
           match = Math.min(match,subValue.Match);
           shopStatus = Math.max(shopStatus,subValue.ShopStatus);
           // console.log("SUBV: " + type + " / " + subValue.Match)
+          // if(type == "Salers Apertif") console.log(type + " / " + subValue.Match)
           if(subValue.Match < God.MandThresh){
             
             let v = (Model.MissingIngs[type] ? Model.MissingIngs[type] : 0) + 1;
+            if (Model.DrinkDict[rec].Recipes[book].Missing != "") Model.DrinkDict[rec].Recipes[book].Missing += ", "; 
+            Model.DrinkDict[rec].Recipes[book].Missing += type; 
+            // if(type == "Salers Apertif") console.log(Model.DrinkDict[rec].Recipes[book].Missing)
             // console.log("MISSING: " + type + " / " + v)
             // console.log(Model.SubDict[type])
             Model.MissingIngs[type] = v;
@@ -131,6 +137,7 @@ var Model = {
       if(best){
         Model.DrinkDict[rec].Match = Model.DrinkDict[rec].Recipes[best].Match;
         Model.DrinkDict[rec].ShopStatus = Model.DrinkDict[rec].Recipes[best].ShopStatus;
+        Model.DrinkDict[rec].Missing = Model.DrinkDict[rec].Recipes[best].Missing;
       }
       Model.DrinkDict[rec].Rating = bRating;
 

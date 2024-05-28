@@ -43,21 +43,24 @@ class DrinkOptions extends React.Component {
       for(let t of drinks[dr]){
         let rec = Model.DrinkDict[t];
         let rating = " ("+Math.floor(rec.Rating)+"/"+5+")";
+        // if(t == "Lucky Negroni") console.log("MISSING: " + JSON.stringify(rec.Missing))
+        let missing = God.ShowMissing && rec.Missing != "" ? " -" + rec.Missing : "";
         if(rec.Rating == 0) rating = "(???)";
         // else if (rec.Rating <= 1) rating = "💀";
         // else{
         //   for(let n = 1;n <= rec.Rating;n++) rating += "⭐";
         // }
         // while(rating.length < 5) rating += "*";
-        let cl = "TableListEntry " + God.ThreshColor[dr];
+        let cl = "MainEntry TableListEntry " + God.ThreshColor[dr];
+        let mcl = "MissingEntry " + God.ThreshColor[dr];
         if(God.PassFilter(rec))
-          tables.push(<div key={"T"+tables.length} className={cl} onClick={e=>{this.SetTable(t)}}> {t} {rating}</div>);
+          tables.push(<div key={"T"+tables.length} className="TableHolder" onClick={e=>{this.SetTable(t)}}> <div className={cl}>{t} {rating}</div><div className={mcl}>{missing}</div></div>);
         else
-          bad.push(<div key={"TB"+bad.length} className={cl} onClick={e=>{this.SetTable(t)}}> {t} {rating}</div>);
+          bad.push(<div key={"TB"+bad.length} className="TableHolder" onClick={e=>{this.SetTable(t)}}> <div className={cl}>{t} {rating}</div><div className={mcl}>{missing}</div></div>);
       }
       
     }
-    tables.push(<br key={"br"+tables.length}/>);
+    tables.push(<div className="TableSep" key={"br"+tables.length}/>);
     tables.push(bad);
     return tables;
   }

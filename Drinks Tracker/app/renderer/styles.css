@@ -115,11 +115,19 @@ html,body {
 
 .TableListEntry{
   cursor: pointer;
-  width: 25vw;
+  width: 22vw;
+  overflow:visible;
+  /* height: calc(var(--font-size) + 0.1vh); */
+  
+  /* display: inline; */
 }
 
-.TableListEntry:hover{
-  background-color: #DDDDDD;
+.MainEntry{
+  float: left;
+}
+.TableHolder{
+  float: left;
+  /* background-color: red; */
 }
 
 .TableListEntry.MandIng{
@@ -141,6 +149,46 @@ html,body {
 }
 .TableListEntry.Bad{
   background-color:#ff000055;
+}
+.MissingEntry{
+  /* color: #00000000; */
+  /* max-width: 5vw; */
+  font-size: 80%;
+  width: 20vw;
+  /* background-color: blue; */
+  overflow: hidden;
+  height: var(--font-size);
+  float: left;
+}
+ .TableHolder:hover{
+  color:black;
+  /* background-color: blue; */
+}
+/*
+.MissingEntry.Perfect{
+  color:#4CAF5055;
+}
+.MissingEntry.Good{
+  color:#56ffff55;
+}
+.MissingEntry.UsesMand{
+  color:#ff00ff99;
+}
+.MissingEntry.Okay{
+  color:#ffa50055;
+}
+.MissingEntry.Bad{
+  color:#ff000055;
+} */
+.TableListEntry:hover{
+  background-color: #DDDDDD;
+}
+
+.TableSep{
+  height:2vh;
+  float: left;
+  width: 30vw;
+  /* background-color: peachpuff; */
 }
 
 .BackButton{
