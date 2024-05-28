@@ -150,6 +150,7 @@ var Model = {
     }
     // console.log(Model.MissingList);
     Model.MissingList.sort((a,b)=> Model.MissingIngs[a] < Model.MissingIngs[b] ? 1 : -1);
+    Model.IList.sort((a,b)=> a > b ? 1 : -1);
     //   console.log(safety)
     // console.log(Model.SubDict);
     // console.log(Model.IDict);
@@ -159,7 +160,6 @@ var Model = {
     // console.log(tables);
   },
   ReadSettings(json){
-    console.log(json);
     for(let s in json)
       God[s] = json[s];
   },

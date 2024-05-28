@@ -80,8 +80,12 @@ var God = {
     if(txt && txt != "") return txt;
     return "N/a";
   },
-  FindSubValue(ing){
+  FindSubValue(ing,debug){
     let ingObj = Model.SubDict[ing];
+    if(debug){
+      console.log(ing);
+      console.log(ingObj);
+    }
     let allSubs = [];
     // console.log(ing);
     // console.log(ingObj);
@@ -89,17 +93,22 @@ var God = {
     for(let s in ingObj)
       allSubs.push(s);
     allSubs.sort((a,b)=>{return ingObj[a] >= ingObj[b] ? -1 : 1});
+    if(debug)console.log(allSubs);
     let shopStatus = 0;
     
     // console.log(allSubs);
     for(let s of allSubs){
+      let matchRate = ingObj[s] ? ingObj[s] : 1;
       if (Model.IDict[s]){
-        if(Model.IDict[s] < 0.9){
+        let rating = Model.IDict[s];
+        rating = Math.min(rating,matchRate)
+        if(debug)console.log(s + " / " +  Model.IDict[s] + " / " + ingObj[s] + " / " + rating);
+        if(rating < 0.9){
           if(Model.SubDict[ing].Staple) shopStatus = 1;
           else if(Model.SubDict[ing].Grocery) shopStatus = 2;
           else shopStatus = 3;
         }
-        return {Type:s,Match:Model.IDict[s],ShopStatus:shopStatus};
+        return {Type:s,Match:rating,ShopStatus:shopStatus};
       }
     }
     if(Model.IDict[ing] < 0.9){
