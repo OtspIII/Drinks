@@ -5,10 +5,10 @@ const {Menu, MenuItem } = require('electron').remote
 const remote = require ("electron").remote;
 
 var God = {
-  RatingThresh:3.51,
-  Thresholds:[0.9,0.8,0.79,0.6],
+  RatingThresh:0,//overriden by Settings.json
+  Thresholds:[],//overriden by Settings.json
   ThreshColor:["Perfect","Good","UsesMand","Okay","Bad"],
-  MandThresh:0.8,
+  MandThresh:0,//overriden by Settings.json
   Alphabet:"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
   // CleanHTML(txt){
   //   if (!txt)

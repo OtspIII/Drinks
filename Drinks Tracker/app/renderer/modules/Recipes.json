@@ -916,5 +916,46 @@
       "Ingredients":[{"Type":"Stolichnaya Vodka","Amount":"1 1/2 oz"},{"Type":"Galliano","Amount":"1/2 oz"},{"Type":"Orange Juice","Amount":"2 oz"},
         {"Type":"Lemon Juice","Amount":"1/4 oz"},{"Type":"Angostura Bitters","Amount":"1 dash"}]
     }
+  }},
+  "Mojito":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Spent Lime Half","Ice":"3/4 Full",
+      "Page":130,
+      "Ingredients":[{"Type":"Flor de Cana 4 Yr","Amount":"2 oz"},{"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Simple Syrup","Amount":"3/4 oz"},
+        {"Type":"Mint Leaves","Amount":"6-8"},{"Type":"Sparkling Water","Amount":"1-2 oz"}]
+    }
+  }},
+  "Cosmopolitan":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Spent Lime Half","Ice":"3/4 Full",
+      "Page":130,
+      "Ingredients":[{"Type":"Citron Vodka","Amount":"1 1/2 oz"},{"Type":"Cointreau","Amount":"1/2 oz"},{"Type":"Cranberry Juice","Amount":"1 oz"},
+        {"Type":"Lime Juice","Amount":"1/4 oz"},{"Type":"Regan's Orange Bitters No. 6","Amount":"1 dash"}]
+    }
+  }},
+  "Jasmine":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Lemon Twist","Ice":"Chilled Glass",
+      "Page":132,
+      "Ingredients":[{"Type":"Beefeater Gin","Amount":"1 1/2 oz"},{"Type":"Cointreau","Amount":"1/4 oz"},{"Type":"Campari","Amount":"1/4 oz"},
+        {"Type":"Lemon Juice","Amount":"3/4 oz"}]
+    }
+  }},
+  "Gingin Mule":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Lime Wedge","Ice":"Filled",
+      "Page":133,
+      "Ingredients":[{"Type":"Tanqueray Gin","Amount":"1 1/2 oz"},{"Type":"Simple Syrup","Amount":"1/2 oz"},{"Type":"Ginger Beer","Amount":"1 oz"},
+        {"Type":"Lime Juice","Amount":"3/4 oz"},{"Type":"Mint Leaves","Amount":"8-10 leaves"}]
+    }
+  }},
+  "Penicillin":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Candied Ginger","Ice":"Large Cube",
+      "Page":135,
+      "Ingredients":[{"Type":"Chivas 12 Scotch","Amount":"2 oz"},{"Type":"Laphroaig 10-Year Whiskey","Amount":"1/4 oz"},{"Type":"Ginger Syrup","Amount":"3/4 oz"},
+        {"Type":"Lemon Juice","Amount":"3/4 oz"}]
+    }
+  }},
+  "Red Hook":{"Recipes":{
+    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Cherry","Ice":"Chilled Glass",
+      "Page":135,
+      "Ingredients":[{"Type":"Old Overholt Rye","Amount":"2 oz"},{"Type":"Punt e Mes","Amount":"1/2 oz"},{"Type":"Maraschino","Amount":"1/2 oz"}]
+    }
   }}
 }

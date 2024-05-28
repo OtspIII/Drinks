@@ -14,7 +14,9 @@ var Model = {
   MissingList:[],
   Init: ()=>{
     //Import drink data
-    Model.DrinkDict = require(Model.Path+"\\Recipes.json");
+    Model.ReadSettings(require(Model.Path+"\\Settings.json"));
+    Model.ReadDrinks(require(Model.Path+"\\Recipes.json"));
+    // Model.DrinkDict = require(Model.Path+"\\Recipes.json");
     Model.IList = require(Model.Path+"\\Ingredients.json");
     Model.SubDict = require(Model.Path+"\\Subs.json");
     let msg = "";
@@ -155,6 +157,25 @@ var Model = {
     if(msg != "") console.log(msg);
     God.Searchbar.Setup();
     // console.log(tables);
+  },
+  ReadSettings(json){
+    console.log(json);
+    for(let s in json)
+      God[s] = json[s];
+  },
+  ReadDrinks(json){
+    Model.DrinkDict = {};
+    for(let d in json){
+      let ok = true;
+      for(let rec in json[d].Recipes){
+        if(God.OnlyNew && json[d].Recipes[rec].Rating){
+          ok = false;
+          break;
+        }
+      }
+      if(!ok) continue;
+      Model.DrinkDict[d] = json[d];
+    }
   },
   SplitLine(line){
     let r = [];
