@@ -94,10 +94,10 @@
   "Triple-Sec":{"Orange Liqueur":0.9},
   "Pierre Ferrand Orange Curacao":{"Orange Curacao":1},
   "Pierre Ferrand Dry Curacao":{"Dry Curacao":1},
-  "Dry Curacao":{"Curacao":0.9},
+  "Dry Curacao":{"Curacao":0.95},
   "Blue Curacao":{"Curacao":0.99},
   "Orange Curacao":{"Curacao":0.99},
-  "Curacao":{"Orange Liqueur":0.91},
+  "Curacao":{"Orange Liqueur":0.95},
   "Orange Liqueur":{},
   
   "Edouard Absinthe":{"Absinthe":1},
@@ -139,8 +139,8 @@
   "Rich Simple Syrup":{"Sugar":1},
   "Grenadine":{"Fruit Syrup":0.8,"Grocery":0.1},
   "Taylor's Falernum":{"Falernum":1},
-  "Orgeat":{"SyrupX":0.7},
-  "Falernum":{"SyrupX":0.7},
+  "Orgeat":{"Syrup":0.7},
+  "Falernum":{"Syrup":0.7},
   "Agave Syrup":{"Syrup":0.7,"Sugar":0.8},
   "Amber Agave Nectar":{"Agave Syrup":1},
   "Sugar":{"Grocery":0.1,"Staple":0.1,"Syrup":0.7},
@@ -151,13 +151,14 @@
   "Fruit Syrup":{"Syrup":0.8},
   "Maple Syrup":{"Syrup":0.8},
   "Black Pepper":{"Grocery":0.1},
-  "Ginger Syrup":{"Syrup":0.7,"Ginger Beer":0.8},
-  "Ginger Beer":{"Grocery":0.1,"SodaX":0.5},
+  "Ginger Syrup":{"Syrup":0.7,"Ginger Beer":0.9},
+  "Ginger Beer":{"Grocery":0.1,"Soda":0.5},
   "Balsamic Vinegar":{"Vinegar":0.8,"Grocery":0.1},
   "Lime Cordial":{"Grocery":0.1},
   "Allspice Dram":{"Falernum":0.8,"Grocery":0.1},
   "Apple Cider":{"Grocery":0.1},
   "Passion Fruit Syrup":{"Syrup":0.3},
+  "Syrup":{"Sugar":0.5},
 
 
   "Orange Juice":{"Orange":0.7},"Orange":{"Fruit":0.2},
@@ -217,6 +218,7 @@
   "Fino Sherry":{"Sherry":1},
   "Amontillado Sherry":{"Sherry":1},
   "Sherry":{"Fortified Wine":0.8},
+  "Fortified Wine":{"Wine":0.5},
   
   "Lillet Blanc":{"Aromatic Wine":0.8},
   "St Germain":{"Aromatic Wine":0.8},
@@ -233,7 +235,7 @@
   "Sparkling White Wine":{"Sparkling Wine":0.9},
   "Brut Sparkling Wine":{"Sparkling Wine":0.9},
   "Prosecco":{"Sparkling Wine":0.9},
-  "Sparkling Wine":{"WineX":0.5},
+  "Sparkling Wine":{"Wine":0.5},
   
   "Creme de Menthe":{"Mint":0.7},
   

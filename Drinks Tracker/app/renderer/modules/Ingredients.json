@@ -1,7 +1,7 @@
 {
-  "Sparkling Water": true,"Ginger Syrup":true,
+  "Sparkling Water": false,"Ginger Syrup":true,
   "Coconut": true,
-  "Lime": true,
+  "Lime": false,
   "Lemon": true,
   "Orange Juice": false,
   "Orange": false,
@@ -56,7 +56,7 @@
   "Bonollo": true,
   "Midori":true,
   
-  "Orgeat": false,
+  "Orgeat": true,
   "Taylor's Falernum": true,
   "Grenadine":true,
   
@@ -72,7 +72,7 @@
   "Black Pepper":true,
   "Balsamic Vinegar":true,
   "Jalapeno":true,
-  "Pickle Brine":false,
+  "Pickle Brine":true,
   "Salt":true,
   "Honey":true,
   "Powdered Sugar":true

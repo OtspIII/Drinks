@@ -163,7 +163,7 @@
     }
   }},
   "Strange Weaver":{"Recipes":{
-    "Imbibe":{ "Rating":4,"Notes":"","Glass":"Rocks","Garnish":"Orange Zest","Ice":"Crushed",
+    "Imbibe":{ "Rating":4,"Notes":"Less good the second time, maybe from different orgeat?","Glass":"Rocks","Garnish":"Orange Zest","Ice":"Crushed",
       "Page":"https://imbibemagazine.com/recipe/strange-weaver/",
       "Ingredients":[{"Type":"Rum","Amount":"1 oz"},{"Type":"Gin","Amount":"1 oz"},
         {"Type":"Lemon Juice","Amount":"1/4 oz"},{"Type":"Orgeat","Amount":"1/2 oz"},
@@ -512,7 +512,7 @@
     }
   }},
   "Rye-Tai":{"Recipes":{
-    "I'm Just Here For The Drinks":{ "Rating":0,"Notes":"","Glass":"Old Fashioned","Garnish":"Lime Shell","Ice":"Crushed",
+    "I'm Just Here For The Drinks":{ "Rating":3.9,"Notes":"","Glass":"Old Fashioned","Garnish":"Lime Shell","Ice":"Crushed",
       "Page":"96",
       "Ingredients":[{"Type":"Rittenhouse Rye Whiskey","Amount":"1 oz"},{"Type":"Old Overholt Rye","Amount":"1 oz"},
         {"Type":"Cointreau","Amount":"1/2 oz"},{"Type":"Orgeat","Amount":"1/2 oz"},{"Type":"Lime Juice","Amount":"1 oz"}]
@@ -885,7 +885,7 @@
     }
   }},
   "Obituary Cocktail":{"Recipes":{
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Lemon Peel","Ice":"Large Cube",
+    "The New Cocktail Hour":{ "Rating":3.6,"Notes":"","Glass":"Rocks","Garnish":"Lemon Peel","Ice":"Large Cube",
       "Page":48,
       "Ingredients":[{"Type":"Plymouth Gin","Amount":"2 oz"},{"Type":"Dolin Dry Vermouth","Amount":"1/4 oz"},{"Type":"Absinthe","Amount":"rinse"}]
     }
@@ -946,7 +946,7 @@
     }
   }},
   "Penicillin":{"Recipes":{
-    "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Rocks","Garnish":"Candied Ginger","Ice":"Large Cube",
+    "The New Cocktail Hour":{ "Rating":3.75,"Notes":"","Glass":"Rocks","Garnish":"Candied Ginger","Ice":"Large Cube",
       "Page":135,
       "Ingredients":[{"Type":"Chivas 12 Scotch","Amount":"2 oz"},{"Type":"Laphroaig 10-Year Whiskey","Amount":"1/4 oz"},{"Type":"Ginger Syrup","Amount":"3/4 oz"},
         {"Type":"Lemon Juice","Amount":"3/4 oz"}]
@@ -956,6 +956,12 @@
     "The New Cocktail Hour":{ "Rating":0,"Notes":"","Glass":"Coupe","Garnish":"Cherry","Ice":"Chilled Glass",
       "Page":135,
       "Ingredients":[{"Type":"Old Overholt Rye","Amount":"2 oz"},{"Type":"Punt e Mes","Amount":"1/2 oz"},{"Type":"Maraschino","Amount":"1/2 oz"}]
+    }
+  }},
+  "Lillet and Tonic":{"Recipes":{
+    "Sidewalk Shoes":{ "Rating":3.9,"Notes":"","Glass":"Collins","Garnish":"Lemon Slice","Ice":"Filled",
+      "Page":"https://www.sidewalkshoes.com/lillet-and-tonic/",
+      "Ingredients":[{"Type":"Lillet Blanc","Amount":"1 1/2 oz"},{"Type":"Tonic Water","Amount":"3 oz"}]
     }
   }}
 }
